@@ -1,0 +1,193 @@
++*In[1]:*+
+[source, ipython3]
+----
+import requests
+import pandas as pd
+from io import StringIO
+import datetime
+import os
+import matplotlib.pyplot as plt
+%matplotlib inline
+----
+
+
++*In[2]:*+
+[source, ipython3]
+----
+# 抓取「選股大師三十日新高」網站資料
+url = "https://concords.moneydj.com/z/zk/zk1/zkparse_580_30.djhtm"
+headers = {
+    "user-agent" : "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+}
+res = requests.get(url,headers=headers)
+----
+
+
++*In[3]:*+
+[source, ipython3]
+----
+# 抓取個股ID
+from bs4 import BeautifulSoup
+soup = BeautifulSoup(res.text,"lxml")
+data = soup.select_one("#SysJustIFRAMEDIV")
+
+dfs = pd.read_html(data.prettify())
+
+# 篩選價格大於60的個股
+stock_id = []
+for i in range(2,len(dfs[2][0])-1):
+    if 60<float(dfs[2][1][i]) :
+          stock_id.append(dfs[2][0][i][:4])
+#stock_id    
+----
+
+
++*In[4]:*+
+[source, ipython3]
+----
+# 確認是否為上市公司
+url = "https://isin.twse.com.tw/isin/class_main.jsp?owncode=&stockname=&isincode=&market=1&issuetype=1&industry_code=&Page=1&chklike=Y"
+response = requests.get(url)
+listed = pd.read_html(response.text)[0]
+listed.columns = listed.iloc[0,:]
+listed = listed[["有價證券代號","有價證券名稱","市場別","產業別","公開發行/上市(櫃)/發行日"]]
+listed = listed.iloc[1:]
+list1 = listed["有價證券代號"]
+list1
+
+# 在ID後加上 .TW
+for i in range(len(stock_id)):
+    for k in range(len(listed)):
+        if stock_id[i] == list1[k+1] :
+            stock_id[i] = stock_id[i] + ".TW"
+----
+
+
++*In[5]:*+
+[source, ipython3]
+----
+# 確認是否為上櫃公司
+url = "https://isin.twse.com.tw/isin/class_main.jsp?owncode=&stockname=&isincode=&market=2&issuetype=4&industry_code=&Page=1&chklike=Y"
+response = requests.get(url)
+listed = pd.read_html(response.text)[0]
+listed.columns = listed.iloc[0,:]
+listed = listed[["有價證券代號","有價證券名稱","市場別","產業別","公開發行/上市(櫃)/發行日"]]
+listed = listed.iloc[1:]
+list2 = listed["有價證券代號"]
+list2
+
+# 在ID後加上 .TWO
+for i in range(len(stock_id)):
+    for k in range(len(listed)):
+        if stock_id[i] == list2[k+1] :
+            stock_id[i] = stock_id[i] + ".TWO"
+----
+
+
++*In[6]:*+
+[source, ipython3]
+----
+# 編輯過後的ID
+#stock_id
+----
+
+
++*In[7]:*+
+[source, ipython3]
+----
+# 設定區間
+# 在此設為 1000天前 ~ 今天
+today=datetime.date.today()
+thousanddaysago = today - datetime.timedelta(days=1000)
+tomorrow = today + datetime.timedelta(days=1)
+time_start = str(thousanddaysago)
+time_end = str(tomorrow)
+
+# 轉換日期
+days = 24 * 60 * 60
+initial = datetime.datetime.strptime( '1970-01-01' , '%Y-%m-%d' )
+start = datetime.datetime.strptime( time_start, '%Y-%m-%d' )
+end = datetime.datetime.strptime( time_end, '%Y-%m-%d' )
+period1 = start - initial
+period2 = end - initial
+s1 = period1.days * days
+s2 = period2.days * days
+----
+
+
++*In[8]:*+
+[source, ipython3]
+----
+# 定義做圖函數
+headers = {
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15"
+    }
+
+url2 = "https://query1.finance.yahoo.com/v7/finance/download/^TWII?period1="+str(s1)+"&period2="+str(s2)+"&interval=1d&events=history&includeAdjustedClose=true"
+response2 = requests.get(url2,headers = headers)
+df2 = pd.read_csv(StringIO(response2.text),index_col = "Date",parse_dates = ["Date"])
+
+
+def  plot_stock(stock_id) :
+    url1 = "https://query1.finance.yahoo.com/v7/finance/download/"+stock_id+"?period1="+str(s1)+"&period2="+str(s2)+"&interval=1d&events=history&includeAdjustedClose=true"
+    response1 = requests.get(url1,headers = headers)
+    df1 = pd.read_csv(StringIO(response1.text),index_col = "Date",parse_dates = ["Date"])
+    
+    fig,ax=plt.subplots(figsize=(12,5))
+    ax.plot(df1["Close"],color='red', label=stock_id)
+    ax.set_ylabel(stock_id,color="red",fontsize=20)
+    ax.tick_params(axis='y',labelcolor='red')
+    ax.legend(loc="upper left")
+    plt.grid()
+
+    ax2=ax.twinx()
+    ax2.plot(df2["Close"],color='skyblue', label='Big plate')
+    ax2.set_ylabel("Big plate",color="skyblue",fontsize=20)
+    ax2.tick_params(axis='y',labelcolor='skyblue')
+    ax2.legend(loc="upper right")
+ 
+----
+
+
++*In[9]:*+
+[source, ipython3]
+----
+# 迴圈
+for i in range(len(stock_id)):
+    plot_stock(stock_id[i])
+----
+
+
++*Out[9]:*+
+----
+![png](output_8_0.png)
+
+![png](output_8_1.png)
+
+![png](output_8_2.png)
+
+![png](output_8_3.png)
+
+![png](output_8_4.png)
+
+![png](output_8_5.png)
+
+![png](output_8_6.png)
+
+![png](output_8_7.png)
+
+![png](output_8_8.png)
+
+![png](output_8_9.png)
+
+![png](output_8_10.png)
+
+![png](output_8_11.png)
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
