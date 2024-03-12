@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>做功課網站</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="../index.html">主頁</a>
+            <a href="../2024stock.html">2024當天疊圖</a>
+            <a href="../2023stock.html" class="active">2023當天疊圖</a>
+        </div>
+        <div style="display:block;">           
+            <script src="../datelist_2023.js"></script>
+            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
+                <li id="output">股票名稱</li>
+                <script>
+                    const folderNames = ['3008大立光',
+                    '4763材料-KY',
+                    '6469大樹',
+                    '6491晶碩',
+                    '6691洋基工程',
+                    '6446藥華藥',
+                    '8016矽創',
+                    '6146耕興',
+                    '6683雍智科技',
+                    '3587閎康',
+                    '5536聖暉*',
+                    '6538倉和',
+                    '5234達興材料',
+                    '3596智易',
+                    '4979華星光',
+                    '6451訊芯-KY',
+                    '3357臺慶科',
+                    '5388中磊',
+                    '3289宜特',
+                    '6187萬潤',
+                    '6462神盾',
+                    '2458義隆',
+                    '6285啟碁',
+                    '3231緯創',
+                    '8050廣積',
+                    '8086宏捷科',
+                    '6672騰輝電子-KY',
+                    '6546正基',
+                    '6125廣運',
+                    '8048德勝',
+                    '1808潤隆',
+                    '1736喬山',
+                    '3265台星科',
+                    '3701大眾控',
+                    '5607遠雄港',
+                    '2236百達-KY',
+                    '3019亞光',
+                    '3564其陽',
+                    '6290良維',
+                    '4563百德'];
+                    const output = document.getElementById('output');
+                    output.innerHTML  += '<br>'
+                    for(var i = 0; i <= 39; i++) {
+                        output.innerHTML += '<a href=#pic_'+i+'_>'+ folderNames[i] +'</a><br>'
+                        }
+                </script>
+            </ul>
+            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+                <script>
+                    for(var i = 1; i <= 40; i++) {
+                            document.write("<img src='../pictures/2023-07-06/output_8_"+i+".png' id='pic_"+i+"_'>");
+                        }
+                </script>
+                <script>
+                    document.getElementById("20230706").className="select";
+                </script>
+            </div>
+        </div>
+    </body>
+</html>

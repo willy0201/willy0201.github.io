@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>做功課網站</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="../index.html">主頁</a>
+            <a href="../2024stock.html" class="active">2024當天疊圖</a>
+            <a href="../2023stock.html">2023當天疊圖</a>
+        </div>
+        <div style="display:block;">           
+            <script src="../datelist_2024.js"></script>
+            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
+                <li id="output">股票名稱</li>
+                <script>
+                    const folderNames = ['6643M31',
+                    '3131弘塑',
+                    '6805富世達',
+                    '8210勤誠',
+                    '9958世紀鋼',
+                    '6462神盾',
+                    '6187萬潤',
+                    '6196帆宣',
+                    '3036文曄',
+                    '8054安國',
+                    '6869',
+                    '4746台耀',
+                    '6684安格',
+                    '6535順藥',
+                    '4747強生',
+                    '3702大聯大',
+                    '3029零壹'];
+                    const output = document.getElementById('output');
+                    output.innerHTML  += '<br>'
+                    for(var i = 0; i <= 16; i++) {
+                        output.innerHTML += '<a href=#pic_'+i+'_>'+ folderNames[i] +'</a><br>'
+                        }
+                </script>
+            </ul>
+            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+                <script>
+                    for(var i = 0; i <= 16; i++) {
+                            document.write("<img src='../pictures/2024-01-17/"+i+".png' id='pic_"+i+"_'  width='80%' length='80%'>");
+                        }
+                </script>
+                <script>
+                    document.getElementById("20240117").className="select";
+                </script>
+            </div>
+        </div>
+    </body>
+</html>

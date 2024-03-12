@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>做功課網站</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="../index.html">主頁</a>
+            <a href="../2024stock.html">2024當天疊圖</a>
+            <a href="../2023stock.html" class="active">2023當天疊圖</a>
+        </div>
+        <div style="display:block;">           
+            <script src="../datelist_2023.js"></script>
+            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
+                <li id="output">股票名稱</li>
+                <script>
+                    const folderNames = ['3443創意',
+                    '2327國巨',
+                    '3406玉晶光',
+                    '4763材料-KY',
+                    '3675德微',
+                    '2727王品',
+                    '8436大江',
+                    '4536拓凱',
+                    '2754亞洲藏壽司',
+                    '8081致新',
+                    '2731雄獅',
+                    '3617碩天',
+                    '2364倫飛',
+                    '2317鴻海',
+                    '5284jpp-KY',
+                    '2385群光',
+                    '1513中興電',
+                    '6605帝寶',
+                    '2748雲品',
+                    '3022威強電',
+                    '4104佳醫',
+                    '1503士電',
+                    '6874倍力',
+                    '5706鳳凰',
+                    '6290良維',
+                    '4938和碩',
+                    '3207耀勝',
+                    '2743山富',
+                    '8171天宇',
+                    '2472立隆電'];
+                    const output = document.getElementById('output');
+                    output.innerHTML  += '<br>'
+                    for(var i = 0; i <= 29; i++) {
+                        output.innerHTML += '<a href=#pic_'+(i+1)+'_>'+ folderNames[i] +'</a><br>'
+                        }
+                </script>
+            </ul>
+            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+                <script>
+                    for(var i = 1; i <= 30; i++) {
+                            document.write("<img src='../pictures/2023-02-15/output_7_"+i+".png' id='pic_"+i+"_'>");
+                        }
+                </script>
+                <script>
+                    document.getElementById("20230215").className="select";
+                </script>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>

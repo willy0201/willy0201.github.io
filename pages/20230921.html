@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>做功課網站</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="../index.html">主頁</a>
+            <a href="../2024stock.html">2024當天疊圖</a>
+            <a href="../2023stock.html" class="active">2023當天疊圖</a>
+        </div>
+        <div style="display:block;">           
+            <script src="../datelist_2023.js"></script>
+            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
+                <li id="output">股票名稱</li>
+                <script>
+                    const folderNames = ['2059川湖',
+                    '6515穎崴',
+                    '6491晶碩',
+                    '3023信邦',
+                    '2368金像電',
+                    '6782視陽',
+                    '3526凡甲',
+                    '6279胡連',
+                    '2455全新',
+                    '6187萬潤',
+                    '2364倫飛',
+                    '2351順德',
+                    '3715定穎投控',
+                    '3530晶相光',
+                    '6204艾華',
+                    '8271宇瞻'];
+                    const output = document.getElementById('output');
+                    output.innerHTML  += '<br>'
+                    for(var i = 0; i <= 6; i++) {
+                        output.innerHTML += '<a href=#pic_'+i+'_>'+ folderNames[i] +'</a><br>'
+                        }
+                </script>
+            </ul>
+            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+                <script>
+                    for(var i = 0; i <= 6; i++) {
+                            document.write("<img src='../pictures/2023-09-21/output_8_"+i+".png' id='pic_"+i+"_'>");
+                        }
+                </script>
+                <script>
+                    document.getElementById("20230921").className="select";
+                </script>
+            </div>
+        </div>
+    </body>
+</html>

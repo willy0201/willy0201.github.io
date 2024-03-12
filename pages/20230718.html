@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>做功課網站</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="../index.html">主頁</a>
+            <a href="../2024stock.html">2024當天疊圖</a>
+            <a href="../2023stock.html" class="active">2023當天疊圖</a>
+        </div>
+        <div style="display:block;">           
+            <script src="../datelist_2023.js"></script>
+            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
+                <li id="output">股票名稱</li>
+                <script>
+                    const folderNames = ['2059川湖',
+                    '4763材料-KY',
+                    '3293鈊象',
+                    '6488環球晶',
+                    '2379瑞昱',
+                    '2383台光電',
+                    '2376技嘉',
+                    '3515華擎',
+                    '4768晶呈科技',
+                    '6569醫揚',
+                    '8210勤誠',
+                    '2382廣達',
+                    '3037欣興',
+                    '2377微星',
+                    '6579研揚',
+                    '1560中砂',
+                    '5474聰泰',
+                    '4919新唐',
+                    '3483力致',
+                    '6187萬潤',
+                    '3189景碩',
+                    '2458義隆',
+                    '2421建準',
+                    '2317鴻海',
+                    '6239力成',
+                    '6274台燿',
+                    '8050廣積',
+                    '6527明達醫',
+                    '5203訊連',
+                    '6546正基',
+                    '4938和碩',
+                    '6584南俊國際',
+                    '3265台星科',
+                    '6197佳必琪',
+                    '6213聯茂',
+                    '6442光聖',
+                    '5371中光電',
+                    '1229聯華',
+                    '3363上詮',
+                    '6147頎邦',
+                    '2881富邦金',
+                    '2356英業達',
+                    '4915致伸',
+                    '3264欣銓',
+                    '8234新漢',
+                    '3213茂訊'];
+                    const output = document.getElementById('output');
+                    output.innerHTML  += '<br>'
+                    for(var i = 0; i <= 45; i++) {
+                        output.innerHTML += '<a href=#pic_'+i+'_>'+ folderNames[i] +'</a><br>'
+                        }
+                </script>
+            </ul>
+            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+                <script>
+                    for(var i = 1; i <= 46; i++) {
+                            document.write("<img src='../pictures/2023-07-18/output_8_"+i+".png' id='pic_"+i+"_'>");
+                        }
+                </script>
+                <script>
+                    document.getElementById("20230718").className="select";
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
