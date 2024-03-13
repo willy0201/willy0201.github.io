@@ -33,10 +33,11 @@ li.selected {
 
 .list{
     list-style-type: none;
+    width: 12%;
 }
 
 .list > a{
-    font-size:22px;
+    font-size:1.3em;
     text-align: left;
     text-decoration: none;
     cursor: auto;
