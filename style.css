@@ -37,7 +37,7 @@ li.selected {
 }
 
 .list > a{
-    font-size:1.3em;
+    font-size:1em;
     text-align: left;
     text-decoration: none;
     cursor: auto;
