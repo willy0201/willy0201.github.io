@@ -1,4 +1,4 @@
-datelist_2023 = '<ul class="list" style="width:100px;"> \
+datelist_2023 = '<ul class="list"> \
                     <li>日期</li>\
                     <a href="../pages/20231031.html" id="20231031">2023-10-31</a><br>\
                     <a href="../pages/20231026.html" id="20231026">2023-10-26</a><br>\
