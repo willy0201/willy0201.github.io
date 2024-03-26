@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>做功課網站</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="../index.html">主頁</a>
+            <a href="../2024stock.html" class="active">2024當天疊圖</a>
+            <a href="../2023stock.html">2023當天疊圖</a>
+        </div>
+        <div style="display:block;">           
+            <script src="../datelist_2024.js"></script>
+            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
+                <li id="output">股票名稱</li>
+                <script>
+                    const folderNames = ['1519華城',
+                    '3228金麗科',
+                    '3406玉晶光',
+                    '5314世紀',
+                    '1503士電',
+                    '3413京鼎',
+                    '3617碩天',
+                    '6139亞翔',
+                    '1513中興電',
+                    '1773勝一',
+                    '3708上緯投控',
+                    '2412中華電',
+                    '2548華固',
+                    '3691碩禾',
+                    '1215卜蜂',
+                    '3045台灣大',
+                    '5386青雲',
+                    '4576大銀微系統',
+                    '5534長虹',
+                    '2850新產',
+                    '8099大世科',
+                    '5371中光電',
+                    '2359所羅門',
+                    '4523永彰',
+                    '2704國賓'];
+                    const output = document.getElementById('output');
+                    output.innerHTML  += '<br>'
+                    for(var i = 0; i <= 24; i++) {
+                        output.innerHTML += '<a href=#pic_'+i+'_>'+ folderNames[i] +'</a><br>'
+                        }
+                </script>
+            </ul>
+            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+                <script>
+                    for(var i = 0; i <= 24; i++) {
+                            document.write("<img src='../pictures/2024-03-26/"+i+".png' id='pic_"+i+"_'  width='80%' length='80%'>");
+                        }
+                </script>
+                <script>
+                    document.getElementById("20240326").className="select";
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
