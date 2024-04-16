@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>做功課網站</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="../index.html">主頁</a>
+            <a href="../2024stock.html" class="active">2024當天疊圖</a>
+            <a href="../2023stock.html">2023當天疊圖</a>
+        </div>
+        <div style="display:block;">           
+            <script src="../datelist_2024.js"></script>
+            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
+                <li id="output">股票名稱</li>
+                <script>
+                    const folderNames = ['3675德微',
+                    '6873泓德能源-創',
+                    '2348海悅',
+                    '4588玖鼎電力',
+                    '2745五福',
+                    '4760勤凱',
+                    '8097常珵',
+                    '2363矽統'];
+                    const output = document.getElementById('output');
+                    output.innerHTML  += '<br>'
+                    for(var i = 0; i <= 7; i++) {
+                        output.innerHTML += '<a href=#pic_'+i+'_>'+ folderNames[i] +'</a><br>'
+                        }
+                </script>
+            </ul>
+            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+                <script>
+                    for(var i = 0; i <= 7; i++) {
+                            document.write("<img src='../pictures/2024-04-16/"+i+".png' id='pic_"+i+"_'  width='80%' length='80%'>");
+                        }
+                </script>
+                <script>
+                    document.getElementById("20240416").className="select";
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
