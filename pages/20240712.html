@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>做功課網站</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="../index.html">主頁</a>
+            <a href="../2024stock.html" class="active">2024當天疊圖</a>
+            <a href="../2023stock.html">2023當天疊圖</a>
+        </div>
+        <div style="display:block;">           
+            <script src="../datelist_2024.js"></script>
+            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
+                <li id="output">股票名稱</li>
+                <script>
+                    const folderNames = ['3293鈊象',
+                    '6643M31',
+                    '6446藥華藥',
+                    '1477聚陽',
+                    '3023信邦',
+                    '6937天虹',
+                    '6462神盾',
+                    '6605帝寶',
+                    '6873泓德能源',
+                    '5483中美晶',
+                    '1513中興電',
+                    '8114振樺電',
+                    '3037欣興',
+                    '6806森崴能源',
+                    '5222全訊',
+                    '5871中租-KY',
+                    '1799易威',
+                    '8147正淩',
+                    '6278台表科',
+                    '2204中華',
+                    '6592和潤企業',
+                    '3189景碩',
+                    '6689伊雲谷',
+                    '6411晶焱',
+                    '6186新潤',
+                    '1597直得',
+                    '3702大聯大',
+                    '3022威強電',
+                    '3019亞光',
+                    '8390金益鼎',
+                    '1216統一',
+                    '4995晶達',
+                    '2438翔耀',
+                    '4576大銀微系統',
+                    '2915潤泰全',
+                    '8103瀚荃',
+                    '3535晶彩科',
+                    '1536和大',
+                    '3073天方能源',
+                    '6456GIS-KY',
+                    '6570維田',
+                    '3712永崴投控',
+                    '2481強茂',
+                    '2882國泰金',
+                    '2524京城',
+                    '8064東捷',
+                    '2542興富發',
+                    '2471資通'];
+                    const output = document.getElementById('output');
+                    output.innerHTML  += '<br>'
+                    for(var i = 0; i <= 47; i++) {
+                        output.innerHTML += '<a href=#pic_'+i+'_>'+ folderNames[i] +'</a><br>'
+                        }
+                </script>
+            </ul>
+            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+                <script>
+                    for(var i = 0; i <= 47; i++) {
+                            document.write("<img src='../pictures/2024-76-12/"+i+".png' id='pic_"+i+"_'  width='80%' length='80%'>");
+                        }
+                </script>
+                <script>
+                    document.getElementById("20240712").className="select";
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
