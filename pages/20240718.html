@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>做功課網站</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="../index.html">主頁</a>
+            <a href="../2024stock.html" class="active">2024當天疊圖</a>
+            <a href="../2023stock.html">2023當天疊圖</a>
+        </div>
+        <div style="display:block;">           
+            <script src="../datelist_2024.js"></script>
+            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
+                <li id="output">股票名稱</li>
+                <script> 
+                    const folderNames =    //改
+                    ['6442光聖',
+                    '2395研華',
+                    '6890來億-KY',
+                    '2348海悅',
+                    '3491昇達科',
+                    '6873鴻德能源',
+                    '6869雲豹能源',
+                    '5508永信建',
+                    '6605帝寶',
+                    '8467波力-KY',
+                    '1799易威',
+                    '5263智崴',
+                    '5222全訊',
+                    '2548華固',
+                    '2731雄獅',
+                    '3207耀勝',
+                    '1784訊聯',
+                    '3450聯鈞',
+                    '4760勤凱',
+                    '4160訊聯基因',
+                    '5534長虹',
+                    '1736喬山',
+                    '6186新潤',
+                    '1597直得',
+                    '2546根基',
+                    '3022威強電',
+                    '3073天方能源',
+                    '3689湧德',
+                    '1216統一',
+                    '8936國統',
+                    '6615慧智',
+                    '2015豐興',
+                    '2524京城',
+                    '1720生達',
+                    '9938百和',
+                    '6177達麗',
+                    '1442名軒',
+                    '2365昆盈',
+                    '2520冠德',
+                    '6505台塑化',
+                    '2542興富發',
+                    '2441超豐',
+                    '6492生華科',
+                    '5607遠雄港'];
+                    const output = document.getElementById('output');
+                    output.innerHTML  += '<br>'
+                    for(var i = 0; i <= folderNames.length; i++) {
+                        output.innerHTML += '<a href=#pic_'+i+'_>'+ folderNames[i] +'</a><br>'
+                        }
+                </script>
+            </ul>
+            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+                <script>
+                    for(var i = 0; i <= folderNames.length; i++) {
+                            document.write("<img src='../pictures/2024-07-18/"+i+".png' id='pic_"+i+"_'  width='80%' length='80%'>");
+                        }                                             //改
+                </script>
+                <script>
+                    document.getElementById("20240718").className="select"; //改
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
