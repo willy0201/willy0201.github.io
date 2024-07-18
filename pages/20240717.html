@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>做功課網站</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="../index.html">主頁</a>
+            <a href="../2024stock.html" class="active">2024當天疊圖</a>
+            <a href="../2023stock.html">2023當天疊圖</a>
+        </div>
+        <div style="display:block;">           
+            <script src="../datelist_2024.js"></script>
+            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
+                <li id="output">股票名稱</li>
+                <script> 
+                    const folderNames =    //改
+                    ['6643M31',
+                    '6472保瑞',
+                    '6446藥華藥',
+                    '6442光聖',
+                    '3491昇達科',
+                    '6462神盾',
+                    '6869雲豹能源',
+                    '6873鴻德能源',
+                    '5508永信建',
+                    '6569醫揚',
+                    '6146耕興',
+                    '2540愛山林',
+                    '8467波力-KY',
+                    '3037欣興',
+                    '2597潤弘',
+                    '8046南電',
+                    '1799易威',
+                    '8054安國',
+                    '6546正基',
+                    '5263智崴',
+                    '3105穩懋',
+                    '3163波若威',
+                    '4743合一',
+                    '5222全訊',
+                    '2548華固',
+                    '4958臻鼎-KY',
+                    '3454晶睿',
+                    '9906欣巴巴',
+                    '4760勤凱',
+                    '3147大綜',
+                    '5225東科-KY',
+                    '4909新復興',
+                    '3013晟銘電',
+                    '4160訊聯基因',
+                    '3189景碩',
+                    '5534長虹',
+                    '6829千附精密',
+                    '2492華新科',
+                    '1808潤隆',
+                    '4746台耀',
+                    '6186新潤',
+                    '4566時碩工業',
+                    '6684安格',
+                    '3689湧德',
+                    '4977眾達-KY',
+                    '8936國統',
+                    '3073天方能源',
+                    '6150撼訊',
+                    '2915潤泰全',
+                    '2539櫻花建',
+                    '3535晶彩科',
+                    '8927北基',
+                    '2375凱美',
+                    '1438三地開發',
+                    '6570維田',
+                    '6177達麗',
+                    '6112邁達特',
+                    '1442名軒',
+                    '2365昆盈',
+                    '2542興富發',
+                    '6505台塑化',
+                    '2441超豐',
+                    '2520冠德',
+                    '2497怡利電',
+                    '2543皇昌',
+                    '5607遠雄港',
+                    '2362藍天'];
+                    const output = document.getElementById('output');
+                    output.innerHTML  += '<br>'
+                    for(var i = 0; i <= folderNames.length; i++) {
+                        output.innerHTML += '<a href=#pic_'+i+'_>'+ folderNames[i] +'</a><br>'
+                        }
+                </script>
+            </ul>
+            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+                <script>
+                    for(var i = 0; i <= folderNames.length; i++) {
+                            document.write("<img src='../pictures/2024-07-17/"+i+".png' id='pic_"+i+"_'  width='80%' length='80%'>");
+                        }                                             //改
+                </script>
+                <script>
+                    document.getElementById("20240717").className="select"; //改
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
