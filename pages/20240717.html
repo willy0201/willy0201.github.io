@@ -86,14 +86,14 @@
                     '2362藍天'];
                     const output = document.getElementById('output');
                     output.innerHTML  += '<br>'
-                    for(var i = 0; i <= folderNames.length; i++) {
+                    for(var i = 0; i < folderNames.length; i++) {
                         output.innerHTML += '<a href=#pic_'+i+'_>'+ folderNames[i] +'</a><br>'
                         }
                 </script>
             </ul>
             <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
                 <script>
-                    for(var i = 0; i <= folderNames.length; i++) {
+                    for(var i = 0; i < folderNames.length; i++) {
                             document.write("<img src='../pictures/2024-07-17/"+i+".png' id='pic_"+i+"_'  width='80%' length='80%'>");
                         }                                             //改
                 </script>
