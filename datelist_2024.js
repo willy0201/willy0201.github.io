@@ -1,5 +1,6 @@
 datelist_2024 = '<ul class="list" style="width:12%;"> \
                     <li>日期</li>\
+                    <a href="../pages/20240719.html" id="20240719">2024-07-19</a><br>\
                     <a href="../pages/20240718.html" id="20240718">2024-07-18</a><br>\
                     <a href="../pages/20240717.html" id="20240717">2024-07-17</a><br>\
                     <a href="../pages/20240712.html" id="20240712">2024-07-12</a><br>\
