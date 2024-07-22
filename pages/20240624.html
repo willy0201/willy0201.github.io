@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <title>做功課網站</title>
         <link href="../style.css" rel="stylesheet">
+        <script>
+            const d = 10  //改
+        </script>
     </head>
     <body>
         <div class="topnav">
@@ -13,65 +16,31 @@
         </div>
         <div style="display:block;">           
             <script src="../datelist_2024.js"></script>
-            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
-                <li id="output">股票名稱</li>
-                <script>
-                    const folderNames = ['3406玉晶光',
-                    '6446藥華藥',
-                    '6533晶心科',
-                    '6683雍智科技',
-                    '8478東哥遊艇',
-                    '6442光聖',
-                    '6890來億-KY',
-                    '6863永道-KY',
-                    '6895宏碩系統',
-                    '6873泓德能源',
-                    '6869雲豹能源',
-                    '6788華景電',
-                    '2455全新',
-                    '9910豐泰',
-                    '1436華友聯',
-                    '6806森崴能源',
-                    '3357臺慶科',
-                    '9917中保科',
-                    '2439美律',
-                    '2449京元電子',
-                    '4909新復興',
-                    '2850新產',
-                    '8099大世科',
-                    '3026禾伸堂',
-                    '3029零壹',
-                    '2472立隆電',
-                    '3580友威科',
-                    '1216統一',
-                    '3025星通',
-                    '2015豐興',
-                    '6111大宇資',
-                    '8942森鉅',
-                    '1720生達',
-                    '3219倚強科',
-                    '1785光洋科',
-                    '1722台肥',
-                    '4503金雨',
-                    '4726永昕',
-                    '6743安普新',
-                    '6457紘康',
-                    '2882國泰金'];
-                    const output = document.getElementById('output');
-                    output.innerHTML  += '<br>'
-                    for(var i = 0; i <= 40; i++) {
-                        output.innerHTML += '<a href=#pic_'+i+'_>'+ folderNames[i] +'</a><br>'
-                        }
-                </script>
+            <script>
+                document.write('<ul class="list" style="width:12%;"> \
+                <select onchange="location.href=this.options[this.selectedIndex].value">\
+                <option>日期</option>');
+                for(var i = Date_List1.length-1; i >= 0 ; i--) {
+                    document.write("<option value='../pages/"+Date_List1[i]+".html' id='"+Date_List1[i]+"'>"+Date_List2[i]+"</option>");
+                }
+                document.write("</select></ul>")
+            </script>
+            <script>    // 讓選擇的日期出現在下拉式選單中
+                var selectedd = document.getElementById(Date_List1.at(d))
+                selectedd.setAttribute("selected","True")
+            </script>
+            <ul class="list" style="position: absolute; left: 130px; top:50px; height: 600px;  width: 180px;">
+                <select id="output" onchange="location.href=this.options[this.selectedIndex].value">
+                <option>股票名稱</option>
+                <script src="../foldernames.js"></script>
+                </select>
+                
             </ul>
-            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+            <div style="position:absolute; left:300px; top:100px; height: 600px; vertical-align: middle; ">
                 <script>
-                    for(var i = 0; i <= 40; i++) {
-                            document.write("<img src='../pictures/2024-06-24/"+i+".png' id='pic_"+i+"_'  width='80%' length='80%'>");
+                    for(var i = 0; i < folderNames.length; i++) {
+                            document.write("<img src='../pictures/"+Date_List2.at(d)+"/"+i+".png' id='pic_"+i+"_'  width='80%' length='80%'>");
                         }
-                </script>
-                <script>
-                    document.getElementById("20240624").className="select";
                 </script>
             </div>
         </div>

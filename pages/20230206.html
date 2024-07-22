@@ -11,10 +11,11 @@
             <a href="../2024stock.html">2024當天疊圖</a>
             <a href="../2023stock.html" class="active">2023當天疊圖</a>
         </div>
-        <div style="display:block;">           
+        <div style="display:block;">     
             <script src="../datelist_2023.js"></script>
             <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
-                <li id="output">股票名稱</li>
+                <select id="output" onchange="location.href=this.options[this.selectedIndex].value">
+                <option>股票名稱</option>
                 <script>
                     const folderNames = ['3529力旺',
                     '1590亞德客-KY',
@@ -52,13 +53,12 @@
                     '6147頎邦',
                     '2743山富',
                     '5243乙盛-KY'];
-
                     const output = document.getElementById('output');
-                    output.innerHTML  += '<br>'
-                    for(var i = 0; i <= 35; i++) {
-                        output.innerHTML += '<a href=#pic_'+(i+1)+'_>'+ folderNames[i] +'</a><br>'
+                    for(var i = 0; i < folderNames.length; i++) {
+                        output.innerHTML += '<option value=#pic_'+(i+1)+'_>'+ folderNames[i] +'</option>'
                         }
                 </script>
+                </select>
             </ul>
             <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
                 <script>

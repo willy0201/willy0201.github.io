@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <title>做功課網站</title>
         <link href="../style.css" rel="stylesheet">
+        <script>
+            const d = 8  //改
+        </script>
     </head>
     <body>
         <div class="topnav">
@@ -13,59 +16,31 @@
         </div>
         <div style="display:block;">           
             <script src="../datelist_2024.js"></script>
-            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
-                <li id="output">股票名稱</li>
-                <script>
-                    const folderNames = ['6491晶碩',
-                    '8454富邦媒',
-                    '6230尼得科超眾',
-                    '6670復盛應用',
-                    '9914美利達',
-                    '3491昇達科',
-                    '8422可寧衛',
-                    '6176瑞儀',
-                    '2743山富',
-                    '2731雄獅',
-                    '2211長榮鋼',
-                    '1436華友聯',
-                    '2066世德',
-                    '2745五福',
-                    '6449鈺邦',
-                    '5493三聯',
-                    '2359所羅門',
-                    '2546根基',
-                    '6425易發',
-                    '4760勤凱',
-                    '6486互動',
-                    '6125廣運',
-                    '6768志強-KY',
-                    '6596寬宏藝術',
-                    '2206三陽工業',
-                    '1736喬山',
-                    '5706鳳凰',
-                    '1339昭輝',
-                    '2363矽統',
-                    '3557嘉威',
-                    '1784訊聯',
-                    '5522遠雄',
-                    '6207雷科',
-                    '9938百和',
-                    '2722夏都'];
-                    const output = document.getElementById('output');
-                    output.innerHTML  += '<br>'
-                    for(var i = 0; i <= 34; i++) {
-                        output.innerHTML += '<a href=#pic_'+i+'_>'+ folderNames[i] +'</a><br>'
-                        }
-                </script>
+            <script>
+                document.write('<ul class="list" style="width:12%;"> \
+                <select onchange="location.href=this.options[this.selectedIndex].value">\
+                <option>日期</option>');
+                for(var i = Date_List1.length-1; i >= 0 ; i--) {
+                    document.write("<option value='../pages/"+Date_List1[i]+".html' id='"+Date_List1[i]+"'>"+Date_List2[i]+"</option>");
+                }
+                document.write("</select></ul>")
+            </script>
+            <script>    // 讓選擇的日期出現在下拉式選單中
+                var selectedd = document.getElementById(Date_List1.at(d))
+                selectedd.setAttribute("selected","True")
+            </script>
+            <ul class="list" style="position: absolute; left: 130px; top:50px; height: 600px;  width: 180px;">
+                <select id="output" onchange="location.href=this.options[this.selectedIndex].value">
+                <option>股票名稱</option>
+                <script src="../foldernames.js"></script>
+                </select>
+                
             </ul>
-            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+            <div style="position:absolute; left:300px; top:100px; height: 600px; vertical-align: middle; ">
                 <script>
-                    for(var i = 0; i <= 34; i++) {
-                            document.write("<img src='../pictures/2024-04-25/"+i+".png' id='pic_"+i+"_'  width='80%' length='80%'>");
+                    for(var i = 0; i < folderNames.length; i++) {
+                            document.write("<img src='../pictures/"+Date_List2.at(d)+"/"+i+".png' id='pic_"+i+"_'  width='80%' length='80%'>");
                         }
-                </script>
-                <script>
-                    document.getElementById("20240425").className="select";
                 </script>
             </div>
         </div>

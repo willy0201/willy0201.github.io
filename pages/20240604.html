@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <title>做功課網站</title>
         <link href="../style.css" rel="stylesheet">
+        <script>
+            const d = 9  //改
+        </script>
     </head>
     <body>
         <div class="topnav">
@@ -13,70 +16,31 @@
         </div>
         <div style="display:block;">           
             <script src="../datelist_2024.js"></script>
-            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
-                <li id="output">股票名稱</li>
-                <script>
-                    const folderNames = ['4966譜瑞-KY',
-                     '2345智邦',
-                     '5904寶雅',
-                     '8454富邦媒',
-                     '6533晶心科',
-                     '6691洋基工程',
-                     '3675德微',
-                     '6789采鈺',
-                     '3665貿聯-KY',
-                     '2348海悅',
-                     '9921巨大',
-                     '3376新日興',
-                     '6176瑞儀',
-                     '6569醫揚',
-                     '6579研揚',
-                     '6442光聖',
-                     '2540愛山林',
-                     '6279胡連',
-                     '6546正基',
-                     '2351順德',
-                     '6143振曜',
-                     '6895宏碩系統',
-                     '3374精材',
-                     '3564其陽',
-                     '2228劍麟',
-                     '3088艾訊',
-                     '1786科妍',
-                     '1582信錦',
-                     '4915致伸',
-                     '8084巨虹',
-                     '5522遠雄',
-                     '4951精拓科',
-                     '6841長佳智能',
-                     '3022威強電',
-                     '2397友通',
-                     '3557嘉威',
-                     '3305昇貿',
-                     '3356奇偶',
-                     '3025星通',
-                     '6161捷波',
-                     '6112邁達特',
-                     '3015全漢',
-                     '2101南港',
-                     '3430奇鈦科',
-                     '4113聯上',
-                     '8234新漢'];
-                    const output = document.getElementById('output');
-                    output.innerHTML  += '<br>'
-                    for(var i = 0; i <= 45; i++) {
-                        output.innerHTML += '<a href=#pic_'+i+'_>'+ folderNames[i] +'</a><br>'
-                        }
-                </script>
+            <script>
+                document.write('<ul class="list" style="width:12%;"> \
+                <select onchange="location.href=this.options[this.selectedIndex].value">\
+                <option>日期</option>');
+                for(var i = Date_List1.length-1; i >= 0 ; i--) {
+                    document.write("<option value='../pages/"+Date_List1[i]+".html' id='"+Date_List1[i]+"'>"+Date_List2[i]+"</option>");
+                }
+                document.write("</select></ul>")
+            </script>
+            <script>    // 讓選擇的日期出現在下拉式選單中
+                var selectedd = document.getElementById(Date_List1.at(d))
+                selectedd.setAttribute("selected","True")
+            </script>
+            <ul class="list" style="position: absolute; left: 130px; top:50px; height: 600px;  width: 180px;">
+                <select id="output" onchange="location.href=this.options[this.selectedIndex].value">
+                <option>股票名稱</option>
+                <script src="../foldernames.js"></script>
+                </select>
+                
             </ul>
-            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+            <div style="position:absolute; left:300px; top:100px; height: 600px; vertical-align: middle; ">
                 <script>
-                    for(var i = 0; i <= 45; i++) {
-                            document.write("<img src='../pictures/2024-06-04/"+i+".png' id='pic_"+i+"_'  width='80%' length='80%'>");
+                    for(var i = 0; i < folderNames.length; i++) {
+                            document.write("<img src='../pictures/"+Date_List2.at(d)+"/"+i+".png' id='pic_"+i+"_'  width='80%' length='80%'>");
                         }
-                </script>
-                <script>
-                    document.getElementById("20240604").className="select";
                 </script>
             </div>
         </div>

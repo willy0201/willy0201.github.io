@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <title>做功課網站</title>
         <link href="../style.css" rel="stylesheet">
+        <script>
+            const d = 13  //改
+        </script>
     </head>
     <body>
         <div class="topnav">
@@ -13,69 +16,31 @@
         </div>
         <div style="display:block;">           
             <script src="../datelist_2024.js"></script>
-            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
-                <li id="output">股票名稱</li>
-                <script> 
-                    const folderNames =    //改
-                    ['6442光聖',
-                    '2395研華',
-                    '6890來億-KY',
-                    '2348海悅',
-                    '3491昇達科',
-                    '6873鴻德能源',
-                    '6869雲豹能源',
-                    '5508永信建',
-                    '6605帝寶',
-                    '8467波力-KY',
-                    '1799易威',
-                    '5263智崴',
-                    '5222全訊',
-                    '2548華固',
-                    '2731雄獅',
-                    '3207耀勝',
-                    '1784訊聯',
-                    '3450聯鈞',
-                    '4760勤凱',
-                    '4160訊聯基因',
-                    '5534長虹',
-                    '1736喬山',
-                    '6186新潤',
-                    '1597直得',
-                    '2546根基',
-                    '3022威強電',
-                    '3073天方能源',
-                    '3689湧德',
-                    '1216統一',
-                    '8936國統',
-                    '6615慧智',
-                    '2015豐興',
-                    '2524京城',
-                    '1720生達',
-                    '9938百和',
-                    '6177達麗',
-                    '1442名軒',
-                    '2365昆盈',
-                    '2520冠德',
-                    '6505台塑化',
-                    '2542興富發',
-                    '2441超豐',
-                    '6492生華科',
-                    '5607遠雄港'];
-                    const output = document.getElementById('output');
-                    output.innerHTML  += '<br>'
-                    for(var i = 0; i < folderNames.length; i++) {
-                        output.innerHTML += '<a href=#pic_'+i+'_>'+ folderNames[i] +'</a><br>'
-                        }
-                </script>
+            <script>
+                document.write('<ul class="list" style="width:12%;"> \
+                <select onchange="location.href=this.options[this.selectedIndex].value">\
+                <option>日期</option>');
+                for(var i = Date_List1.length-1; i >= 0 ; i--) {
+                    document.write("<option value='../pages/"+Date_List1[i]+".html' id='"+Date_List1[i]+"'>"+Date_List2[i]+"</option>");
+                }
+                document.write("</select></ul>")
+            </script>
+            <script>    // 讓選擇的日期出現在下拉式選單中
+                var selectedd = document.getElementById(Date_List1.at(d))
+                selectedd.setAttribute("selected","True")
+            </script>
+            <ul class="list" style="position: absolute; left: 130px; top:50px; height: 600px;  width: 180px;">
+                <select id="output" onchange="location.href=this.options[this.selectedIndex].value">
+                <option>股票名稱</option>
+                <script src="../foldernames.js"></script>
+                </select>
+                
             </ul>
-            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+            <div style="position:absolute; left:300px; top:100px; height: 600px; vertical-align: middle; ">
                 <script>
                     for(var i = 0; i < folderNames.length; i++) {
-                            document.write("<img src='../pictures/2024-07-18/"+i+".png' id='pic_"+i+"_'  width='80%' length='80%'>");
-                        }                                             //改
-                </script>
-                <script>
-                    document.getElementById("20240718").className="select"; //改
+                            document.write("<img src='../pictures/"+Date_List2.at(d)+"/"+i+".png' id='pic_"+i+"_'  width='80%' length='80%'>");
+                        }
                 </script>
             </div>
         </div>
