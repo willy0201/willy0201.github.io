@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>做功課網站</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="../index.html">主頁</a>
+            <a href="../2024stock.html">2024當天疊圖</a>
+            <a href="../2023stock.html" class="active">2023當天疊圖</a>
+        </div>
+        <div style="display:block;">     
+            <script src="../datelist_2023.js"></script>
+            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
+                <select id="output" onchange="location.href=this.options[this.selectedIndex].value">
+                <option>股票名稱</option>
+                <script>
+                    const folderNames = ['3529力旺',
+                    '1590亞德客-KY',
+                    '3653健策',
+                    '3023信邦',
+                    '3680家登',
+                    '1795美時',
+                    '6789采鈺',
+                    '3558神準',
+                    '6414樺漢',
+                    '6712長聖',
+                    '8996高力',
+                    '2404漢唐',
+                    '8069元太',
+                    '9914美利達',
+                    '2474可成',
+                    '6104創惟',
+                    '6592和潤企業',
+                    '6550北極星藥業-KY',
+                    '6231系微',
+                    '6796晉弘',
+                    '6546正基',
+                    '2439美律',
+                    '5285界霖',
+                    '2748雲品',
+                    '1808潤隆',
+                    '8044網家',
+                    '3588通嘉',
+                    '2498宏達電',
+                    '2301光寶科',
+                    '3548兆利',
+                    '4938和碩',
+                    '6441廣錠',
+                    '4148全宇生技-KY',
+                    '6147頎邦',
+                    '2743山富',
+                    '5243乙盛-KY'];
+                    const output = document.getElementById('output');
+                    for(var i = 0; i < folderNames.length; i++) {
+                        output.innerHTML += '<option value=#pic_'+(i+1)+'_>'+ folderNames[i] +'</option>'
+                        }
+                </script>
+                </select>
+            </ul>
+            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+                <script>
+                    for(var i = 1; i <= 36; i++) {
+                            document.write("<img src='../pictures/2023-02-06/output_7_"+i+".png' id='pic_"+i+"_'>");
+                        }
+                </script>
+                <script>
+                    document.getElementById("20230206").className="select";
+                </script>
+            </div>
+        </div>
+    </body>
+</html>

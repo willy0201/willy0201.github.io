@@ -1,0 +1,50 @@
+
+.topnav{
+    background-color: #333 !important;
+    margin-block: 0;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    font-size: max(1.5vw, 10px) !important;
+}
+
+.topnav > a {
+    display: inline-block;
+    color: #f2f2f2 !important;
+    padding: 1vh 2vw;
+    text-decoration: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.active{
+    background-color: green;
+}
+
+li{
+    font-size:20px;
+    text-align: left;
+}
+
+li.selected {
+    box-shadow: 0 0 2px black;
+    background-color: #7fdbff !important;
+}
+
+.list{
+    list-style-type: none;
+    width: 18%;
+}
+
+.list > a{
+    font-size:1.3em;
+    text-align: left;
+    text-decoration: none;
+    cursor: auto;
+    display: inline;
+    color: darkblue;
+}
+
+.select{
+    background-color: rgb(225, 209, 109);
+}

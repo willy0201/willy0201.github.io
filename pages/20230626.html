@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>做功課網站</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="../index.html">主頁</a>
+            <a href="../2024stock.html">2024當天疊圖</a>
+            <a href="../2023stock.html" class="active">2023當天疊圖</a>
+        </div>
+        <div style="display:block;">           
+            <script src="../datelist_2023.js"></script>
+            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
+                <li id="output">股票名稱</li>
+                <script>
+                    const folderNames = ['6669緯穎',
+                    '2059川湖',
+                    '1476儒鴻',
+                    '8996高力',
+                    '6414樺漢',
+                    '9921巨大',
+                    '9914美利達',
+                    '3454晶睿',
+                    '3035智原',
+                    '4551智伸科',
+                    '6788華景電',
+                    '9802鈺齊-KY',
+                    '6577勁豐',
+                    '1513中興電',
+                    '1723中碳',
+                    '3687歐買尬',
+                    '2317鴻海',
+                    '4747強生',
+                    '6239力成',
+                    '6111大宇資',
+                    '2228劍麟',
+                    '3042晶技',
+                    '7402邑錡',
+                    '6188廣明',
+                    '4503金雨',
+                    '2734易飛網',
+                    '1533車王電',
+                    '6125廣運',
+                    '1229聯華',
+                    '6197佳必琪',
+                    '4566時碩工業',
+                    '8048德勝',
+                    '5522遠雄'];
+                    const output = document.getElementById('output');
+                    output.innerHTML  += '<br>'
+                    for(var i = 0; i <= 32; i++) {
+                        output.innerHTML += '<a href=#pic_'+i+'_>'+ folderNames[i] +'</a><br>'
+                        }
+                </script>
+            </ul>
+            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+                <script>
+                    for(var i = 1; i <= 33; i++) {
+                            document.write("<img src='../pictures/2023-06-26/output_8_"+i+".png' id='pic_"+i+"_'>");
+                        }
+                </script>
+                <script>
+                    document.getElementById("20230626").className="select";
+                </script>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>做功課網站</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="../index.html">主頁</a>
+            <a href="../2024stock.html">2024當天疊圖</a>
+            <a href="../2023stock.html" class="active">2023當天疊圖</a>
+        </div>
+        <div style="display:block;">           
+            <script src="../datelist_2023.js"></script>
+            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
+                <li id="output">股票名稱</li>
+                <script>
+                    const folderNames = ['5269祥碩',
+                    '2454聯發科',
+                    '2327國巨',
+                    '6531愛普*',
+                    '6415矽力*-KY',
+                    '5289宜鼎',
+                    '8081致新',
+                    '3617碩天',
+                    '8046南電',
+                    '9910豐泰',
+                    '4768晶呈科技',
+                    '9958世紀鋼',
+                    '8155博智',
+                    '2455全新',
+                    '6523達爾膚',
+                    '6451訊芯-KY',
+                    '4919新唐',
+                    '5474聰泰',
+                    '2388威盛',
+                    '2233宇隆',
+                    '6104創惟',
+                    '5321美而快',
+                    '2364倫飛',
+                    '6485點序',
+                    '2351順德',
+                    '1760寶齡富錦',
+                    '8467波力-KY',
+                    '3265台星科',
+                    '3036文曄',
+                    '6150撼訊',
+                    '3545敦泰',
+                    '2540愛山林',
+                    '2636台驊投控',
+                    '1319東陽',
+                    '2493揚博',
+                    '4908前鼎',
+                    '4915致伸',
+                    '2375凱美',
+                    '6442光聖',
+                    '6205詮欣',
+                    '2006東和鋼鐵',
+                    '6191精成科',
+                    '4164承業醫',
+                    '3090日電貿',
+                    '5469瀚宇博'];
+                    const output = document.getElementById('output');
+                    output.innerHTML  += '<br>'
+                    for(var i = 0; i <= 44; i++) {
+                        output.innerHTML += '<a href=#pic_'+i+'_>'+ folderNames[i] +'</a><br>'
+                        }
+                </script>
+            </ul>
+            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+                <script>
+                    for(var i = 1; i <= 45; i++) {
+                            document.write("<img src='../pictures/2023-09-18/output_8_"+i+".png' id='pic_"+i+"_'>");
+                        }
+                </script>
+                <script>
+                    document.getElementById("20230918").className="select";
+                </script>
+            </div>
+        </div>
+    </body>
+</html>

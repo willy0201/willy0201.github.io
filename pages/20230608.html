@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>做功課網站</title>
+        <link href="../style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="../index.html">主頁</a>
+            <a href="../2024stock.html">2024當天疊圖</a>
+            <a href="../2023stock.html" class="active">2023當天疊圖</a>
+        </div>
+        <div style="display:block;">           
+            <script src="../datelist_2023.js"></script>
+            <ul class="list" style="position: absolute; left: 160px; top:50px; height: 600px;  width: 180px;">
+                <li id="output">股票名稱</li>
+                <script>
+                    const folderNames = ['3529力旺',
+                    '3293鈊象',
+                    '2059川湖',
+                    '6732昇佳電子',
+                    '6679鈺太',
+                    '6121新普',
+                    '2729瓦城',
+                    '4770上品',
+                    '6789采鈺',
+                    '2383台光電',
+                    '3617碩天',
+                    '8081致新',
+                    '2754亞洲藏壽司',
+                    '3515華擎',
+                    '2377微星',
+                    '2743山富',
+                    '6625必應',
+                    '3583辛耘',
+                    '6664群翊',
+                    '8446華研',
+                    '6176瑞儀',
+                    '5474聰泰',
+                    '3014聯陽',
+                    '3596智易',
+                    '8210勤誠',
+                    '3374精材',
+                    '2745五福',
+                    '6577勁豐',
+                    '4739康普',
+                    '3046建碁',
+                    '6187萬潤',
+                    '5609中菲行',
+                    '4747強生',
+                    '2722夏都',
+                    '4129聯合',
+                    '2482連宇',
+                    '7402邑錡',
+                    '6202盛群',
+                    '6441廣錠',
+                    '6743安普新',
+                    '6147頎邦',
+                    '6596寬宏藝術',
+                    '6776展碁國際',
+                    '2734易飛網',
+                    '6532瑞耘',
+                    '2211長榮鋼',
+                    '1229聯華',
+                    '1533車王電',
+                    '1722台肥',
+                    '5340建榮',
+                    '8027鈦昇'];
+                    const output = document.getElementById('output');
+                    output.innerHTML  += '<br>'
+                    for(var i = 0; i <= 50; i++) {
+                        output.innerHTML += '<a href=#pic_'+i+'_>'+ folderNames[i] +'</a><br>'
+                        }
+                </script>
+            </ul>
+            <div style="position:absolute; left:400px; top:100px; height: 600px; vertical-align: middle; ">
+                <script>
+                    for(var i = 1; i <= 51; i++) {
+                            document.write("<img src='../pictures/2023-06-08/output_8_"+i+".png' id='pic_"+i+"_'>");
+                        }
+                </script>
+                <script>
+                    document.getElementById("20230608").className="select";
+                </script>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>

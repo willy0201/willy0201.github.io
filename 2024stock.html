@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>做功課網站</title>
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="./index.html">主頁</a>
+            <a href="./2024stock.html" class="active">2024當天疊圖</a>
+            <a href="./2023stock.html">2023當天疊圖</a>
+        </div>
+        <div class="date"> 
+            <script src="./datelist_2024.js"></script>
+            <script>
+                document.write('<ul class="list" style="width:12%;"> \
+                <select onchange="location.href=this.options[this.selectedIndex].value">\
+                <option>日期</option>');
+                for(var i = Date_List1.length-1; i >= 0 ; i--) {
+                    document.write("<option value='./pages/"+Date_List1[i]+".html' id='"+Date_List1[i]+"'>"+Date_List2[i]+"</option>");
+                }
+                document.write("</select></ul>")
+            </script>
+            <!--
+            <ul class="list">
+                <select onchange="location.href=this.options[this.selectedIndex].value">
+                <option >日期</option>   
+                <option value="./pages/20240712.html" id="20240712">2024-07-12</option>
+                <option value="./pages/20240604.html" id="20240604">2024-06-04</option>
+                <option value="./pages/20240425.html" id="20240425">2024-04-25</option>
+                <option value="./pages/20240419.html" id="20240419">2024-04-19</option>
+                <option value="./pages/20240416.html" id="20240416">2024-04-16</option>
+                <option value="./pages/20240415.html" id="20240415">2024-04-15</option>
+                <option value="./pages/20240326.html" id="20240326">2024-03-26</option>
+                <option value="./pages/20240315.html" id="20240315">2024-03-15</option>
+                <option value="./pages/20240227.html" id="20240227">2024-02-27</option>
+                <option value="./pages/20240117.html" id="20240117">2024-01-17</option>
+                <option value="./pages/20240116.html" id="20240116">2024-01-16</option>
+                </select>
+            </ul>
+            -->
+        </div>
+    </body>
+</html>
