@@ -1,0 +1,2 @@
+
+document.write('<div class="topnav"><a href="../index.html">主頁</a><a href="../2025stock.html" class="active">2025當天疊圖</a><a href="../2024stock.html">2024當天疊圖</a><a href="../2023stock.html">2023當天疊圖</a></div>')

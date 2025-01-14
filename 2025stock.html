@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+    <head>
+        <meta charset="utf-8">
+        <title>做功課網站</title>
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="./index.html">主頁</a>
+            <a href="./2025stock.html" class="active">2025當天疊圖</a>
+            <a href="./2024stock.html">2024當天疊圖</a>
+            <a href="./2023stock.html">2023當天疊圖</a>
+        </div>
+        <div class="date"> 
+            <script src="./datelist_2025.js"></script>
+            <script>
+                document.write('<ul class="list" style="width:12%;"> \
+                <select onchange="location.href=this.options[this.selectedIndex].value">\
+                <option>日期</option>');
+                for(var i = Date_List1.length-1; i >= 0 ; i--) {
+                    document.write("<option value='./pages/"+Date_List1[i]+".html' id='"+Date_List1[i]+"'>"+Date_List2[i]+"</option>");
+                }
+                document.write("</select></ul>")
+            </script>
+        </div>
+    </body>
+</html>
