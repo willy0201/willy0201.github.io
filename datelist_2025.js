@@ -1,5 +1,5 @@
-var Date_List1 = new String("20250113,20250115");
-var Date_List2 = new String("2025-01-13,2025-01-15");
+var Date_List1 = new String("20250113,20250115,20250303,20250311");
+var Date_List2 = new String("2025-01-13,2025-01-15,2025-03-03,2025-03-11");
 
 
 var Date_List1 = Date_List1.split(",");
