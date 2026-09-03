@@ -1,0 +1,10430 @@
+[
+ {
+  "date": "2026-09-02",
+  "count": 25,
+  "stocks": [
+   {
+    "code": "1558",
+    "name": "伸興",
+    "img": "pictures/2026-09-02/0.png"
+   },
+   {
+    "code": "2247",
+    "name": "汎德永業",
+    "img": "pictures/2026-09-02/1.png"
+   },
+   {
+    "code": "2357",
+    "name": "華碩",
+    "img": "pictures/2026-09-02/2.png"
+   },
+   {
+    "code": "2385",
+    "name": "群光",
+    "img": "pictures/2026-09-02/3.png"
+   },
+   {
+    "code": "2455",
+    "name": "全新",
+    "img": "pictures/2026-09-02/4.png"
+   },
+   {
+    "code": "2465",
+    "name": "麗臺",
+    "img": "pictures/2026-09-02/5.png"
+   },
+   {
+    "code": "2486",
+    "name": "一詮",
+    "img": "pictures/2026-09-02/6.png"
+   },
+   {
+    "code": "3008",
+    "name": "大立光",
+    "img": "pictures/2026-09-02/7.png"
+   },
+   {
+    "code": "3019",
+    "name": "亞光",
+    "img": "pictures/2026-09-02/8.png"
+   },
+   {
+    "code": "3023",
+    "name": "信邦",
+    "img": "pictures/2026-09-02/9.png"
+   },
+   {
+    "code": "3045",
+    "name": "台灣大",
+    "img": "pictures/2026-09-02/10.png"
+   },
+   {
+    "code": "3406",
+    "name": "玉晶光",
+    "img": "pictures/2026-09-02/11.png"
+   },
+   {
+    "code": "4569",
+    "name": "六方科-KY",
+    "img": "pictures/2026-09-02/12.png"
+   },
+   {
+    "code": "4576",
+    "name": "大銀微系統",
+    "img": "pictures/2026-09-02/13.png"
+   },
+   {
+    "code": "4912",
+    "name": "聯德控股-KY",
+    "img": "pictures/2026-09-02/14.png"
+   },
+   {
+    "code": "5284",
+    "name": "jpp-KY",
+    "img": "pictures/2026-09-02/15.png"
+   },
+   {
+    "code": "6438",
+    "name": "迅得",
+    "img": "pictures/2026-09-02/16.png"
+   },
+   {
+    "code": "6442",
+    "name": "光聖",
+    "img": "pictures/2026-09-02/17.png"
+   },
+   {
+    "code": "6451",
+    "name": "訊芯-KY",
+    "img": "pictures/2026-09-02/18.png"
+   },
+   {
+    "code": "6756",
+    "name": "威鋒電子",
+    "img": "pictures/2026-09-02/19.png"
+   },
+   {
+    "code": "6830",
+    "name": "汎銓",
+    "img": "pictures/2026-09-02/20.png"
+   },
+   {
+    "code": "6933",
+    "name": "AMAX-KY",
+    "img": "pictures/2026-09-02/21.png"
+   },
+   {
+    "code": "6937",
+    "name": "天虹",
+    "img": "pictures/2026-09-02/22.png"
+   },
+   {
+    "code": "7711",
+    "name": "永擎",
+    "img": "pictures/2026-09-02/23.png"
+   },
+   {
+    "code": "8021",
+    "name": "尖點",
+    "img": "pictures/2026-09-02/24.png"
+   }
+  ],
+  "close": 46164.72,
+  "prev": 46948.72,
+  "dropPts": 784.0,
+  "dropPct": 1.67
+ },
+ {
+  "date": "2026-07-29",
+  "count": 5,
+  "stocks": [
+   {
+    "code": "2207",
+    "name": "和泰車",
+    "img": "pictures/2026-07-29/0.png"
+   },
+   {
+    "code": "3679",
+    "name": "新至陞",
+    "img": "pictures/2026-07-29/1.png"
+   },
+   {
+    "code": "5903",
+    "name": "全家",
+    "img": "pictures/2026-07-29/2.png"
+   },
+   {
+    "code": "7689",
+    "name": "大鵬科CLMX",
+    "img": "pictures/2026-07-29/3.png"
+   },
+   {
+    "code": "8271",
+    "name": "宇瞻",
+    "img": "pictures/2026-07-29/4.png"
+   }
+  ],
+  "close": 40039.18,
+  "prev": 41603.36,
+  "dropPts": 1564.18,
+  "dropPct": 3.76
+ },
+ {
+  "date": "2026-07-28",
+  "count": 3,
+  "stocks": [
+   {
+    "code": "1537",
+    "name": "廣隆",
+    "img": "pictures/2026-07-28/0.png"
+   },
+   {
+    "code": "2207",
+    "name": "和泰車",
+    "img": "pictures/2026-07-28/1.png"
+   },
+   {
+    "code": "7689",
+    "name": "大鵬科CLMX",
+    "img": "pictures/2026-07-28/2.png"
+   }
+  ],
+  "close": 41603.36,
+  "prev": 43634.19,
+  "dropPts": 2030.83,
+  "dropPct": 4.65
+ },
+ {
+  "date": "2026-07-24",
+  "count": 9,
+  "stocks": [
+   {
+    "code": "1537",
+    "name": "廣隆",
+    "img": "pictures/2026-07-24/0.png"
+   },
+   {
+    "code": "2207",
+    "name": "和泰車",
+    "img": "pictures/2026-07-24/1.png"
+   },
+   {
+    "code": "2376",
+    "name": "技嘉",
+    "img": "pictures/2026-07-24/2.png"
+   },
+   {
+    "code": "3231",
+    "name": "緯創",
+    "img": "pictures/2026-07-24/3.png"
+   },
+   {
+    "code": "3479",
+    "name": "安勤",
+    "img": "pictures/2026-07-24/4.png"
+   },
+   {
+    "code": "5312",
+    "name": "寶島科",
+    "img": "pictures/2026-07-24/5.png"
+   },
+   {
+    "code": "6166",
+    "name": "凌華",
+    "img": "pictures/2026-07-24/6.png"
+   },
+   {
+    "code": "6669",
+    "name": "緯穎",
+    "img": "pictures/2026-07-24/7.png"
+   },
+   {
+    "code": "6863",
+    "name": "永道-KY",
+    "img": "pictures/2026-07-24/8.png"
+   }
+  ],
+  "close": 43654.84,
+  "prev": 44850.81,
+  "dropPts": 1195.97,
+  "dropPct": 2.67
+ },
+ {
+  "date": "2026-07-17",
+  "count": 3,
+  "stocks": [
+   {
+    "code": "1232",
+    "name": "大統益",
+    "img": "pictures/2026-07-17/0.png"
+   },
+   {
+    "code": "2466",
+    "name": "冠西電",
+    "img": "pictures/2026-07-17/1.png"
+   },
+   {
+    "code": "6811",
+    "name": "宏碁資訊",
+    "img": "pictures/2026-07-17/2.png"
+   }
+  ],
+  "close": 42671.27,
+  "prev": 45624.98,
+  "dropPts": 2953.71,
+  "dropPct": 6.47
+ },
+ {
+  "date": "2026-07-07",
+  "count": 27,
+  "stocks": [
+   {
+    "code": "1268",
+    "name": "漢來美食",
+    "img": "pictures/2026-07-07/0.png"
+   },
+   {
+    "code": "1477",
+    "name": "聚陽",
+    "img": "pictures/2026-07-07/1.png"
+   },
+   {
+    "code": "1795",
+    "name": "美時",
+    "img": "pictures/2026-07-07/2.png"
+   },
+   {
+    "code": "2059",
+    "name": "川湖",
+    "img": "pictures/2026-07-07/3.png"
+   },
+   {
+    "code": "2236",
+    "name": "百達-KY",
+    "img": "pictures/2026-07-07/4.png"
+   },
+   {
+    "code": "2480",
+    "name": "敦陽科",
+    "img": "pictures/2026-07-07/5.png"
+   },
+   {
+    "code": "3055",
+    "name": "蔚華科",
+    "img": "pictures/2026-07-07/6.png"
+   },
+   {
+    "code": "3218",
+    "name": "大學光",
+    "img": "pictures/2026-07-07/7.png"
+   },
+   {
+    "code": "3413",
+    "name": "京鼎",
+    "img": "pictures/2026-07-07/8.png"
+   },
+   {
+    "code": "4169",
+    "name": "泰宗",
+    "img": "pictures/2026-07-07/9.png"
+   },
+   {
+    "code": "4736",
+    "name": "泰博",
+    "img": "pictures/2026-07-07/10.png"
+   },
+   {
+    "code": "6279",
+    "name": "胡連",
+    "img": "pictures/2026-07-07/11.png"
+   },
+   {
+    "code": "6446",
+    "name": "藥華藥",
+    "img": "pictures/2026-07-07/12.png"
+   },
+   {
+    "code": "6491",
+    "name": "晶碩",
+    "img": "pictures/2026-07-07/13.png"
+   },
+   {
+    "code": "6525",
+    "name": "捷敏-KY",
+    "img": "pictures/2026-07-07/14.png"
+   },
+   {
+    "code": "6579",
+    "name": "研揚",
+    "img": "pictures/2026-07-07/15.png"
+   },
+   {
+    "code": "6617",
+    "name": "共信-KY",
+    "img": "pictures/2026-07-07/16.png"
+   },
+   {
+    "code": "6620",
+    "name": "漢達",
+    "img": "pictures/2026-07-07/17.png"
+   },
+   {
+    "code": "6712",
+    "name": "長聖",
+    "img": "pictures/2026-07-07/18.png"
+   },
+   {
+    "code": "6782",
+    "name": "視陽",
+    "img": "pictures/2026-07-07/19.png"
+   },
+   {
+    "code": "6785",
+    "name": "昱展新藥",
+    "img": "pictures/2026-07-07/20.png"
+   },
+   {
+    "code": "6949",
+    "name": "",
+    "img": "pictures/2026-07-07/21.png"
+   },
+   {
+    "code": "6996",
+    "name": "力領科技",
+    "img": "pictures/2026-07-07/22.png"
+   },
+   {
+    "code": "7799",
+    "name": "禾榮科",
+    "img": "pictures/2026-07-07/23.png"
+   },
+   {
+    "code": "8016",
+    "name": "矽創",
+    "img": "pictures/2026-07-07/24.png"
+   },
+   {
+    "code": "8109",
+    "name": "博大",
+    "img": "pictures/2026-07-07/25.png"
+   },
+   {
+    "code": "8462",
+    "name": "柏文",
+    "img": "pictures/2026-07-07/26.png"
+   }
+  ],
+  "close": 45479.11,
+  "prev": 46556.39,
+  "dropPts": 1077.28,
+  "dropPct": 2.31
+ },
+ {
+  "date": "2026-06-26",
+  "count": 9,
+  "stocks": [
+   {
+    "code": "4506",
+    "name": "崇友",
+    "img": "pictures/2026-06-26/0.png"
+   },
+   {
+    "code": "4728",
+    "name": "雙美",
+    "img": "pictures/2026-06-26/1.png"
+   },
+   {
+    "code": "5432",
+    "name": "新門",
+    "img": "pictures/2026-06-26/2.png"
+   },
+   {
+    "code": "6213",
+    "name": "聯茂",
+    "img": "pictures/2026-06-26/3.png"
+   },
+   {
+    "code": "6672",
+    "name": "騰輝電子-KY",
+    "img": "pictures/2026-06-26/4.png"
+   },
+   {
+    "code": "7631",
+    "name": "",
+    "img": "pictures/2026-06-26/5.png"
+   },
+   {
+    "code": "7795",
+    "name": "長廣",
+    "img": "pictures/2026-06-26/6.png"
+   },
+   {
+    "code": "7827",
+    "name": "",
+    "img": "pictures/2026-06-26/7.png"
+   },
+   {
+    "code": "8046",
+    "name": "南電",
+    "img": "pictures/2026-06-26/8.png"
+   }
+  ],
+  "close": 44571.76,
+  "prev": 46255.26,
+  "dropPts": 1683.5,
+  "dropPct": 3.64
+ },
+ {
+  "date": "2026-06-24",
+  "count": 44,
+  "stocks": [
+   {
+    "code": "1303",
+    "name": "南亞",
+    "img": "pictures/2026-06-24/0.png"
+   },
+   {
+    "code": "1560",
+    "name": "中砂",
+    "img": "pictures/2026-06-24/1.png"
+   },
+   {
+    "code": "2303",
+    "name": "聯電",
+    "img": "pictures/2026-06-24/2.png"
+   },
+   {
+    "code": "2441",
+    "name": "超豐",
+    "img": "pictures/2026-06-24/3.png"
+   },
+   {
+    "code": "2478",
+    "name": "大毅",
+    "img": "pictures/2026-06-24/4.png"
+   },
+   {
+    "code": "2481",
+    "name": "強茂",
+    "img": "pictures/2026-06-24/5.png"
+   },
+   {
+    "code": "2727",
+    "name": "王品",
+    "img": "pictures/2026-06-24/6.png"
+   },
+   {
+    "code": "2729",
+    "name": "瓦城",
+    "img": "pictures/2026-06-24/7.png"
+   },
+   {
+    "code": "3014",
+    "name": "聯陽",
+    "img": "pictures/2026-06-24/8.png"
+   },
+   {
+    "code": "3234",
+    "name": "光環",
+    "img": "pictures/2026-06-24/9.png"
+   },
+   {
+    "code": "3374",
+    "name": "精材",
+    "img": "pictures/2026-06-24/10.png"
+   },
+   {
+    "code": "4169",
+    "name": "泰宗",
+    "img": "pictures/2026-06-24/11.png"
+   },
+   {
+    "code": "4722",
+    "name": "國精化",
+    "img": "pictures/2026-06-24/12.png"
+   },
+   {
+    "code": "4968",
+    "name": "立積",
+    "img": "pictures/2026-06-24/13.png"
+   },
+   {
+    "code": "5285",
+    "name": "界霖",
+    "img": "pictures/2026-06-24/14.png"
+   },
+   {
+    "code": "5299",
+    "name": "杰力",
+    "img": "pictures/2026-06-24/15.png"
+   },
+   {
+    "code": "5347",
+    "name": "世界",
+    "img": "pictures/2026-06-24/16.png"
+   },
+   {
+    "code": "5432",
+    "name": "新門",
+    "img": "pictures/2026-06-24/17.png"
+   },
+   {
+    "code": "5536",
+    "name": "聖暉*",
+    "img": "pictures/2026-06-24/18.png"
+   },
+   {
+    "code": "6175",
+    "name": "立敦",
+    "img": "pictures/2026-06-24/19.png"
+   },
+   {
+    "code": "6197",
+    "name": "佳必琪",
+    "img": "pictures/2026-06-24/20.png"
+   },
+   {
+    "code": "6204",
+    "name": "艾華",
+    "img": "pictures/2026-06-24/21.png"
+   },
+   {
+    "code": "6213",
+    "name": "聯茂",
+    "img": "pictures/2026-06-24/22.png"
+   },
+   {
+    "code": "6223",
+    "name": "旺矽",
+    "img": "pictures/2026-06-24/23.png"
+   },
+   {
+    "code": "6257",
+    "name": "矽格",
+    "img": "pictures/2026-06-24/24.png"
+   },
+   {
+    "code": "6446",
+    "name": "藥華藥",
+    "img": "pictures/2026-06-24/25.png"
+   },
+   {
+    "code": "6472",
+    "name": "保瑞",
+    "img": "pictures/2026-06-24/26.png"
+   },
+   {
+    "code": "6672",
+    "name": "騰輝電子-KY",
+    "img": "pictures/2026-06-24/27.png"
+   },
+   {
+    "code": "6683",
+    "name": "雍智科技",
+    "img": "pictures/2026-06-24/28.png"
+   },
+   {
+    "code": "6691",
+    "name": "洋基工程",
+    "img": "pictures/2026-06-24/29.png"
+   },
+   {
+    "code": "6693",
+    "name": "廣閎科",
+    "img": "pictures/2026-06-24/30.png"
+   },
+   {
+    "code": "6712",
+    "name": "長聖",
+    "img": "pictures/2026-06-24/31.png"
+   },
+   {
+    "code": "6719",
+    "name": "力智",
+    "img": "pictures/2026-06-24/32.png"
+   },
+   {
+    "code": "6831",
+    "name": "邁科",
+    "img": "pictures/2026-06-24/33.png"
+   },
+   {
+    "code": "6834",
+    "name": "天二科技",
+    "img": "pictures/2026-06-24/34.png"
+   },
+   {
+    "code": "6904",
+    "name": "伯鑫",
+    "img": "pictures/2026-06-24/35.png"
+   },
+   {
+    "code": "7631",
+    "name": "",
+    "img": "pictures/2026-06-24/36.png"
+   },
+   {
+    "code": "7712",
+    "name": "博盛半導體",
+    "img": "pictures/2026-06-24/37.png"
+   },
+   {
+    "code": "7822",
+    "name": "倍利科",
+    "img": "pictures/2026-06-24/38.png"
+   },
+   {
+    "code": "7828",
+    "name": "創新服務",
+    "img": "pictures/2026-06-24/39.png"
+   },
+   {
+    "code": "8040",
+    "name": "九暘",
+    "img": "pictures/2026-06-24/40.png"
+   },
+   {
+    "code": "8046",
+    "name": "南電",
+    "img": "pictures/2026-06-24/41.png"
+   },
+   {
+    "code": "8054",
+    "name": "安國",
+    "img": "pictures/2026-06-24/42.png"
+   },
+   {
+    "code": "8091",
+    "name": "翔名",
+    "img": "pictures/2026-06-24/43.png"
+   }
+  ],
+  "close": 46043.6,
+  "prev": 47100.65,
+  "dropPts": 1057.05,
+  "dropPct": 2.24
+ },
+ {
+  "date": "2026-06-10",
+  "count": 30,
+  "stocks": [
+   {
+    "code": "1232",
+    "name": "大統益",
+    "img": "pictures/2026-06-10/0.png"
+   },
+   {
+    "code": "1319",
+    "name": "東陽",
+    "img": "pictures/2026-06-10/1.png"
+   },
+   {
+    "code": "2412",
+    "name": "中華電",
+    "img": "pictures/2026-06-10/2.png"
+   },
+   {
+    "code": "2478",
+    "name": "大毅",
+    "img": "pictures/2026-06-10/3.png"
+   },
+   {
+    "code": "2493",
+    "name": "揚博",
+    "img": "pictures/2026-06-10/4.png"
+   },
+   {
+    "code": "2597",
+    "name": "潤弘",
+    "img": "pictures/2026-06-10/5.png"
+   },
+   {
+    "code": "2753",
+    "name": "八方雲集",
+    "img": "pictures/2026-06-10/6.png"
+   },
+   {
+    "code": "3008",
+    "name": "大立光",
+    "img": "pictures/2026-06-10/7.png"
+   },
+   {
+    "code": "3045",
+    "name": "台灣大",
+    "img": "pictures/2026-06-10/8.png"
+   },
+   {
+    "code": "3147",
+    "name": "大綜",
+    "img": "pictures/2026-06-10/9.png"
+   },
+   {
+    "code": "3152",
+    "name": "璟德",
+    "img": "pictures/2026-06-10/10.png"
+   },
+   {
+    "code": "3362",
+    "name": "先進光",
+    "img": "pictures/2026-06-10/11.png"
+   },
+   {
+    "code": "4536",
+    "name": "拓凱",
+    "img": "pictures/2026-06-10/12.png"
+   },
+   {
+    "code": "4904",
+    "name": "遠傳",
+    "img": "pictures/2026-06-10/13.png"
+   },
+   {
+    "code": "4946",
+    "name": "辣椒",
+    "img": "pictures/2026-06-10/14.png"
+   },
+   {
+    "code": "4973",
+    "name": "廣穎",
+    "img": "pictures/2026-06-10/15.png"
+   },
+   {
+    "code": "5288",
+    "name": "豐祥-KY",
+    "img": "pictures/2026-06-10/16.png"
+   },
+   {
+    "code": "5871",
+    "name": "中租-KY",
+    "img": "pictures/2026-06-10/17.png"
+   },
+   {
+    "code": "6204",
+    "name": "艾華",
+    "img": "pictures/2026-06-10/18.png"
+   },
+   {
+    "code": "6605",
+    "name": "帝寶",
+    "img": "pictures/2026-06-10/19.png"
+   },
+   {
+    "code": "6670",
+    "name": "復盛應用",
+    "img": "pictures/2026-06-10/20.png"
+   },
+   {
+    "code": "6890",
+    "name": "來億-KY",
+    "img": "pictures/2026-06-10/21.png"
+   },
+   {
+    "code": "7722",
+    "name": "LINEPAY",
+    "img": "pictures/2026-06-10/22.png"
+   },
+   {
+    "code": "7788",
+    "name": "松川精密",
+    "img": "pictures/2026-06-10/23.png"
+   },
+   {
+    "code": "7828",
+    "name": "創新服務",
+    "img": "pictures/2026-06-10/24.png"
+   },
+   {
+    "code": "8021",
+    "name": "尖點",
+    "img": "pictures/2026-06-10/25.png"
+   },
+   {
+    "code": "8043",
+    "name": "蜜望實",
+    "img": "pictures/2026-06-10/26.png"
+   },
+   {
+    "code": "8454",
+    "name": "富邦媒",
+    "img": "pictures/2026-06-10/27.png"
+   },
+   {
+    "code": "9917",
+    "name": "中保科",
+    "img": "pictures/2026-06-10/28.png"
+   },
+   {
+    "code": "9939",
+    "name": "宏全",
+    "img": "pictures/2026-06-10/29.png"
+   }
+  ],
+  "close": 43225.54,
+  "prev": 44704.44,
+  "dropPts": 1478.9,
+  "dropPct": 3.31
+ },
+ {
+  "date": "2026-06-08",
+  "count": 19,
+  "stocks": [
+   {
+    "code": "1342",
+    "name": "八貫",
+    "img": "pictures/2026-06-08/0.png"
+   },
+   {
+    "code": "2059",
+    "name": "川湖",
+    "img": "pictures/2026-06-08/1.png"
+   },
+   {
+    "code": "2478",
+    "name": "大毅",
+    "img": "pictures/2026-06-08/2.png"
+   },
+   {
+    "code": "2597",
+    "name": "潤弘",
+    "img": "pictures/2026-06-08/3.png"
+   },
+   {
+    "code": "3147",
+    "name": "大綜",
+    "img": "pictures/2026-06-08/4.png"
+   },
+   {
+    "code": "4542",
+    "name": "科嶠",
+    "img": "pictures/2026-06-08/5.png"
+   },
+   {
+    "code": "4739",
+    "name": "康普",
+    "img": "pictures/2026-06-08/6.png"
+   },
+   {
+    "code": "4931",
+    "name": "新盛力",
+    "img": "pictures/2026-06-08/7.png"
+   },
+   {
+    "code": "5288",
+    "name": "豐祥-KY",
+    "img": "pictures/2026-06-08/8.png"
+   },
+   {
+    "code": "5478",
+    "name": "智冠",
+    "img": "pictures/2026-06-08/9.png"
+   },
+   {
+    "code": "6569",
+    "name": "醫揚",
+    "img": "pictures/2026-06-08/10.png"
+   },
+   {
+    "code": "6585",
+    "name": "鼎基",
+    "img": "pictures/2026-06-08/11.png"
+   },
+   {
+    "code": "6693",
+    "name": "廣閎科",
+    "img": "pictures/2026-06-08/12.png"
+   },
+   {
+    "code": "6890",
+    "name": "來億-KY",
+    "img": "pictures/2026-06-08/13.png"
+   },
+   {
+    "code": "7610",
+    "name": "",
+    "img": "pictures/2026-06-08/14.png"
+   },
+   {
+    "code": "7714",
+    "name": "創泓科技",
+    "img": "pictures/2026-06-08/15.png"
+   },
+   {
+    "code": "7788",
+    "name": "松川精密",
+    "img": "pictures/2026-06-08/16.png"
+   },
+   {
+    "code": "8043",
+    "name": "蜜望實",
+    "img": "pictures/2026-06-08/17.png"
+   },
+   {
+    "code": "8454",
+    "name": "富邦媒",
+    "img": "pictures/2026-06-08/18.png"
+   }
+  ],
+  "close": 43502.78,
+  "prev": 45070.94,
+  "dropPts": 1568.16,
+  "dropPct": 3.48
+ },
+ {
+  "date": "2026-06-04",
+  "count": 61,
+  "stocks": [
+   {
+    "code": "1342",
+    "name": "八貫",
+    "img": "pictures/2026-06-04/0.png"
+   },
+   {
+    "code": "1476",
+    "name": "儒鴻",
+    "img": "pictures/2026-06-04/1.png"
+   },
+   {
+    "code": "1503",
+    "name": "士電",
+    "img": "pictures/2026-06-04/2.png"
+   },
+   {
+    "code": "1513",
+    "name": "中興電",
+    "img": "pictures/2026-06-04/3.png"
+   },
+   {
+    "code": "1514",
+    "name": "亞力",
+    "img": "pictures/2026-06-04/4.png"
+   },
+   {
+    "code": "1537",
+    "name": "廣隆",
+    "img": "pictures/2026-06-04/5.png"
+   },
+   {
+    "code": "1580",
+    "name": "新麥",
+    "img": "pictures/2026-06-04/6.png"
+   },
+   {
+    "code": "2072",
+    "name": "世紀風電",
+    "img": "pictures/2026-06-04/7.png"
+   },
+   {
+    "code": "2247",
+    "name": "汎德永業",
+    "img": "pictures/2026-06-04/8.png"
+   },
+   {
+    "code": "2385",
+    "name": "群光",
+    "img": "pictures/2026-06-04/9.png"
+   },
+   {
+    "code": "2395",
+    "name": "研華",
+    "img": "pictures/2026-06-04/10.png"
+   },
+   {
+    "code": "2421",
+    "name": "建準",
+    "img": "pictures/2026-06-04/11.png"
+   },
+   {
+    "code": "2493",
+    "name": "揚博",
+    "img": "pictures/2026-06-04/12.png"
+   },
+   {
+    "code": "2597",
+    "name": "潤弘",
+    "img": "pictures/2026-06-04/13.png"
+   },
+   {
+    "code": "2707",
+    "name": "晶華",
+    "img": "pictures/2026-06-04/14.png"
+   },
+   {
+    "code": "2727",
+    "name": "王品",
+    "img": "pictures/2026-06-04/15.png"
+   },
+   {
+    "code": "2731",
+    "name": "雄獅",
+    "img": "pictures/2026-06-04/16.png"
+   },
+   {
+    "code": "2745",
+    "name": "五福",
+    "img": "pictures/2026-06-04/17.png"
+   },
+   {
+    "code": "2753",
+    "name": "八方雲集",
+    "img": "pictures/2026-06-04/18.png"
+   },
+   {
+    "code": "2881",
+    "name": "富邦金",
+    "img": "pictures/2026-06-04/19.png"
+   },
+   {
+    "code": "2912",
+    "name": "統一超",
+    "img": "pictures/2026-06-04/20.png"
+   },
+   {
+    "code": "3147",
+    "name": "大綜",
+    "img": "pictures/2026-06-04/21.png"
+   },
+   {
+    "code": "3213",
+    "name": "茂訊",
+    "img": "pictures/2026-06-04/22.png"
+   },
+   {
+    "code": "3265",
+    "name": "台星科",
+    "img": "pictures/2026-06-04/23.png"
+   },
+   {
+    "code": "3293",
+    "name": "鈊象",
+    "img": "pictures/2026-06-04/24.png"
+   },
+   {
+    "code": "3362",
+    "name": "先進光",
+    "img": "pictures/2026-06-04/25.png"
+   },
+   {
+    "code": "3406",
+    "name": "玉晶光",
+    "img": "pictures/2026-06-04/26.png"
+   },
+   {
+    "code": "3528",
+    "name": "安馳",
+    "img": "pictures/2026-06-04/27.png"
+   },
+   {
+    "code": "3617",
+    "name": "碩天",
+    "img": "pictures/2026-06-04/28.png"
+   },
+   {
+    "code": "3679",
+    "name": "新至陞",
+    "img": "pictures/2026-06-04/29.png"
+   },
+   {
+    "code": "4137",
+    "name": "麗豐-KY",
+    "img": "pictures/2026-06-04/30.png"
+   },
+   {
+    "code": "4739",
+    "name": "康普",
+    "img": "pictures/2026-06-04/31.png"
+   },
+   {
+    "code": "4771",
+    "name": "望隼",
+    "img": "pictures/2026-06-04/32.png"
+   },
+   {
+    "code": "4904",
+    "name": "遠傳",
+    "img": "pictures/2026-06-04/33.png"
+   },
+   {
+    "code": "4931",
+    "name": "新盛力",
+    "img": "pictures/2026-06-04/34.png"
+   },
+   {
+    "code": "4953",
+    "name": "緯致",
+    "img": "pictures/2026-06-04/35.png"
+   },
+   {
+    "code": "4973",
+    "name": "廣穎",
+    "img": "pictures/2026-06-04/36.png"
+   },
+   {
+    "code": "5209",
+    "name": "新鼎",
+    "img": "pictures/2026-06-04/37.png"
+   },
+   {
+    "code": "5289",
+    "name": "宜鼎",
+    "img": "pictures/2026-06-04/38.png"
+   },
+   {
+    "code": "5536",
+    "name": "聖暉*",
+    "img": "pictures/2026-06-04/39.png"
+   },
+   {
+    "code": "6121",
+    "name": "新普",
+    "img": "pictures/2026-06-04/40.png"
+   },
+   {
+    "code": "6204",
+    "name": "艾華",
+    "img": "pictures/2026-06-04/41.png"
+   },
+   {
+    "code": "6207",
+    "name": "雷科",
+    "img": "pictures/2026-06-04/42.png"
+   },
+   {
+    "code": "6409",
+    "name": "旭隼",
+    "img": "pictures/2026-06-04/43.png"
+   },
+   {
+    "code": "6414",
+    "name": "樺漢",
+    "img": "pictures/2026-06-04/44.png"
+   },
+   {
+    "code": "6485",
+    "name": "點序",
+    "img": "pictures/2026-06-04/45.png"
+   },
+   {
+    "code": "6491",
+    "name": "晶碩",
+    "img": "pictures/2026-06-04/46.png"
+   },
+   {
+    "code": "6538",
+    "name": "倉和",
+    "img": "pictures/2026-06-04/47.png"
+   },
+   {
+    "code": "6569",
+    "name": "醫揚",
+    "img": "pictures/2026-06-04/48.png"
+   },
+   {
+    "code": "6585",
+    "name": "鼎基",
+    "img": "pictures/2026-06-04/49.png"
+   },
+   {
+    "code": "6712",
+    "name": "長聖",
+    "img": "pictures/2026-06-04/50.png"
+   },
+   {
+    "code": "6859",
+    "name": "伯特光",
+    "img": "pictures/2026-06-04/51.png"
+   },
+   {
+    "code": "6890",
+    "name": "來億-KY",
+    "img": "pictures/2026-06-04/52.png"
+   },
+   {
+    "code": "6907",
+    "name": "雅特力-KY",
+    "img": "pictures/2026-06-04/53.png"
+   },
+   {
+    "code": "6957",
+    "name": "裕慶-KY",
+    "img": "pictures/2026-06-04/54.png"
+   },
+   {
+    "code": "7610",
+    "name": "",
+    "img": "pictures/2026-06-04/55.png"
+   },
+   {
+    "code": "8027",
+    "name": "鈦昇",
+    "img": "pictures/2026-06-04/56.png"
+   },
+   {
+    "code": "8390",
+    "name": "金益鼎",
+    "img": "pictures/2026-06-04/57.png"
+   },
+   {
+    "code": "8454",
+    "name": "富邦媒",
+    "img": "pictures/2026-06-04/58.png"
+   },
+   {
+    "code": "9917",
+    "name": "中保科",
+    "img": "pictures/2026-06-04/59.png"
+   },
+   {
+    "code": "9958",
+    "name": "世紀鋼",
+    "img": "pictures/2026-06-04/60.png"
+   }
+  ],
+  "close": 45677.46,
+  "prev": 46459.16,
+  "dropPts": 781.7,
+  "dropPct": 1.68
+ },
+ {
+  "date": "2026-05-19",
+  "count": 34,
+  "stocks": [
+   {
+    "code": "1268",
+    "name": "漢來美食",
+    "img": "pictures/2026-05-19/0.png"
+   },
+   {
+    "code": "1582",
+    "name": "信錦",
+    "img": "pictures/2026-05-19/1.png"
+   },
+   {
+    "code": "2233",
+    "name": "宇隆",
+    "img": "pictures/2026-05-19/2.png"
+   },
+   {
+    "code": "2303",
+    "name": "聯電",
+    "img": "pictures/2026-05-19/3.png"
+   },
+   {
+    "code": "2412",
+    "name": "中華電",
+    "img": "pictures/2026-05-19/4.png"
+   },
+   {
+    "code": "2428",
+    "name": "興勤",
+    "img": "pictures/2026-05-19/5.png"
+   },
+   {
+    "code": "2481",
+    "name": "強茂",
+    "img": "pictures/2026-05-19/6.png"
+   },
+   {
+    "code": "2492",
+    "name": "華新科",
+    "img": "pictures/2026-05-19/7.png"
+   },
+   {
+    "code": "3019",
+    "name": "亞光",
+    "img": "pictures/2026-05-19/8.png"
+   },
+   {
+    "code": "3026",
+    "name": "禾伸堂",
+    "img": "pictures/2026-05-19/9.png"
+   },
+   {
+    "code": "3045",
+    "name": "台灣大",
+    "img": "pictures/2026-05-19/10.png"
+   },
+   {
+    "code": "3055",
+    "name": "蔚華科",
+    "img": "pictures/2026-05-19/11.png"
+   },
+   {
+    "code": "3090",
+    "name": "日電貿",
+    "img": "pictures/2026-05-19/12.png"
+   },
+   {
+    "code": "3217",
+    "name": "優群",
+    "img": "pictures/2026-05-19/13.png"
+   },
+   {
+    "code": "3577",
+    "name": "泓格",
+    "img": "pictures/2026-05-19/14.png"
+   },
+   {
+    "code": "3580",
+    "name": "友威科",
+    "img": "pictures/2026-05-19/15.png"
+   },
+   {
+    "code": "3675",
+    "name": "德微",
+    "img": "pictures/2026-05-19/16.png"
+   },
+   {
+    "code": "4536",
+    "name": "拓凱",
+    "img": "pictures/2026-05-19/17.png"
+   },
+   {
+    "code": "4771",
+    "name": "望隼",
+    "img": "pictures/2026-05-19/18.png"
+   },
+   {
+    "code": "6166",
+    "name": "凌華",
+    "img": "pictures/2026-05-19/19.png"
+   },
+   {
+    "code": "6285",
+    "name": "啟碁",
+    "img": "pictures/2026-05-19/20.png"
+   },
+   {
+    "code": "6491",
+    "name": "晶碩",
+    "img": "pictures/2026-05-19/21.png"
+   },
+   {
+    "code": "6831",
+    "name": "邁科",
+    "img": "pictures/2026-05-19/22.png"
+   },
+   {
+    "code": "6870",
+    "name": "騰雲",
+    "img": "pictures/2026-05-19/23.png"
+   },
+   {
+    "code": "6902",
+    "name": "GOGOLOOK",
+    "img": "pictures/2026-05-19/24.png"
+   },
+   {
+    "code": "6924",
+    "name": "",
+    "img": "pictures/2026-05-19/25.png"
+   },
+   {
+    "code": "7730",
+    "name": "",
+    "img": "pictures/2026-05-19/26.png"
+   },
+   {
+    "code": "8064",
+    "name": "東捷",
+    "img": "pictures/2026-05-19/27.png"
+   },
+   {
+    "code": "8091",
+    "name": "翔名",
+    "img": "pictures/2026-05-19/28.png"
+   },
+   {
+    "code": "8096",
+    "name": "擎亞",
+    "img": "pictures/2026-05-19/29.png"
+   },
+   {
+    "code": "8255",
+    "name": "朋程",
+    "img": "pictures/2026-05-19/30.png"
+   },
+   {
+    "code": "8454",
+    "name": "富邦媒",
+    "img": "pictures/2026-05-19/31.png"
+   },
+   {
+    "code": "8932",
+    "name": "智通*",
+    "img": "pictures/2026-05-19/32.png"
+   },
+   {
+    "code": "9939",
+    "name": "宏全",
+    "img": "pictures/2026-05-19/33.png"
+   }
+  ],
+  "close": 40175.56,
+  "prev": 40891.82,
+  "dropPts": 716.26,
+  "dropPct": 1.75
+ },
+ {
+  "date": "2026-04-02",
+  "count": 20,
+  "stocks": [
+   {
+    "code": "2912",
+    "name": "統一超",
+    "img": "pictures/2026-04-02/0.png"
+   },
+   {
+    "code": "3081",
+    "name": "聯亞",
+    "img": "pictures/2026-04-02/1.png"
+   },
+   {
+    "code": "3086",
+    "name": "華義*",
+    "img": "pictures/2026-04-02/2.png"
+   },
+   {
+    "code": "3131",
+    "name": "弘塑",
+    "img": "pictures/2026-04-02/3.png"
+   },
+   {
+    "code": "3167",
+    "name": "大量",
+    "img": "pictures/2026-04-02/4.png"
+   },
+   {
+    "code": "3455",
+    "name": "由田",
+    "img": "pictures/2026-04-02/5.png"
+   },
+   {
+    "code": "3665",
+    "name": "貿聯-KY",
+    "img": "pictures/2026-04-02/6.png"
+   },
+   {
+    "code": "5475",
+    "name": "德宏",
+    "img": "pictures/2026-04-02/7.png"
+   },
+   {
+    "code": "6213",
+    "name": "聯茂",
+    "img": "pictures/2026-04-02/8.png"
+   },
+   {
+    "code": "6217",
+    "name": "中探針",
+    "img": "pictures/2026-04-02/9.png"
+   },
+   {
+    "code": "6664",
+    "name": "群翊",
+    "img": "pictures/2026-04-02/10.png"
+   },
+   {
+    "code": "6693",
+    "name": "廣閎科",
+    "img": "pictures/2026-04-02/11.png"
+   },
+   {
+    "code": "6727",
+    "name": "亞泰金屬",
+    "img": "pictures/2026-04-02/12.png"
+   },
+   {
+    "code": "6739",
+    "name": "竹陞科技",
+    "img": "pictures/2026-04-02/13.png"
+   },
+   {
+    "code": "6830",
+    "name": "汎銓",
+    "img": "pictures/2026-04-02/14.png"
+   },
+   {
+    "code": "7734",
+    "name": "印能科技",
+    "img": "pictures/2026-04-02/15.png"
+   },
+   {
+    "code": "7751",
+    "name": "竑騰",
+    "img": "pictures/2026-04-02/16.png"
+   },
+   {
+    "code": "8027",
+    "name": "鈦昇",
+    "img": "pictures/2026-04-02/17.png"
+   },
+   {
+    "code": "8091",
+    "name": "翔名",
+    "img": "pictures/2026-04-02/18.png"
+   },
+   {
+    "code": "9917",
+    "name": "中保科",
+    "img": "pictures/2026-04-02/19.png"
+   }
+  ],
+  "close": 32572.43,
+  "prev": 33174.82,
+  "dropPts": 602.39,
+  "dropPct": 1.82
+ },
+ {
+  "date": "2026-03-31",
+  "count": 2,
+  "stocks": [
+   {
+    "code": "2912",
+    "name": "統一超",
+    "img": "pictures/2026-03-31/0.png"
+   },
+   {
+    "code": "7734",
+    "name": "印能科技",
+    "img": "pictures/2026-03-31/1.png"
+   }
+  ],
+  "close": 31722.99,
+  "prev": 32518.16,
+  "dropPts": 795.17,
+  "dropPct": 2.45
+ },
+ {
+  "date": "2026-03-30",
+  "count": 23,
+  "stocks": [
+   {
+    "code": "1582",
+    "name": "信錦",
+    "img": "pictures/2026-03-30/0.png"
+   },
+   {
+    "code": "2231",
+    "name": "為升",
+    "img": "pictures/2026-03-30/1.png"
+   },
+   {
+    "code": "2455",
+    "name": "全新",
+    "img": "pictures/2026-03-30/2.png"
+   },
+   {
+    "code": "2472",
+    "name": "立隆電",
+    "img": "pictures/2026-03-30/3.png"
+   },
+   {
+    "code": "2912",
+    "name": "統一超",
+    "img": "pictures/2026-03-30/4.png"
+   },
+   {
+    "code": "3105",
+    "name": "穩懋",
+    "img": "pictures/2026-03-30/5.png"
+   },
+   {
+    "code": "3167",
+    "name": "大量",
+    "img": "pictures/2026-03-30/6.png"
+   },
+   {
+    "code": "3264",
+    "name": "欣銓",
+    "img": "pictures/2026-03-30/7.png"
+   },
+   {
+    "code": "3563",
+    "name": "牧德",
+    "img": "pictures/2026-03-30/8.png"
+   },
+   {
+    "code": "3665",
+    "name": "貿聯-KY",
+    "img": "pictures/2026-03-30/9.png"
+   },
+   {
+    "code": "4576",
+    "name": "大銀微系統",
+    "img": "pictures/2026-03-30/10.png"
+   },
+   {
+    "code": "4971",
+    "name": "IET-KY",
+    "img": "pictures/2026-03-30/11.png"
+   },
+   {
+    "code": "6199",
+    "name": "天品",
+    "img": "pictures/2026-03-30/12.png"
+   },
+   {
+    "code": "6568",
+    "name": "宏觀",
+    "img": "pictures/2026-03-30/13.png"
+   },
+   {
+    "code": "6588",
+    "name": "東典光電",
+    "img": "pictures/2026-03-30/14.png"
+   },
+   {
+    "code": "6683",
+    "name": "雍智科技",
+    "img": "pictures/2026-03-30/15.png"
+   },
+   {
+    "code": "6727",
+    "name": "亞泰金屬",
+    "img": "pictures/2026-03-30/16.png"
+   },
+   {
+    "code": "6829",
+    "name": "千附精密",
+    "img": "pictures/2026-03-30/17.png"
+   },
+   {
+    "code": "7730",
+    "name": "",
+    "img": "pictures/2026-03-30/18.png"
+   },
+   {
+    "code": "7734",
+    "name": "印能科技",
+    "img": "pictures/2026-03-30/19.png"
+   },
+   {
+    "code": "7822",
+    "name": "倍利科",
+    "img": "pictures/2026-03-30/20.png"
+   },
+   {
+    "code": "8027",
+    "name": "鈦昇",
+    "img": "pictures/2026-03-30/21.png"
+   },
+   {
+    "code": "8046",
+    "name": "南電",
+    "img": "pictures/2026-03-30/22.png"
+   }
+  ],
+  "close": 32518.16,
+  "prev": 33112.59,
+  "dropPts": 594.43,
+  "dropPct": 1.8
+ },
+ {
+  "date": "2026-03-23",
+  "count": 23,
+  "stocks": [
+   {
+    "code": "2640",
+    "name": "大車隊",
+    "img": "pictures/2026-03-23/0.png"
+   },
+   {
+    "code": "3023",
+    "name": "信邦",
+    "img": "pictures/2026-03-23/1.png"
+   },
+   {
+    "code": "3131",
+    "name": "弘塑",
+    "img": "pictures/2026-03-23/2.png"
+   },
+   {
+    "code": "3289",
+    "name": "宜特",
+    "img": "pictures/2026-03-23/3.png"
+   },
+   {
+    "code": "3583",
+    "name": "辛耘",
+    "img": "pictures/2026-03-23/4.png"
+   },
+   {
+    "code": "3587",
+    "name": "閎康",
+    "img": "pictures/2026-03-23/5.png"
+   },
+   {
+    "code": "4551",
+    "name": "智伸科",
+    "img": "pictures/2026-03-23/6.png"
+   },
+   {
+    "code": "4771",
+    "name": "望隼",
+    "img": "pictures/2026-03-23/7.png"
+   },
+   {
+    "code": "5536",
+    "name": "聖暉*",
+    "img": "pictures/2026-03-23/8.png"
+   },
+   {
+    "code": "6139",
+    "name": "亞翔",
+    "img": "pictures/2026-03-23/9.png"
+   },
+   {
+    "code": "6187",
+    "name": "萬潤",
+    "img": "pictures/2026-03-23/10.png"
+   },
+   {
+    "code": "6231",
+    "name": "系微",
+    "img": "pictures/2026-03-23/11.png"
+   },
+   {
+    "code": "6451",
+    "name": "訊芯-KY",
+    "img": "pictures/2026-03-23/12.png"
+   },
+   {
+    "code": "6574",
+    "name": "霈方",
+    "img": "pictures/2026-03-23/13.png"
+   },
+   {
+    "code": "6584",
+    "name": "南俊國際",
+    "img": "pictures/2026-03-23/14.png"
+   },
+   {
+    "code": "6613",
+    "name": "朋億*",
+    "img": "pictures/2026-03-23/15.png"
+   },
+   {
+    "code": "6782",
+    "name": "視陽",
+    "img": "pictures/2026-03-23/16.png"
+   },
+   {
+    "code": "6830",
+    "name": "汎銓",
+    "img": "pictures/2026-03-23/17.png"
+   },
+   {
+    "code": "7711",
+    "name": "永擎",
+    "img": "pictures/2026-03-23/18.png"
+   },
+   {
+    "code": "7730",
+    "name": "",
+    "img": "pictures/2026-03-23/19.png"
+   },
+   {
+    "code": "7810",
+    "name": "捷創科技",
+    "img": "pictures/2026-03-23/20.png"
+   },
+   {
+    "code": "7820",
+    "name": "立盈",
+    "img": "pictures/2026-03-23/21.png"
+   },
+   {
+    "code": "8027",
+    "name": "鈦昇",
+    "img": "pictures/2026-03-23/22.png"
+   }
+  ],
+  "close": 32722.5,
+  "prev": 33543.88,
+  "dropPts": 821.38,
+  "dropPct": 2.45
+ },
+ {
+  "date": "2026-03-19",
+  "count": 72,
+  "stocks": [
+   {
+    "code": "1785",
+    "name": "光洋科",
+    "img": "pictures/2026-03-19/0.png"
+   },
+   {
+    "code": "2059",
+    "name": "川湖",
+    "img": "pictures/2026-03-19/1.png"
+   },
+   {
+    "code": "2337",
+    "name": "旺宏",
+    "img": "pictures/2026-03-19/2.png"
+   },
+   {
+    "code": "2360",
+    "name": "致茂",
+    "img": "pictures/2026-03-19/3.png"
+   },
+   {
+    "code": "2368",
+    "name": "金像電",
+    "img": "pictures/2026-03-19/4.png"
+   },
+   {
+    "code": "2383",
+    "name": "台光電",
+    "img": "pictures/2026-03-19/5.png"
+   },
+   {
+    "code": "2472",
+    "name": "立隆電",
+    "img": "pictures/2026-03-19/6.png"
+   },
+   {
+    "code": "3006",
+    "name": "晶豪科",
+    "img": "pictures/2026-03-19/7.png"
+   },
+   {
+    "code": "3017",
+    "name": "奇鋐",
+    "img": "pictures/2026-03-19/8.png"
+   },
+   {
+    "code": "3026",
+    "name": "禾伸堂",
+    "img": "pictures/2026-03-19/9.png"
+   },
+   {
+    "code": "3037",
+    "name": "欣興",
+    "img": "pictures/2026-03-19/10.png"
+   },
+   {
+    "code": "3086",
+    "name": "華義*",
+    "img": "pictures/2026-03-19/11.png"
+   },
+   {
+    "code": "3105",
+    "name": "穩懋",
+    "img": "pictures/2026-03-19/12.png"
+   },
+   {
+    "code": "3135",
+    "name": "凌航",
+    "img": "pictures/2026-03-19/13.png"
+   },
+   {
+    "code": "3189",
+    "name": "景碩",
+    "img": "pictures/2026-03-19/14.png"
+   },
+   {
+    "code": "3260",
+    "name": "威剛",
+    "img": "pictures/2026-03-19/15.png"
+   },
+   {
+    "code": "3289",
+    "name": "宜特",
+    "img": "pictures/2026-03-19/16.png"
+   },
+   {
+    "code": "3363",
+    "name": "上詮",
+    "img": "pictures/2026-03-19/17.png"
+   },
+   {
+    "code": "3376",
+    "name": "新日興",
+    "img": "pictures/2026-03-19/18.png"
+   },
+   {
+    "code": "3485",
+    "name": "敘豐",
+    "img": "pictures/2026-03-19/19.png"
+   },
+   {
+    "code": "3532",
+    "name": "台勝科",
+    "img": "pictures/2026-03-19/20.png"
+   },
+   {
+    "code": "3533",
+    "name": "嘉澤",
+    "img": "pictures/2026-03-19/21.png"
+   },
+   {
+    "code": "3555",
+    "name": "博士旺",
+    "img": "pictures/2026-03-19/22.png"
+   },
+   {
+    "code": "3563",
+    "name": "牧德",
+    "img": "pictures/2026-03-19/23.png"
+   },
+   {
+    "code": "3689",
+    "name": "湧德",
+    "img": "pictures/2026-03-19/24.png"
+   },
+   {
+    "code": "3693",
+    "name": "營邦",
+    "img": "pictures/2026-03-19/25.png"
+   },
+   {
+    "code": "3715",
+    "name": "定穎投控",
+    "img": "pictures/2026-03-19/26.png"
+   },
+   {
+    "code": "4542",
+    "name": "科嶠",
+    "img": "pictures/2026-03-19/27.png"
+   },
+   {
+    "code": "4768",
+    "name": "晶呈科技",
+    "img": "pictures/2026-03-19/28.png"
+   },
+   {
+    "code": "4771",
+    "name": "望隼",
+    "img": "pictures/2026-03-19/29.png"
+   },
+   {
+    "code": "4908",
+    "name": "前鼎",
+    "img": "pictures/2026-03-19/30.png"
+   },
+   {
+    "code": "4967",
+    "name": "十銓",
+    "img": "pictures/2026-03-19/31.png"
+   },
+   {
+    "code": "4977",
+    "name": "眾達-KY",
+    "img": "pictures/2026-03-19/32.png"
+   },
+   {
+    "code": "4991",
+    "name": "環宇-KY",
+    "img": "pictures/2026-03-19/33.png"
+   },
+   {
+    "code": "5289",
+    "name": "宜鼎",
+    "img": "pictures/2026-03-19/34.png"
+   },
+   {
+    "code": "5292",
+    "name": "華懋",
+    "img": "pictures/2026-03-19/35.png"
+   },
+   {
+    "code": "5386",
+    "name": "青雲",
+    "img": "pictures/2026-03-19/36.png"
+   },
+   {
+    "code": "5403",
+    "name": "中菲",
+    "img": "pictures/2026-03-19/37.png"
+   },
+   {
+    "code": "5904",
+    "name": "寶雅*",
+    "img": "pictures/2026-03-19/38.png"
+   },
+   {
+    "code": "6139",
+    "name": "亞翔",
+    "img": "pictures/2026-03-19/39.png"
+   },
+   {
+    "code": "6187",
+    "name": "萬潤",
+    "img": "pictures/2026-03-19/40.png"
+   },
+   {
+    "code": "6197",
+    "name": "佳必琪",
+    "img": "pictures/2026-03-19/41.png"
+   },
+   {
+    "code": "6217",
+    "name": "中探針",
+    "img": "pictures/2026-03-19/42.png"
+   },
+   {
+    "code": "6231",
+    "name": "系微",
+    "img": "pictures/2026-03-19/43.png"
+   },
+   {
+    "code": "6274",
+    "name": "台燿",
+    "img": "pictures/2026-03-19/44.png"
+   },
+   {
+    "code": "6290",
+    "name": "良維",
+    "img": "pictures/2026-03-19/45.png"
+   },
+   {
+    "code": "6291",
+    "name": "沛亨",
+    "img": "pictures/2026-03-19/46.png"
+   },
+   {
+    "code": "6574",
+    "name": "霈方",
+    "img": "pictures/2026-03-19/47.png"
+   },
+   {
+    "code": "6584",
+    "name": "南俊國際",
+    "img": "pictures/2026-03-19/48.png"
+   },
+   {
+    "code": "6643",
+    "name": "M31",
+    "img": "pictures/2026-03-19/49.png"
+   },
+   {
+    "code": "6672",
+    "name": "騰輝電子-KY",
+    "img": "pictures/2026-03-19/50.png"
+   },
+   {
+    "code": "6690",
+    "name": "安碁資訊",
+    "img": "pictures/2026-03-19/51.png"
+   },
+   {
+    "code": "6715",
+    "name": "嘉基",
+    "img": "pictures/2026-03-19/52.png"
+   },
+   {
+    "code": "6727",
+    "name": "亞泰金屬",
+    "img": "pictures/2026-03-19/53.png"
+   },
+   {
+    "code": "6739",
+    "name": "竹陞科技",
+    "img": "pictures/2026-03-19/54.png"
+   },
+   {
+    "code": "6805",
+    "name": "富世達",
+    "img": "pictures/2026-03-19/55.png"
+   },
+   {
+    "code": "6830",
+    "name": "汎銓",
+    "img": "pictures/2026-03-19/56.png"
+   },
+   {
+    "code": "6831",
+    "name": "邁科",
+    "img": "pictures/2026-03-19/57.png"
+   },
+   {
+    "code": "6877",
+    "name": "鏵友益",
+    "img": "pictures/2026-03-19/58.png"
+   },
+   {
+    "code": "6881",
+    "name": "潤德",
+    "img": "pictures/2026-03-19/59.png"
+   },
+   {
+    "code": "6894",
+    "name": "衛司特",
+    "img": "pictures/2026-03-19/60.png"
+   },
+   {
+    "code": "6907",
+    "name": "雅特力-KY",
+    "img": "pictures/2026-03-19/61.png"
+   },
+   {
+    "code": "6944",
+    "name": "兆聯實業",
+    "img": "pictures/2026-03-19/62.png"
+   },
+   {
+    "code": "7711",
+    "name": "永擎",
+    "img": "pictures/2026-03-19/63.png"
+   },
+   {
+    "code": "7738",
+    "name": "東聯互動",
+    "img": "pictures/2026-03-19/64.png"
+   },
+   {
+    "code": "7750",
+    "name": "新代",
+    "img": "pictures/2026-03-19/65.png"
+   },
+   {
+    "code": "7751",
+    "name": "竑騰",
+    "img": "pictures/2026-03-19/66.png"
+   },
+   {
+    "code": "7820",
+    "name": "立盈",
+    "img": "pictures/2026-03-19/67.png"
+   },
+   {
+    "code": "7842",
+    "name": "天能綠電",
+    "img": "pictures/2026-03-19/68.png"
+   },
+   {
+    "code": "8147",
+    "name": "正淩",
+    "img": "pictures/2026-03-19/69.png"
+   },
+   {
+    "code": "8155",
+    "name": "博智",
+    "img": "pictures/2026-03-19/70.png"
+   },
+   {
+    "code": "8271",
+    "name": "宇瞻",
+    "img": "pictures/2026-03-19/71.png"
+   }
+  ],
+  "close": 33689.68,
+  "prev": 34348.58,
+  "dropPts": 658.9,
+  "dropPct": 1.92
+ },
+ {
+  "date": "2026-03-12",
+  "count": 66,
+  "stocks": [
+   {
+    "code": "2345",
+    "name": "智邦",
+    "img": "pictures/2026-03-12/0.png"
+   },
+   {
+    "code": "2368",
+    "name": "金像電",
+    "img": "pictures/2026-03-12/1.png"
+   },
+   {
+    "code": "2383",
+    "name": "台光電",
+    "img": "pictures/2026-03-12/2.png"
+   },
+   {
+    "code": "2458",
+    "name": "義隆",
+    "img": "pictures/2026-03-12/3.png"
+   },
+   {
+    "code": "2548",
+    "name": "華固",
+    "img": "pictures/2026-03-12/4.png"
+   },
+   {
+    "code": "2640",
+    "name": "大車隊",
+    "img": "pictures/2026-03-12/5.png"
+   },
+   {
+    "code": "2755",
+    "name": "揚秦",
+    "img": "pictures/2026-03-12/6.png"
+   },
+   {
+    "code": "3005",
+    "name": "神基",
+    "img": "pictures/2026-03-12/7.png"
+   },
+   {
+    "code": "3010",
+    "name": "華立",
+    "img": "pictures/2026-03-12/8.png"
+   },
+   {
+    "code": "3017",
+    "name": "奇鋐",
+    "img": "pictures/2026-03-12/9.png"
+   },
+   {
+    "code": "3030",
+    "name": "德律",
+    "img": "pictures/2026-03-12/10.png"
+   },
+   {
+    "code": "3036",
+    "name": "文曄",
+    "img": "pictures/2026-03-12/11.png"
+   },
+   {
+    "code": "3163",
+    "name": "波若威",
+    "img": "pictures/2026-03-12/12.png"
+   },
+   {
+    "code": "3167",
+    "name": "大量",
+    "img": "pictures/2026-03-12/13.png"
+   },
+   {
+    "code": "3217",
+    "name": "優群",
+    "img": "pictures/2026-03-12/14.png"
+   },
+   {
+    "code": "3533",
+    "name": "嘉澤",
+    "img": "pictures/2026-03-12/15.png"
+   },
+   {
+    "code": "3555",
+    "name": "博士旺",
+    "img": "pictures/2026-03-12/16.png"
+   },
+   {
+    "code": "3583",
+    "name": "辛耘",
+    "img": "pictures/2026-03-12/17.png"
+   },
+   {
+    "code": "3596",
+    "name": "智易",
+    "img": "pictures/2026-03-12/18.png"
+   },
+   {
+    "code": "3675",
+    "name": "德微",
+    "img": "pictures/2026-03-12/19.png"
+   },
+   {
+    "code": "4129",
+    "name": "聯合",
+    "img": "pictures/2026-03-12/20.png"
+   },
+   {
+    "code": "4506",
+    "name": "崇友",
+    "img": "pictures/2026-03-12/21.png"
+   },
+   {
+    "code": "4542",
+    "name": "科嶠",
+    "img": "pictures/2026-03-12/22.png"
+   },
+   {
+    "code": "4755",
+    "name": "三福化",
+    "img": "pictures/2026-03-12/23.png"
+   },
+   {
+    "code": "4764",
+    "name": "雙鍵",
+    "img": "pictures/2026-03-12/24.png"
+   },
+   {
+    "code": "4770",
+    "name": "上品",
+    "img": "pictures/2026-03-12/25.png"
+   },
+   {
+    "code": "5274",
+    "name": "信驊",
+    "img": "pictures/2026-03-12/26.png"
+   },
+   {
+    "code": "5287",
+    "name": "數字",
+    "img": "pictures/2026-03-12/27.png"
+   },
+   {
+    "code": "5289",
+    "name": "宜鼎",
+    "img": "pictures/2026-03-12/28.png"
+   },
+   {
+    "code": "5475",
+    "name": "德宏",
+    "img": "pictures/2026-03-12/29.png"
+   },
+   {
+    "code": "5478",
+    "name": "智冠",
+    "img": "pictures/2026-03-12/30.png"
+   },
+   {
+    "code": "6121",
+    "name": "新普",
+    "img": "pictures/2026-03-12/31.png"
+   },
+   {
+    "code": "6146",
+    "name": "耕興",
+    "img": "pictures/2026-03-12/32.png"
+   },
+   {
+    "code": "6187",
+    "name": "萬潤",
+    "img": "pictures/2026-03-12/33.png"
+   },
+   {
+    "code": "6197",
+    "name": "佳必琪",
+    "img": "pictures/2026-03-12/34.png"
+   },
+   {
+    "code": "6217",
+    "name": "中探針",
+    "img": "pictures/2026-03-12/35.png"
+   },
+   {
+    "code": "6223",
+    "name": "旺矽",
+    "img": "pictures/2026-03-12/36.png"
+   },
+   {
+    "code": "6291",
+    "name": "沛亨",
+    "img": "pictures/2026-03-12/37.png"
+   },
+   {
+    "code": "6510",
+    "name": "精測",
+    "img": "pictures/2026-03-12/38.png"
+   },
+   {
+    "code": "6515",
+    "name": "穎崴",
+    "img": "pictures/2026-03-12/39.png"
+   },
+   {
+    "code": "6531",
+    "name": "愛普*",
+    "img": "pictures/2026-03-12/40.png"
+   },
+   {
+    "code": "6568",
+    "name": "宏觀",
+    "img": "pictures/2026-03-12/41.png"
+   },
+   {
+    "code": "6679",
+    "name": "鈺太",
+    "img": "pictures/2026-03-12/42.png"
+   },
+   {
+    "code": "6683",
+    "name": "雍智科技",
+    "img": "pictures/2026-03-12/43.png"
+   },
+   {
+    "code": "6690",
+    "name": "安碁資訊",
+    "img": "pictures/2026-03-12/44.png"
+   },
+   {
+    "code": "6693",
+    "name": "廣閎科",
+    "img": "pictures/2026-03-12/45.png"
+   },
+   {
+    "code": "6715",
+    "name": "嘉基",
+    "img": "pictures/2026-03-12/46.png"
+   },
+   {
+    "code": "6727",
+    "name": "亞泰金屬",
+    "img": "pictures/2026-03-12/47.png"
+   },
+   {
+    "code": "6739",
+    "name": "竹陞科技",
+    "img": "pictures/2026-03-12/48.png"
+   },
+   {
+    "code": "6861",
+    "name": "睿生光電",
+    "img": "pictures/2026-03-12/49.png"
+   },
+   {
+    "code": "6870",
+    "name": "騰雲",
+    "img": "pictures/2026-03-12/50.png"
+   },
+   {
+    "code": "6894",
+    "name": "衛司特",
+    "img": "pictures/2026-03-12/51.png"
+   },
+   {
+    "code": "6907",
+    "name": "雅特力-KY",
+    "img": "pictures/2026-03-12/52.png"
+   },
+   {
+    "code": "6937",
+    "name": "天虹",
+    "img": "pictures/2026-03-12/53.png"
+   },
+   {
+    "code": "6944",
+    "name": "兆聯實業",
+    "img": "pictures/2026-03-12/54.png"
+   },
+   {
+    "code": "6983",
+    "name": "華洋精機",
+    "img": "pictures/2026-03-12/55.png"
+   },
+   {
+    "code": "7712",
+    "name": "博盛半導體",
+    "img": "pictures/2026-03-12/56.png"
+   },
+   {
+    "code": "7730",
+    "name": "",
+    "img": "pictures/2026-03-12/57.png"
+   },
+   {
+    "code": "7738",
+    "name": "東聯互動",
+    "img": "pictures/2026-03-12/58.png"
+   },
+   {
+    "code": "7750",
+    "name": "新代",
+    "img": "pictures/2026-03-12/59.png"
+   },
+   {
+    "code": "7751",
+    "name": "竑騰",
+    "img": "pictures/2026-03-12/60.png"
+   },
+   {
+    "code": "8039",
+    "name": "台虹",
+    "img": "pictures/2026-03-12/61.png"
+   },
+   {
+    "code": "8261",
+    "name": "富鼎",
+    "img": "pictures/2026-03-12/62.png"
+   },
+   {
+    "code": "8271",
+    "name": "宇瞻",
+    "img": "pictures/2026-03-12/63.png"
+   },
+   {
+    "code": "8937",
+    "name": "合騏*",
+    "img": "pictures/2026-03-12/64.png"
+   },
+   {
+    "code": "9917",
+    "name": "中保科",
+    "img": "pictures/2026-03-12/65.png"
+   }
+  ],
+  "close": 33581.86,
+  "prev": 34114.19,
+  "dropPts": 532.33,
+  "dropPct": 1.56
+ },
+ {
+  "date": "2026-03-09",
+  "count": 9,
+  "stocks": [
+   {
+    "code": "2640",
+    "name": "大車隊",
+    "img": "pictures/2026-03-09/0.png"
+   },
+   {
+    "code": "3005",
+    "name": "神基",
+    "img": "pictures/2026-03-09/1.png"
+   },
+   {
+    "code": "3036",
+    "name": "文曄",
+    "img": "pictures/2026-03-09/2.png"
+   },
+   {
+    "code": "4728",
+    "name": "雙美",
+    "img": "pictures/2026-03-09/3.png"
+   },
+   {
+    "code": "5386",
+    "name": "青雲",
+    "img": "pictures/2026-03-09/4.png"
+   },
+   {
+    "code": "6703",
+    "name": "軒郁",
+    "img": "pictures/2026-03-09/5.png"
+   },
+   {
+    "code": "6715",
+    "name": "嘉基",
+    "img": "pictures/2026-03-09/6.png"
+   },
+   {
+    "code": "6859",
+    "name": "伯特光",
+    "img": "pictures/2026-03-09/7.png"
+   },
+   {
+    "code": "7730",
+    "name": "",
+    "img": "pictures/2026-03-09/8.png"
+   }
+  ],
+  "close": 32110.42,
+  "prev": 33599.54,
+  "dropPts": 1489.12,
+  "dropPct": 4.43
+ },
+ {
+  "date": "2026-03-04",
+  "count": 11,
+  "stocks": [
+   {
+    "code": "1215",
+    "name": "卜蜂",
+    "img": "pictures/2026-03-04/0.png"
+   },
+   {
+    "code": "2458",
+    "name": "義隆",
+    "img": "pictures/2026-03-04/1.png"
+   },
+   {
+    "code": "3036",
+    "name": "文曄",
+    "img": "pictures/2026-03-04/2.png"
+   },
+   {
+    "code": "3563",
+    "name": "牧德",
+    "img": "pictures/2026-03-04/3.png"
+   },
+   {
+    "code": "5386",
+    "name": "青雲",
+    "img": "pictures/2026-03-04/4.png"
+   },
+   {
+    "code": "6028",
+    "name": "公勝保經",
+    "img": "pictures/2026-03-04/5.png"
+   },
+   {
+    "code": "6830",
+    "name": "汎銓",
+    "img": "pictures/2026-03-04/6.png"
+   },
+   {
+    "code": "6831",
+    "name": "邁科",
+    "img": "pictures/2026-03-04/7.png"
+   },
+   {
+    "code": "6861",
+    "name": "睿生光電",
+    "img": "pictures/2026-03-04/8.png"
+   },
+   {
+    "code": "6994",
+    "name": "富威電力",
+    "img": "pictures/2026-03-04/9.png"
+   },
+   {
+    "code": "7740",
+    "name": "",
+    "img": "pictures/2026-03-04/10.png"
+   }
+  ],
+  "close": 32828.88,
+  "prev": 34323.65,
+  "dropPts": 1494.77,
+  "dropPct": 4.35
+ },
+ {
+  "date": "2026-03-03",
+  "count": 43,
+  "stocks": [
+   {
+    "code": "1215",
+    "name": "卜蜂",
+    "img": "pictures/2026-03-03/0.png"
+   },
+   {
+    "code": "1256",
+    "name": "鮮活果汁-KY",
+    "img": "pictures/2026-03-03/1.png"
+   },
+   {
+    "code": "2385",
+    "name": "群光",
+    "img": "pictures/2026-03-03/2.png"
+   },
+   {
+    "code": "2412",
+    "name": "中華電",
+    "img": "pictures/2026-03-03/3.png"
+   },
+   {
+    "code": "2455",
+    "name": "全新",
+    "img": "pictures/2026-03-03/4.png"
+   },
+   {
+    "code": "2458",
+    "name": "義隆",
+    "img": "pictures/2026-03-03/5.png"
+   },
+   {
+    "code": "2467",
+    "name": "志聖",
+    "img": "pictures/2026-03-03/6.png"
+   },
+   {
+    "code": "2603",
+    "name": "長榮",
+    "img": "pictures/2026-03-03/7.png"
+   },
+   {
+    "code": "2850",
+    "name": "新產",
+    "img": "pictures/2026-03-03/8.png"
+   },
+   {
+    "code": "3017",
+    "name": "奇鋐",
+    "img": "pictures/2026-03-03/9.png"
+   },
+   {
+    "code": "3045",
+    "name": "台灣大",
+    "img": "pictures/2026-03-03/10.png"
+   },
+   {
+    "code": "3081",
+    "name": "聯亞",
+    "img": "pictures/2026-03-03/11.png"
+   },
+   {
+    "code": "3147",
+    "name": "大綜",
+    "img": "pictures/2026-03-03/12.png"
+   },
+   {
+    "code": "3169",
+    "name": "亞信",
+    "img": "pictures/2026-03-03/13.png"
+   },
+   {
+    "code": "3289",
+    "name": "宜特",
+    "img": "pictures/2026-03-03/14.png"
+   },
+   {
+    "code": "3450",
+    "name": "聯鈞",
+    "img": "pictures/2026-03-03/15.png"
+   },
+   {
+    "code": "3485",
+    "name": "敘豐",
+    "img": "pictures/2026-03-03/16.png"
+   },
+   {
+    "code": "3596",
+    "name": "智易",
+    "img": "pictures/2026-03-03/17.png"
+   },
+   {
+    "code": "3665",
+    "name": "貿聯-KY",
+    "img": "pictures/2026-03-03/18.png"
+   },
+   {
+    "code": "4137",
+    "name": "麗豐-KY",
+    "img": "pictures/2026-03-03/19.png"
+   },
+   {
+    "code": "4569",
+    "name": "六方科-KY",
+    "img": "pictures/2026-03-03/20.png"
+   },
+   {
+    "code": "4749",
+    "name": "新應材",
+    "img": "pictures/2026-03-03/21.png"
+   },
+   {
+    "code": "4908",
+    "name": "前鼎",
+    "img": "pictures/2026-03-03/22.png"
+   },
+   {
+    "code": "4979",
+    "name": "華星光",
+    "img": "pictures/2026-03-03/23.png"
+   },
+   {
+    "code": "6028",
+    "name": "公勝保經",
+    "img": "pictures/2026-03-03/24.png"
+   },
+   {
+    "code": "6187",
+    "name": "萬潤",
+    "img": "pictures/2026-03-03/25.png"
+   },
+   {
+    "code": "6230",
+    "name": "尼得科超眾",
+    "img": "pictures/2026-03-03/26.png"
+   },
+   {
+    "code": "6596",
+    "name": "寬宏藝術",
+    "img": "pictures/2026-03-03/27.png"
+   },
+   {
+    "code": "6651",
+    "name": "全宇昕",
+    "img": "pictures/2026-03-03/28.png"
+   },
+   {
+    "code": "6703",
+    "name": "軒郁",
+    "img": "pictures/2026-03-03/29.png"
+   },
+   {
+    "code": "6706",
+    "name": "惠特",
+    "img": "pictures/2026-03-03/30.png"
+   },
+   {
+    "code": "6715",
+    "name": "嘉基",
+    "img": "pictures/2026-03-03/31.png"
+   },
+   {
+    "code": "6805",
+    "name": "富世達",
+    "img": "pictures/2026-03-03/32.png"
+   },
+   {
+    "code": "6831",
+    "name": "邁科",
+    "img": "pictures/2026-03-03/33.png"
+   },
+   {
+    "code": "6861",
+    "name": "睿生光電",
+    "img": "pictures/2026-03-03/34.png"
+   },
+   {
+    "code": "6877",
+    "name": "鏵友益",
+    "img": "pictures/2026-03-03/35.png"
+   },
+   {
+    "code": "6894",
+    "name": "衛司特",
+    "img": "pictures/2026-03-03/36.png"
+   },
+   {
+    "code": "6907",
+    "name": "雅特力-KY",
+    "img": "pictures/2026-03-03/37.png"
+   },
+   {
+    "code": "6937",
+    "name": "天虹",
+    "img": "pictures/2026-03-03/38.png"
+   },
+   {
+    "code": "7730",
+    "name": "",
+    "img": "pictures/2026-03-03/39.png"
+   },
+   {
+    "code": "7738",
+    "name": "東聯互動",
+    "img": "pictures/2026-03-03/40.png"
+   },
+   {
+    "code": "8039",
+    "name": "台虹",
+    "img": "pictures/2026-03-03/41.png"
+   },
+   {
+    "code": "8086",
+    "name": "宏捷科",
+    "img": "pictures/2026-03-03/42.png"
+   }
+  ],
+  "close": 34323.65,
+  "prev": 35095.09,
+  "dropPts": 771.44,
+  "dropPct": 2.2
+ },
+ {
+  "date": "2026-02-05",
+  "count": 21,
+  "stocks": [
+   {
+    "code": "1590",
+    "name": "亞德客-KY",
+    "img": "pictures/2026-02-05/0.png"
+   },
+   {
+    "code": "2211",
+    "name": "長榮鋼",
+    "img": "pictures/2026-02-05/1.png"
+   },
+   {
+    "code": "2486",
+    "name": "一詮",
+    "img": "pictures/2026-02-05/2.png"
+   },
+   {
+    "code": "2731",
+    "name": "雄獅",
+    "img": "pictures/2026-02-05/3.png"
+   },
+   {
+    "code": "3023",
+    "name": "信邦",
+    "img": "pictures/2026-02-05/4.png"
+   },
+   {
+    "code": "3587",
+    "name": "閎康",
+    "img": "pictures/2026-02-05/5.png"
+   },
+   {
+    "code": "3693",
+    "name": "營邦",
+    "img": "pictures/2026-02-05/6.png"
+   },
+   {
+    "code": "4542",
+    "name": "科嶠",
+    "img": "pictures/2026-02-05/7.png"
+   },
+   {
+    "code": "4771",
+    "name": "望隼",
+    "img": "pictures/2026-02-05/8.png"
+   },
+   {
+    "code": "4968",
+    "name": "立積",
+    "img": "pictures/2026-02-05/9.png"
+   },
+   {
+    "code": "4991",
+    "name": "環宇-KY",
+    "img": "pictures/2026-02-05/10.png"
+   },
+   {
+    "code": "5903",
+    "name": "全家",
+    "img": "pictures/2026-02-05/11.png"
+   },
+   {
+    "code": "6584",
+    "name": "南俊國際",
+    "img": "pictures/2026-02-05/12.png"
+   },
+   {
+    "code": "6672",
+    "name": "騰輝電子-KY",
+    "img": "pictures/2026-02-05/13.png"
+   },
+   {
+    "code": "6720",
+    "name": "久昌",
+    "img": "pictures/2026-02-05/14.png"
+   },
+   {
+    "code": "6830",
+    "name": "汎銓",
+    "img": "pictures/2026-02-05/15.png"
+   },
+   {
+    "code": "6949",
+    "name": "",
+    "img": "pictures/2026-02-05/16.png"
+   },
+   {
+    "code": "7823",
+    "name": "",
+    "img": "pictures/2026-02-05/17.png"
+   },
+   {
+    "code": "7828",
+    "name": "創新服務",
+    "img": "pictures/2026-02-05/18.png"
+   },
+   {
+    "code": "8210",
+    "name": "勤誠",
+    "img": "pictures/2026-02-05/19.png"
+   },
+   {
+    "code": "8467",
+    "name": "波力-KY",
+    "img": "pictures/2026-02-05/20.png"
+   }
+  ],
+  "close": 31801.27,
+  "prev": 32289.81,
+  "dropPts": 488.54,
+  "dropPct": 1.51
+ },
+ {
+  "date": "2026-01-21",
+  "count": 45,
+  "stocks": [
+   {
+    "code": "1513",
+    "name": "中興電",
+    "img": "pictures/2026-01-21/0.png"
+   },
+   {
+    "code": "1514",
+    "name": "亞力",
+    "img": "pictures/2026-01-21/1.png"
+   },
+   {
+    "code": "1519",
+    "name": "華城",
+    "img": "pictures/2026-01-21/2.png"
+   },
+   {
+    "code": "1590",
+    "name": "亞德客-KY",
+    "img": "pictures/2026-01-21/3.png"
+   },
+   {
+    "code": "2231",
+    "name": "為升",
+    "img": "pictures/2026-01-21/4.png"
+   },
+   {
+    "code": "2308",
+    "name": "台達電",
+    "img": "pictures/2026-01-21/5.png"
+   },
+   {
+    "code": "2645",
+    "name": "長榮航太",
+    "img": "pictures/2026-01-21/6.png"
+   },
+   {
+    "code": "3004",
+    "name": "豐達科",
+    "img": "pictures/2026-01-21/7.png"
+   },
+   {
+    "code": "3014",
+    "name": "聯陽",
+    "img": "pictures/2026-01-21/8.png"
+   },
+   {
+    "code": "3037",
+    "name": "欣興",
+    "img": "pictures/2026-01-21/9.png"
+   },
+   {
+    "code": "3081",
+    "name": "聯亞",
+    "img": "pictures/2026-01-21/10.png"
+   },
+   {
+    "code": "3138",
+    "name": "耀登",
+    "img": "pictures/2026-01-21/11.png"
+   },
+   {
+    "code": "3485",
+    "name": "敘豐",
+    "img": "pictures/2026-01-21/12.png"
+   },
+   {
+    "code": "3491",
+    "name": "昇達科",
+    "img": "pictures/2026-01-21/13.png"
+   },
+   {
+    "code": "4441",
+    "name": "振大環球",
+    "img": "pictures/2026-01-21/14.png"
+   },
+   {
+    "code": "4583",
+    "name": "台灣精銳",
+    "img": "pictures/2026-01-21/15.png"
+   },
+   {
+    "code": "4755",
+    "name": "三福化",
+    "img": "pictures/2026-01-21/16.png"
+   },
+   {
+    "code": "5209",
+    "name": "新鼎",
+    "img": "pictures/2026-01-21/17.png"
+   },
+   {
+    "code": "5292",
+    "name": "華懋",
+    "img": "pictures/2026-01-21/18.png"
+   },
+   {
+    "code": "5340",
+    "name": "建榮",
+    "img": "pictures/2026-01-21/19.png"
+   },
+   {
+    "code": "5347",
+    "name": "世界",
+    "img": "pictures/2026-01-21/20.png"
+   },
+   {
+    "code": "6138",
+    "name": "茂達",
+    "img": "pictures/2026-01-21/21.png"
+   },
+   {
+    "code": "6223",
+    "name": "旺矽",
+    "img": "pictures/2026-01-21/22.png"
+   },
+   {
+    "code": "6415",
+    "name": "矽力*-KY",
+    "img": "pictures/2026-01-21/23.png"
+   },
+   {
+    "code": "6417",
+    "name": "韋僑",
+    "img": "pictures/2026-01-21/24.png"
+   },
+   {
+    "code": "6435",
+    "name": "大中",
+    "img": "pictures/2026-01-21/25.png"
+   },
+   {
+    "code": "6510",
+    "name": "精測",
+    "img": "pictures/2026-01-21/26.png"
+   },
+   {
+    "code": "6515",
+    "name": "穎崴",
+    "img": "pictures/2026-01-21/27.png"
+   },
+   {
+    "code": "6605",
+    "name": "帝寶",
+    "img": "pictures/2026-01-21/28.png"
+   },
+   {
+    "code": "6715",
+    "name": "嘉基",
+    "img": "pictures/2026-01-21/29.png"
+   },
+   {
+    "code": "6753",
+    "name": "龍德造船",
+    "img": "pictures/2026-01-21/30.png"
+   },
+   {
+    "code": "6829",
+    "name": "千附精密",
+    "img": "pictures/2026-01-21/31.png"
+   },
+   {
+    "code": "6949",
+    "name": "",
+    "img": "pictures/2026-01-21/32.png"
+   },
+   {
+    "code": "6996",
+    "name": "力領科技",
+    "img": "pictures/2026-01-21/33.png"
+   },
+   {
+    "code": "7402",
+    "name": "邑錡",
+    "img": "pictures/2026-01-21/34.png"
+   },
+   {
+    "code": "7728",
+    "name": "光焱科技",
+    "img": "pictures/2026-01-21/35.png"
+   },
+   {
+    "code": "7769",
+    "name": "鴻勁",
+    "img": "pictures/2026-01-21/36.png"
+   },
+   {
+    "code": "7828",
+    "name": "創新服務",
+    "img": "pictures/2026-01-21/37.png"
+   },
+   {
+    "code": "8046",
+    "name": "南電",
+    "img": "pictures/2026-01-21/38.png"
+   },
+   {
+    "code": "8083",
+    "name": "瑞穎",
+    "img": "pictures/2026-01-21/39.png"
+   },
+   {
+    "code": "8086",
+    "name": "宏捷科",
+    "img": "pictures/2026-01-21/40.png"
+   },
+   {
+    "code": "8109",
+    "name": "博大",
+    "img": "pictures/2026-01-21/41.png"
+   },
+   {
+    "code": "8255",
+    "name": "朋程",
+    "img": "pictures/2026-01-21/42.png"
+   },
+   {
+    "code": "8436",
+    "name": "大江",
+    "img": "pictures/2026-01-21/43.png"
+   },
+   {
+    "code": "8467",
+    "name": "波力-KY",
+    "img": "pictures/2026-01-21/44.png"
+   }
+  ],
+  "close": 31246.37,
+  "prev": 31759.99,
+  "dropPts": 513.62,
+  "dropPct": 1.62
+ },
+ {
+  "date": "2025-12-15",
+  "count": 41,
+  "stocks": [
+   {
+    "code": "6510",
+    "name": "精測",
+    "img": "pictures/2025-12-15/0.png"
+   },
+   {
+    "code": "6442",
+    "name": "光聖",
+    "img": "pictures/2025-12-15/1.png"
+   },
+   {
+    "code": "2345",
+    "name": "智邦",
+    "img": "pictures/2025-12-15/2.png"
+   },
+   {
+    "code": "6944",
+    "name": "兆聯實業",
+    "img": "pictures/2025-12-15/3.png"
+   },
+   {
+    "code": "6691",
+    "name": "洋基工程",
+    "img": "pictures/2025-12-15/4.png"
+   },
+   {
+    "code": "3491",
+    "name": "昇達科",
+    "img": "pictures/2025-12-15/5.png"
+   },
+   {
+    "code": "3081",
+    "name": "聯亞",
+    "img": "pictures/2025-12-15/6.png"
+   },
+   {
+    "code": "6139",
+    "name": "亞翔",
+    "img": "pictures/2025-12-15/7.png"
+   },
+   {
+    "code": "3363",
+    "name": "上詮",
+    "img": "pictures/2025-12-15/8.png"
+   },
+   {
+    "code": "1560",
+    "name": "中砂",
+    "img": "pictures/2025-12-15/9.png"
+   },
+   {
+    "code": "3680",
+    "name": "家登",
+    "img": "pictures/2025-12-15/10.png"
+   },
+   {
+    "code": "7717",
+    "name": "萊德光電-KY",
+    "img": "pictures/2025-12-15/11.png"
+   },
+   {
+    "code": "4971",
+    "name": "IET-KY",
+    "img": "pictures/2025-12-15/12.png"
+   },
+   {
+    "code": "6667",
+    "name": "信紘科",
+    "img": "pictures/2025-12-15/13.png"
+   },
+   {
+    "code": "4768",
+    "name": "晶呈科技",
+    "img": "pictures/2025-12-15/14.png"
+   },
+   {
+    "code": "6788",
+    "name": "華景電",
+    "img": "pictures/2025-12-15/15.png"
+   },
+   {
+    "code": "2467",
+    "name": "志聖",
+    "img": "pictures/2025-12-15/16.png"
+   },
+   {
+    "code": "3551",
+    "name": "世禾",
+    "img": "pictures/2025-12-15/17.png"
+   },
+   {
+    "code": "6903",
+    "name": "巨漢",
+    "img": "pictures/2025-12-15/18.png"
+   },
+   {
+    "code": "6727",
+    "name": "亞泰金屬",
+    "img": "pictures/2025-12-15/19.png"
+   },
+   {
+    "code": "3105",
+    "name": "穩懋",
+    "img": "pictures/2025-12-15/20.png"
+   },
+   {
+    "code": "4991",
+    "name": "環宇-KY",
+    "img": "pictures/2025-12-15/21.png"
+   },
+   {
+    "code": "8021",
+    "name": "尖點",
+    "img": "pictures/2025-12-15/22.png"
+   },
+   {
+    "code": "5432",
+    "name": "新門",
+    "img": "pictures/2025-12-15/23.png"
+   },
+   {
+    "code": "6753",
+    "name": "龍德造船",
+    "img": "pictures/2025-12-15/24.png"
+   },
+   {
+    "code": "3152",
+    "name": "璟德",
+    "img": "pictures/2025-12-15/25.png"
+   },
+   {
+    "code": "3010",
+    "name": "華立",
+    "img": "pictures/2025-12-15/26.png"
+   },
+   {
+    "code": "4764",
+    "name": "雙鍵",
+    "img": "pictures/2025-12-15/27.png"
+   },
+   {
+    "code": "6426",
+    "name": "統新",
+    "img": "pictures/2025-12-15/28.png"
+   },
+   {
+    "code": "1784",
+    "name": "訊聯",
+    "img": "pictures/2025-12-15/29.png"
+   },
+   {
+    "code": "3555",
+    "name": "博士旺",
+    "img": "pictures/2025-12-15/30.png"
+   },
+   {
+    "code": "8390",
+    "name": "金益鼎",
+    "img": "pictures/2025-12-15/31.png"
+   },
+   {
+    "code": "2313",
+    "name": "華通",
+    "img": "pictures/2025-12-15/32.png"
+   },
+   {
+    "code": "5534",
+    "name": "長虹",
+    "img": "pictures/2025-12-15/33.png"
+   },
+   {
+    "code": "3691",
+    "name": "碩禾",
+    "img": "pictures/2025-12-15/34.png"
+   },
+   {
+    "code": "4542",
+    "name": "科嶠",
+    "img": "pictures/2025-12-15/35.png"
+   },
+   {
+    "code": "6967",
+    "name": "汎瑋材料",
+    "img": "pictures/2025-12-15/36.png"
+   },
+   {
+    "code": "3530",
+    "name": "晶相光",
+    "img": "pictures/2025-12-15/37.png"
+   },
+   {
+    "code": "8431",
+    "name": "匯鑽科",
+    "img": "pictures/2025-12-15/38.png"
+   },
+   {
+    "code": "3025",
+    "name": "星通",
+    "img": "pictures/2025-12-15/39.png"
+   },
+   {
+    "code": "5522",
+    "name": "遠雄",
+    "img": "pictures/2025-12-15/40.png"
+   }
+  ]
+ },
+ {
+  "date": "2025-12-11",
+  "count": 33,
+  "stocks": [
+   {
+    "code": "2404",
+    "name": "漢唐",
+    "img": "pictures/2025-12-11/0.png"
+   },
+   {
+    "code": "6739",
+    "name": "竹陞科技",
+    "img": "pictures/2025-12-11/1.png"
+   },
+   {
+    "code": "5536",
+    "name": "聖暉*",
+    "img": "pictures/2025-12-11/2.png"
+   },
+   {
+    "code": "6139",
+    "name": "亞翔",
+    "img": "pictures/2025-12-11/3.png"
+   },
+   {
+    "code": "8499",
+    "name": "鼎炫-KY",
+    "img": "pictures/2025-12-11/4.png"
+   },
+   {
+    "code": "6121",
+    "name": "新普",
+    "img": "pictures/2025-12-11/5.png"
+   },
+   {
+    "code": "6664",
+    "name": "群翊",
+    "img": "pictures/2025-12-11/6.png"
+   },
+   {
+    "code": "7711",
+    "name": "永擎",
+    "img": "pictures/2025-12-11/7.png"
+   },
+   {
+    "code": "4971",
+    "name": "IET-KY",
+    "img": "pictures/2025-12-11/8.png"
+   },
+   {
+    "code": "6667",
+    "name": "信紘科",
+    "img": "pictures/2025-12-11/9.png"
+   },
+   {
+    "code": "6788",
+    "name": "華景電",
+    "img": "pictures/2025-12-11/10.png"
+   },
+   {
+    "code": "2467",
+    "name": "志聖",
+    "img": "pictures/2025-12-11/11.png"
+   },
+   {
+    "code": "3376",
+    "name": "新日興",
+    "img": "pictures/2025-12-11/12.png"
+   },
+   {
+    "code": "3551",
+    "name": "世禾",
+    "img": "pictures/2025-12-11/13.png"
+   },
+   {
+    "code": "6291",
+    "name": "沛亨",
+    "img": "pictures/2025-12-11/14.png"
+   },
+   {
+    "code": "6903",
+    "name": "巨漢",
+    "img": "pictures/2025-12-11/15.png"
+   },
+   {
+    "code": "4931",
+    "name": "新盛力",
+    "img": "pictures/2025-12-11/16.png"
+   },
+   {
+    "code": "3105",
+    "name": "穩懋",
+    "img": "pictures/2025-12-11/17.png"
+   },
+   {
+    "code": "6451",
+    "name": "訊芯-KY",
+    "img": "pictures/2025-12-11/18.png"
+   },
+   {
+    "code": "8021",
+    "name": "尖點",
+    "img": "pictures/2025-12-11/19.png"
+   },
+   {
+    "code": "3265",
+    "name": "台星科",
+    "img": "pictures/2025-12-11/20.png"
+   },
+   {
+    "code": "3090",
+    "name": "日電貿",
+    "img": "pictures/2025-12-11/21.png"
+   },
+   {
+    "code": "8039",
+    "name": "台虹",
+    "img": "pictures/2025-12-11/22.png"
+   },
+   {
+    "code": "4764",
+    "name": "雙鍵",
+    "img": "pictures/2025-12-11/23.png"
+   },
+   {
+    "code": "6426",
+    "name": "統新",
+    "img": "pictures/2025-12-11/24.png"
+   },
+   {
+    "code": "2441",
+    "name": "超豐",
+    "img": "pictures/2025-12-11/25.png"
+   },
+   {
+    "code": "5309",
+    "name": "系統電",
+    "img": "pictures/2025-12-11/26.png"
+   },
+   {
+    "code": "4542",
+    "name": "科嶠",
+    "img": "pictures/2025-12-11/27.png"
+   },
+   {
+    "code": "6261",
+    "name": "久元",
+    "img": "pictures/2025-12-11/28.png"
+   },
+   {
+    "code": "2388",
+    "name": "威盛",
+    "img": "pictures/2025-12-11/29.png"
+   },
+   {
+    "code": "2466",
+    "name": "冠西電",
+    "img": "pictures/2025-12-11/30.png"
+   },
+   {
+    "code": "3219",
+    "name": "倚強科",
+    "img": "pictures/2025-12-11/31.png"
+   },
+   {
+    "code": "4577",
+    "name": "達航科技",
+    "img": "pictures/2025-12-11/32.png"
+   }
+  ]
+ },
+ {
+  "date": "2025-11-18",
+  "count": 8,
+  "stocks": [
+   {
+    "code": "5274",
+    "name": "信驊",
+    "img": "pictures/2025-11-18/0.png"
+   },
+   {
+    "code": "6781",
+    "name": "AES-KY",
+    "img": "pictures/2025-11-18/1.png"
+   },
+   {
+    "code": "6584",
+    "name": "南俊國際",
+    "img": "pictures/2025-11-18/2.png"
+   },
+   {
+    "code": "6903",
+    "name": "巨漢",
+    "img": "pictures/2025-11-18/3.png"
+   },
+   {
+    "code": "2486",
+    "name": "一詮",
+    "img": "pictures/2025-11-18/4.png"
+   },
+   {
+    "code": "4162",
+    "name": "智擎",
+    "img": "pictures/2025-11-18/5.png"
+   },
+   {
+    "code": "8938",
+    "name": "明安",
+    "img": "pictures/2025-11-18/6.png"
+   },
+   {
+    "code": "8043",
+    "name": "蜜望實",
+    "img": "pictures/2025-11-18/7.png"
+   }
+  ]
+ },
+ {
+  "date": "2025-09-26",
+  "count": 15,
+  "stocks": [
+   {
+    "code": "1795",
+    "name": "美時",
+    "img": "pictures/2025-09-26/0.png"
+   },
+   {
+    "code": "2236",
+    "name": "百達-KY",
+    "img": "pictures/2025-09-26/1.png"
+   },
+   {
+    "code": "2376",
+    "name": "技嘉",
+    "img": "pictures/2025-09-26/2.png"
+   },
+   {
+    "code": "3231",
+    "name": "緯創",
+    "img": "pictures/2025-09-26/3.png"
+   },
+   {
+    "code": "4506",
+    "name": "崇友",
+    "img": "pictures/2025-09-26/4.png"
+   },
+   {
+    "code": "4585",
+    "name": "達明",
+    "img": "pictures/2025-09-26/5.png"
+   },
+   {
+    "code": "4722",
+    "name": "國精化",
+    "img": "pictures/2025-09-26/6.png"
+   },
+   {
+    "code": "5314",
+    "name": "世紀*",
+    "img": "pictures/2025-09-26/7.png"
+   },
+   {
+    "code": "5478",
+    "name": "智冠",
+    "img": "pictures/2025-09-26/8.png"
+   },
+   {
+    "code": "6138",
+    "name": "茂達",
+    "img": "pictures/2025-09-26/9.png"
+   },
+   {
+    "code": "6515",
+    "name": "穎崴",
+    "img": "pictures/2025-09-26/10.png"
+   },
+   {
+    "code": "6712",
+    "name": "長聖",
+    "img": "pictures/2025-09-26/11.png"
+   },
+   {
+    "code": "6739",
+    "name": "竹陞科技",
+    "img": "pictures/2025-09-26/12.png"
+   },
+   {
+    "code": "6953",
+    "name": "家碩",
+    "img": "pictures/2025-09-26/13.png"
+   },
+   {
+    "code": "8937",
+    "name": "合騏*",
+    "img": "pictures/2025-09-26/14.png"
+   }
+  ],
+  "close": 25580.32,
+  "prev": 26023.85,
+  "dropPts": 443.53,
+  "dropPct": 1.7
+ },
+ {
+  "date": "2025-08-20",
+  "count": 12,
+  "stocks": [
+   {
+    "code": "1215",
+    "name": "卜蜂",
+    "img": "pictures/2025-08-20/0.png"
+   },
+   {
+    "code": "2316",
+    "name": "楠梓電",
+    "img": "pictures/2025-08-20/1.png"
+   },
+   {
+    "code": "3005",
+    "name": "神基",
+    "img": "pictures/2025-08-20/2.png"
+   },
+   {
+    "code": "3211",
+    "name": "順達",
+    "img": "pictures/2025-08-20/3.png"
+   },
+   {
+    "code": "4571",
+    "name": "鈞興-KY",
+    "img": "pictures/2025-08-20/4.png"
+   },
+   {
+    "code": "4722",
+    "name": "國精化",
+    "img": "pictures/2025-08-20/5.png"
+   },
+   {
+    "code": "6449",
+    "name": "鈺邦",
+    "img": "pictures/2025-08-20/6.png"
+   },
+   {
+    "code": "6534",
+    "name": "",
+    "img": "pictures/2025-08-20/7.png"
+   },
+   {
+    "code": "6535",
+    "name": "順藥",
+    "img": "pictures/2025-08-20/8.png"
+   },
+   {
+    "code": "6903",
+    "name": "巨漢",
+    "img": "pictures/2025-08-20/9.png"
+   },
+   {
+    "code": "7712",
+    "name": "博盛半導體",
+    "img": "pictures/2025-08-20/10.png"
+   },
+   {
+    "code": "7751",
+    "name": "竑騰",
+    "img": "pictures/2025-08-20/11.png"
+   }
+  ],
+  "close": 23625.44,
+  "prev": 24353.5,
+  "dropPts": 728.06,
+  "dropPct": 2.99
+ },
+ {
+  "date": "2025-07-22",
+  "count": 13,
+  "stocks": [
+   {
+    "code": "1786",
+    "name": "科妍",
+    "img": "pictures/2025-07-22/0.png"
+   },
+   {
+    "code": "2454",
+    "name": "聯發科",
+    "img": "pictures/2025-07-22/1.png"
+   },
+   {
+    "code": "2707",
+    "name": "晶華",
+    "img": "pictures/2025-07-22/2.png"
+   },
+   {
+    "code": "3167",
+    "name": "大量",
+    "img": "pictures/2025-07-22/3.png"
+   },
+   {
+    "code": "3533",
+    "name": "嘉澤",
+    "img": "pictures/2025-07-22/4.png"
+   },
+   {
+    "code": "5903",
+    "name": "全家",
+    "img": "pictures/2025-07-22/5.png"
+   },
+   {
+    "code": "6191",
+    "name": "精成科",
+    "img": "pictures/2025-07-22/6.png"
+   },
+   {
+    "code": "6291",
+    "name": "沛亨",
+    "img": "pictures/2025-07-22/7.png"
+   },
+   {
+    "code": "6442",
+    "name": "光聖",
+    "img": "pictures/2025-07-22/8.png"
+   },
+   {
+    "code": "6584",
+    "name": "南俊國際",
+    "img": "pictures/2025-07-22/9.png"
+   },
+   {
+    "code": "6683",
+    "name": "雍智科技",
+    "img": "pictures/2025-07-22/10.png"
+   },
+   {
+    "code": "6933",
+    "name": "AMAX-KY",
+    "img": "pictures/2025-07-22/11.png"
+   },
+   {
+    "code": "8255",
+    "name": "朋程",
+    "img": "pictures/2025-07-22/12.png"
+   }
+  ],
+  "close": 22987.92,
+  "prev": 23340.56,
+  "dropPts": 352.64,
+  "dropPct": 1.51
+ },
+ {
+  "date": "2025-06-19",
+  "count": 31,
+  "stocks": [
+   {
+    "code": "1295",
+    "name": "生合",
+    "img": "pictures/2025-06-19/0.png"
+   },
+   {
+    "code": "2230",
+    "name": "泰茂",
+    "img": "pictures/2025-06-19/1.png"
+   },
+   {
+    "code": "2308",
+    "name": "台達電",
+    "img": "pictures/2025-06-19/2.png"
+   },
+   {
+    "code": "2357",
+    "name": "華碩",
+    "img": "pictures/2025-06-19/3.png"
+   },
+   {
+    "code": "2360",
+    "name": "致茂",
+    "img": "pictures/2025-06-19/4.png"
+   },
+   {
+    "code": "2404",
+    "name": "漢唐",
+    "img": "pictures/2025-06-19/5.png"
+   },
+   {
+    "code": "2729",
+    "name": "瓦城",
+    "img": "pictures/2025-06-19/6.png"
+   },
+   {
+    "code": "3013",
+    "name": "晟銘電",
+    "img": "pictures/2025-06-19/7.png"
+   },
+   {
+    "code": "3363",
+    "name": "上詮",
+    "img": "pictures/2025-06-19/8.png"
+   },
+   {
+    "code": "3376",
+    "name": "新日興",
+    "img": "pictures/2025-06-19/9.png"
+   },
+   {
+    "code": "3548",
+    "name": "兆利",
+    "img": "pictures/2025-06-19/10.png"
+   },
+   {
+    "code": "4163",
+    "name": "鐿鈦",
+    "img": "pictures/2025-06-19/11.png"
+   },
+   {
+    "code": "4549",
+    "name": "桓達",
+    "img": "pictures/2025-06-19/12.png"
+   },
+   {
+    "code": "4551",
+    "name": "智伸科",
+    "img": "pictures/2025-06-19/13.png"
+   },
+   {
+    "code": "4569",
+    "name": "六方科-KY",
+    "img": "pictures/2025-06-19/14.png"
+   },
+   {
+    "code": "4770",
+    "name": "上品",
+    "img": "pictures/2025-06-19/15.png"
+   },
+   {
+    "code": "4979",
+    "name": "華星光",
+    "img": "pictures/2025-06-19/16.png"
+   },
+   {
+    "code": "5234",
+    "name": "達興材料",
+    "img": "pictures/2025-06-19/17.png"
+   },
+   {
+    "code": "6581",
+    "name": "鋼聯",
+    "img": "pictures/2025-06-19/18.png"
+   },
+   {
+    "code": "6605",
+    "name": "帝寶",
+    "img": "pictures/2025-06-19/19.png"
+   },
+   {
+    "code": "6725",
+    "name": "矽科宏晟",
+    "img": "pictures/2025-06-19/20.png"
+   },
+   {
+    "code": "6895",
+    "name": "宏碩系統",
+    "img": "pictures/2025-06-19/21.png"
+   },
+   {
+    "code": "6919",
+    "name": "康霈*",
+    "img": "pictures/2025-06-19/22.png"
+   },
+   {
+    "code": "6925",
+    "name": "意藍",
+    "img": "pictures/2025-06-19/23.png"
+   },
+   {
+    "code": "7738",
+    "name": "東聯互動",
+    "img": "pictures/2025-06-19/24.png"
+   },
+   {
+    "code": "7747",
+    "name": "昕奇雲端",
+    "img": "pictures/2025-06-19/25.png"
+   },
+   {
+    "code": "7749",
+    "name": "意騰-KY",
+    "img": "pictures/2025-06-19/26.png"
+   },
+   {
+    "code": "7828",
+    "name": "創新服務",
+    "img": "pictures/2025-06-19/27.png"
+   },
+   {
+    "code": "8081",
+    "name": "致新",
+    "img": "pictures/2025-06-19/28.png"
+   },
+   {
+    "code": "8210",
+    "name": "勤誠",
+    "img": "pictures/2025-06-19/29.png"
+   },
+   {
+    "code": "9939",
+    "name": "宏全",
+    "img": "pictures/2025-06-19/30.png"
+   }
+  ],
+  "close": 22003.5,
+  "prev": 22356.73,
+  "dropPts": 353.23,
+  "dropPct": 1.58
+ },
+ {
+  "date": "2025-06-02",
+  "count": 19,
+  "stocks": [
+   {
+    "code": "1773",
+    "name": "勝一",
+    "img": "pictures/2025-06-02/0.png"
+   },
+   {
+    "code": "2383",
+    "name": "台光電",
+    "img": "pictures/2025-06-02/1.png"
+   },
+   {
+    "code": "2645",
+    "name": "長榮航太",
+    "img": "pictures/2025-06-02/2.png"
+   },
+   {
+    "code": "2729",
+    "name": "瓦城",
+    "img": "pictures/2025-06-02/3.png"
+   },
+   {
+    "code": "3017",
+    "name": "奇鋐",
+    "img": "pictures/2025-06-02/4.png"
+   },
+   {
+    "code": "3036",
+    "name": "文曄",
+    "img": "pictures/2025-06-02/5.png"
+   },
+   {
+    "code": "4536",
+    "name": "拓凱",
+    "img": "pictures/2025-06-02/6.png"
+   },
+   {
+    "code": "4736",
+    "name": "泰博",
+    "img": "pictures/2025-06-02/7.png"
+   },
+   {
+    "code": "5203",
+    "name": "訊連",
+    "img": "pictures/2025-06-02/8.png"
+   },
+   {
+    "code": "5274",
+    "name": "信驊",
+    "img": "pictures/2025-06-02/9.png"
+   },
+   {
+    "code": "5904",
+    "name": "寶雅*",
+    "img": "pictures/2025-06-02/10.png"
+   },
+   {
+    "code": "6274",
+    "name": "台燿",
+    "img": "pictures/2025-06-02/11.png"
+   },
+   {
+    "code": "6498",
+    "name": "久禾光",
+    "img": "pictures/2025-06-02/12.png"
+   },
+   {
+    "code": "6538",
+    "name": "倉和",
+    "img": "pictures/2025-06-02/13.png"
+   },
+   {
+    "code": "6712",
+    "name": "長聖",
+    "img": "pictures/2025-06-02/14.png"
+   },
+   {
+    "code": "6762",
+    "name": "達亞",
+    "img": "pictures/2025-06-02/15.png"
+   },
+   {
+    "code": "6919",
+    "name": "康霈*",
+    "img": "pictures/2025-06-02/16.png"
+   },
+   {
+    "code": "6925",
+    "name": "意藍",
+    "img": "pictures/2025-06-02/17.png"
+   },
+   {
+    "code": "7751",
+    "name": "竑騰",
+    "img": "pictures/2025-06-02/18.png"
+   }
+  ],
+  "close": 21002.71,
+  "prev": 21347.3,
+  "dropPts": 344.59,
+  "dropPct": 1.61
+ },
+ {
+  "date": "2025-04-21",
+  "count": 2,
+  "stocks": [
+   {
+    "code": "3596",
+    "name": "智易",
+    "img": "pictures/2025-04-21/0.png"
+   },
+   {
+    "code": "3147",
+    "name": "大綜",
+    "img": "pictures/2025-04-21/1.png"
+   }
+  ],
+  "close": 19106.2,
+  "prev": 19395.03,
+  "dropPts": 288.83,
+  "dropPct": 1.49
+ },
+ {
+  "date": "2025-03-31",
+  "count": 3,
+  "stocks": [
+   {
+    "code": "3264",
+    "name": "欣銓",
+    "img": "pictures/2025-03-31/0.png"
+   },
+   {
+    "code": "6228",
+    "name": "全譜",
+    "img": "pictures/2025-03-31/1.png"
+   },
+   {
+    "code": "2038",
+    "name": "海光",
+    "img": "pictures/2025-03-31/2.png"
+   }
+  ],
+  "close": 20695.9,
+  "prev": 21602.89,
+  "dropPts": 906.99,
+  "dropPct": 4.2
+ },
+ {
+  "date": "2025-03-28",
+  "count": 5,
+  "stocks": [
+   {
+    "code": "6199",
+    "name": "天品",
+    "img": "pictures/2025-03-28/0.png"
+   },
+   {
+    "code": "6753",
+    "name": "龍德造船",
+    "img": "pictures/2025-03-28/1.png"
+   },
+   {
+    "code": "7402",
+    "name": "邑錡",
+    "img": "pictures/2025-03-28/2.png"
+   },
+   {
+    "code": "4904",
+    "name": "遠傳",
+    "img": "pictures/2025-03-28/3.png"
+   },
+   {
+    "code": "1784",
+    "name": "訊聯",
+    "img": "pictures/2025-03-28/4.png"
+   }
+  ]
+ },
+ {
+  "date": "2025-03-27",
+  "count": 8,
+  "stocks": [
+   {
+    "code": "3034",
+    "name": "聯詠",
+    "img": "pictures/2025-03-27/0.png"
+   },
+   {
+    "code": "3596",
+    "name": "智易",
+    "img": "pictures/2025-03-27/1.png"
+   },
+   {
+    "code": "2474",
+    "name": "可成",
+    "img": "pictures/2025-03-27/2.png"
+   },
+   {
+    "code": "6799",
+    "name": "來頡",
+    "img": "pictures/2025-03-27/3.png"
+   },
+   {
+    "code": "4904",
+    "name": "遠傳",
+    "img": "pictures/2025-03-27/4.png"
+   },
+   {
+    "code": "6203",
+    "name": "海韻電",
+    "img": "pictures/2025-03-27/5.png"
+   },
+   {
+    "code": "6186",
+    "name": "新潤",
+    "img": "pictures/2025-03-27/6.png"
+   },
+   {
+    "code": "2468",
+    "name": "華經",
+    "img": "pictures/2025-03-27/7.png"
+   }
+  ]
+ },
+ {
+  "date": "2025-03-11",
+  "count": 21,
+  "stocks": [
+   {
+    "code": "5314",
+    "name": "世紀",
+    "img": "pictures/2025-03-11/0.png"
+   },
+   {
+    "code": "3563",
+    "name": "牧德",
+    "img": "pictures/2025-03-11/1.png"
+   },
+   {
+    "code": "6469",
+    "name": "大樹",
+    "img": "pictures/2025-03-11/2.png"
+   },
+   {
+    "code": "2753",
+    "name": "八方雲集",
+    "img": "pictures/2025-03-11/3.png"
+   },
+   {
+    "code": "9921",
+    "name": "巨大",
+    "img": "pictures/2025-03-11/4.png"
+   },
+   {
+    "code": "5439",
+    "name": "高技",
+    "img": "pictures/2025-03-11/5.png"
+   },
+   {
+    "code": "8436",
+    "name": "大江",
+    "img": "pictures/2025-03-11/6.png"
+   },
+   {
+    "code": "2439",
+    "name": "美律",
+    "img": "pictures/2025-03-11/7.png"
+   },
+   {
+    "code": "6278",
+    "name": "台表科",
+    "img": "pictures/2025-03-11/8.png"
+   },
+   {
+    "code": "2850",
+    "name": "新產",
+    "img": "pictures/2025-03-11/9.png"
+   },
+   {
+    "code": "2421",
+    "name": "建準",
+    "img": "pictures/2025-03-11/10.png"
+   },
+   {
+    "code": "2451",
+    "name": "創見",
+    "img": "pictures/2025-03-11/11.png"
+   },
+   {
+    "code": "6877",
+    "name": "鏵友益",
+    "img": "pictures/2025-03-11/12.png"
+   },
+   {
+    "code": "2211",
+    "name": "長榮鋼",
+    "img": "pictures/2025-03-11/13.png"
+   },
+   {
+    "code": "3260",
+    "name": "威剛",
+    "img": "pictures/2025-03-11/14.png"
+   },
+   {
+    "code": "3026",
+    "name": "禾伸堂",
+    "img": "pictures/2025-03-11/15.png"
+   },
+   {
+    "code": "4931",
+    "name": "新盛力",
+    "img": "pictures/2025-03-11/16.png"
+   },
+   {
+    "code": "1799",
+    "name": "易威",
+    "img": "pictures/2025-03-11/17.png"
+   },
+   {
+    "code": "6658",
+    "name": "聯策",
+    "img": "pictures/2025-03-11/18.png"
+   },
+   {
+    "code": "3528",
+    "name": "安馳",
+    "img": "pictures/2025-03-11/19.png"
+   },
+   {
+    "code": "2535",
+    "name": "達欣工",
+    "img": "pictures/2025-03-11/20.png"
+   }
+  ]
+ },
+ {
+  "date": "2025-03-03",
+  "count": 19,
+  "stocks": [
+   {
+    "code": "3563",
+    "name": "牧德",
+    "img": "pictures/2025-03-03/0.png"
+   },
+   {
+    "code": "3044",
+    "name": "健鼎",
+    "img": "pictures/2025-03-03/1.png"
+   },
+   {
+    "code": "3596",
+    "name": "智易",
+    "img": "pictures/2025-03-03/2.png"
+   },
+   {
+    "code": "3147",
+    "name": "大綜",
+    "img": "pictures/2025-03-03/3.png"
+   },
+   {
+    "code": "2480",
+    "name": "敦陽科",
+    "img": "pictures/2025-03-03/4.png"
+   },
+   {
+    "code": "8436",
+    "name": "大江",
+    "img": "pictures/2025-03-03/5.png"
+   },
+   {
+    "code": "3213",
+    "name": "茂訊",
+    "img": "pictures/2025-03-03/6.png"
+   },
+   {
+    "code": "2412",
+    "name": "中華電",
+    "img": "pictures/2025-03-03/7.png"
+   },
+   {
+    "code": "3045",
+    "name": "台灣大",
+    "img": "pictures/2025-03-03/8.png"
+   },
+   {
+    "code": "1215",
+    "name": "卜蜂",
+    "img": "pictures/2025-03-03/9.png"
+   },
+   {
+    "code": "4904",
+    "name": "遠傳",
+    "img": "pictures/2025-03-03/10.png"
+   },
+   {
+    "code": "1216",
+    "name": "統一",
+    "img": "pictures/2025-03-03/11.png"
+   },
+   {
+    "code": "4105",
+    "name": "東洋",
+    "img": "pictures/2025-03-03/12.png"
+   },
+   {
+    "code": "6180",
+    "name": "橘子",
+    "img": "pictures/2025-03-03/13.png"
+   },
+   {
+    "code": "6257",
+    "name": "矽格",
+    "img": "pictures/2025-03-03/14.png"
+   },
+   {
+    "code": "2006",
+    "name": "東和鋼鐵",
+    "img": "pictures/2025-03-03/15.png"
+   },
+   {
+    "code": "2387",
+    "name": "精元",
+    "img": "pictures/2025-03-03/16.png"
+   },
+   {
+    "code": "6201",
+    "name": "亞弘電",
+    "img": "pictures/2025-03-03/17.png"
+   },
+   {
+    "code": "6292",
+    "name": "迅德",
+    "img": "pictures/2025-03-03/18.png"
+   }
+  ]
+ },
+ {
+  "date": "2025-01-15",
+  "count": 7,
+  "stocks": [
+   {
+    "code": "3034",
+    "name": "聯詠",
+    "img": "pictures/2025-01-15/0.png"
+   },
+   {
+    "code": "6890",
+    "name": "來億-KY",
+    "img": "pictures/2025-01-15/1.png"
+   },
+   {
+    "code": "3081",
+    "name": "聯亞",
+    "img": "pictures/2025-01-15/2.png"
+   },
+   {
+    "code": "4772",
+    "name": "台特化",
+    "img": "pictures/2025-01-15/3.png"
+   },
+   {
+    "code": "2645",
+    "name": "長榮航太",
+    "img": "pictures/2025-01-15/4.png"
+   },
+   {
+    "code": "6206",
+    "name": "飛捷",
+    "img": "pictures/2025-01-15/5.png"
+   },
+   {
+    "code": "4987",
+    "name": "科誠",
+    "img": "pictures/2025-01-15/6.png"
+   }
+  ]
+ },
+ {
+  "date": "2025-01-13",
+  "count": 6,
+  "stocks": [
+   {
+    "code": "6890",
+    "name": "來億-KY",
+    "img": "pictures/2025-01-13/0.png"
+   },
+   {
+    "code": "6568",
+    "name": "宏觀",
+    "img": "pictures/2025-01-13/1.png"
+   },
+   {
+    "code": "3005",
+    "name": "神基",
+    "img": "pictures/2025-01-13/2.png"
+   },
+   {
+    "code": "6757",
+    "name": "台灣虎航",
+    "img": "pictures/2025-01-13/3.png"
+   },
+   {
+    "code": "4933",
+    "name": "友輝",
+    "img": "pictures/2025-01-13/4.png"
+   },
+   {
+    "code": "2441",
+    "name": "超豐",
+    "img": "pictures/2025-01-13/5.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-12-20",
+  "count": 22,
+  "stocks": [
+   {
+    "code": "2345",
+    "name": "智邦",
+    "img": "pictures/2024-12-20/0.png"
+   },
+   {
+    "code": "5536",
+    "name": "聖暉*",
+    "img": "pictures/2024-12-20/1.png"
+   },
+   {
+    "code": "4571",
+    "name": "鈞興-KY",
+    "img": "pictures/2024-12-20/2.png"
+   },
+   {
+    "code": "2233",
+    "name": "宇隆",
+    "img": "pictures/2024-12-20/3.png"
+   },
+   {
+    "code": "3044",
+    "name": "健鼎",
+    "img": "pictures/2024-12-20/4.png"
+   },
+   {
+    "code": "8227",
+    "name": "巨有科技",
+    "img": "pictures/2024-12-20/5.png"
+   },
+   {
+    "code": "3147",
+    "name": "大綜",
+    "img": "pictures/2024-12-20/6.png"
+   },
+   {
+    "code": "6285",
+    "name": "啟碁",
+    "img": "pictures/2024-12-20/7.png"
+   },
+   {
+    "code": "5439",
+    "name": "高技",
+    "img": "pictures/2024-12-20/8.png"
+   },
+   {
+    "code": "5388",
+    "name": "中磊",
+    "img": "pictures/2024-12-20/9.png"
+   },
+   {
+    "code": "4991",
+    "name": "環宇-KY",
+    "img": "pictures/2024-12-20/10.png"
+   },
+   {
+    "code": "2211",
+    "name": "長榮鋼",
+    "img": "pictures/2024-12-20/11.png"
+   },
+   {
+    "code": "2250",
+    "name": "IKKA-KY",
+    "img": "pictures/2024-12-20/12.png"
+   },
+   {
+    "code": "6278",
+    "name": "台表科",
+    "img": "pictures/2024-12-20/13.png"
+   },
+   {
+    "code": "5347",
+    "name": "世界",
+    "img": "pictures/2024-12-20/14.png"
+   },
+   {
+    "code": "8482",
+    "name": "商億-KY",
+    "img": "pictures/2024-12-20/15.png"
+   },
+   {
+    "code": "6215",
+    "name": "和椿",
+    "img": "pictures/2024-12-20/16.png"
+   },
+   {
+    "code": "6227",
+    "name": "茂綸",
+    "img": "pictures/2024-12-20/17.png"
+   },
+   {
+    "code": "2464",
+    "name": "盟立",
+    "img": "pictures/2024-12-20/18.png"
+   },
+   {
+    "code": "4561",
+    "name": "健椿",
+    "img": "pictures/2024-12-20/19.png"
+   },
+   {
+    "code": "6982",
+    "name": "大井泵浦",
+    "img": "pictures/2024-12-20/20.png"
+   },
+   {
+    "code": "2374",
+    "name": "佳能",
+    "img": "pictures/2024-12-20/21.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-12-19",
+  "count": 35,
+  "stocks": [
+   {
+    "code": "3661",
+    "name": "世芯-KY",
+    "img": "pictures/2024-12-19/0.png"
+   },
+   {
+    "code": "6669",
+    "name": "緯穎",
+    "img": "pictures/2024-12-19/1.png"
+   },
+   {
+    "code": "2383",
+    "name": "台光電",
+    "img": "pictures/2024-12-19/2.png"
+   },
+   {
+    "code": "3406",
+    "name": "玉晶光",
+    "img": "pictures/2024-12-19/3.png"
+   },
+   {
+    "code": "6691",
+    "name": "洋基工程",
+    "img": "pictures/2024-12-19/4.png"
+   },
+   {
+    "code": "3617",
+    "name": "碩天",
+    "img": "pictures/2024-12-19/5.png"
+   },
+   {
+    "code": "5536",
+    "name": "聖暉*",
+    "img": "pictures/2024-12-19/6.png"
+   },
+   {
+    "code": "8114",
+    "name": "振樺電",
+    "img": "pictures/2024-12-19/7.png"
+   },
+   {
+    "code": "8467",
+    "name": "波力-KY",
+    "img": "pictures/2024-12-19/8.png"
+   },
+   {
+    "code": "2049",
+    "name": "上銀",
+    "img": "pictures/2024-12-19/9.png"
+   },
+   {
+    "code": "4571",
+    "name": "鈞興-KY",
+    "img": "pictures/2024-12-19/10.png"
+   },
+   {
+    "code": "3362",
+    "name": "先進光",
+    "img": "pictures/2024-12-19/11.png"
+   },
+   {
+    "code": "2233",
+    "name": "宇隆",
+    "img": "pictures/2024-12-19/12.png"
+   },
+   {
+    "code": "5474",
+    "name": "聰泰",
+    "img": "pictures/2024-12-19/13.png"
+   },
+   {
+    "code": "2359",
+    "name": "所羅門",
+    "img": "pictures/2024-12-19/14.png"
+   },
+   {
+    "code": "3019",
+    "name": "亞光",
+    "img": "pictures/2024-12-19/15.png"
+   },
+   {
+    "code": "4977",
+    "name": "眾達-KY",
+    "img": "pictures/2024-12-19/16.png"
+   },
+   {
+    "code": "6271",
+    "name": "同欣電",
+    "img": "pictures/2024-12-19/17.png"
+   },
+   {
+    "code": "6285",
+    "name": "啟碁",
+    "img": "pictures/2024-12-19/18.png"
+   },
+   {
+    "code": "4958",
+    "name": "臻鼎-KY",
+    "img": "pictures/2024-12-19/19.png"
+   },
+   {
+    "code": "5388",
+    "name": "中磊",
+    "img": "pictures/2024-12-19/20.png"
+   },
+   {
+    "code": "4991",
+    "name": "環宇-KY",
+    "img": "pictures/2024-12-19/21.png"
+   },
+   {
+    "code": "2211",
+    "name": "長榮鋼",
+    "img": "pictures/2024-12-19/22.png"
+   },
+   {
+    "code": "4563",
+    "name": "百德",
+    "img": "pictures/2024-12-19/23.png"
+   },
+   {
+    "code": "6188",
+    "name": "廣明",
+    "img": "pictures/2024-12-19/24.png"
+   },
+   {
+    "code": "2250",
+    "name": "IKKA-KY",
+    "img": "pictures/2024-12-19/25.png"
+   },
+   {
+    "code": "1597",
+    "name": "直得",
+    "img": "pictures/2024-12-19/26.png"
+   },
+   {
+    "code": "8482",
+    "name": "商億-KY",
+    "img": "pictures/2024-12-19/27.png"
+   },
+   {
+    "code": "6596",
+    "name": "寬宏藝術",
+    "img": "pictures/2024-12-19/28.png"
+   },
+   {
+    "code": "2464",
+    "name": "盟立",
+    "img": "pictures/2024-12-19/29.png"
+   },
+   {
+    "code": "6166",
+    "name": "凌華",
+    "img": "pictures/2024-12-19/30.png"
+   },
+   {
+    "code": "6215",
+    "name": "和椿",
+    "img": "pictures/2024-12-19/31.png"
+   },
+   {
+    "code": "2313",
+    "name": "華通",
+    "img": "pictures/2024-12-19/32.png"
+   },
+   {
+    "code": "5484",
+    "name": "慧友",
+    "img": "pictures/2024-12-19/33.png"
+   },
+   {
+    "code": "2374",
+    "name": "佳能",
+    "img": "pictures/2024-12-19/34.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-11-12",
+  "count": 14,
+  "stocks": [
+   {
+    "code": "6669",
+    "name": "緯穎",
+    "img": "pictures/2024-11-12/0.png"
+   },
+   {
+    "code": "6472",
+    "name": "保瑞",
+    "img": "pictures/2024-11-12/1.png"
+   },
+   {
+    "code": "8114",
+    "name": "振樺電",
+    "img": "pictures/2024-11-12/2.png"
+   },
+   {
+    "code": "3558",
+    "name": "神準",
+    "img": "pictures/2024-11-12/3.png"
+   },
+   {
+    "code": "3596",
+    "name": "智易",
+    "img": "pictures/2024-11-12/4.png"
+   },
+   {
+    "code": "3211",
+    "name": "順達",
+    "img": "pictures/2024-11-12/5.png"
+   },
+   {
+    "code": "8089",
+    "name": "康全電訊",
+    "img": "pictures/2024-11-12/6.png"
+   },
+   {
+    "code": "8032",
+    "name": "光菱",
+    "img": "pictures/2024-11-12/7.png"
+   },
+   {
+    "code": "4987",
+    "name": "科誠",
+    "img": "pictures/2024-11-12/8.png"
+   },
+   {
+    "code": "6877",
+    "name": "鏵友益",
+    "img": "pictures/2024-11-12/9.png"
+   },
+   {
+    "code": "6180",
+    "name": "橘子",
+    "img": "pictures/2024-11-12/10.png"
+   },
+   {
+    "code": "2637",
+    "name": "慧洋-KY",
+    "img": "pictures/2024-11-12/11.png"
+   },
+   {
+    "code": "3706",
+    "name": "神達",
+    "img": "pictures/2024-11-12/12.png"
+   },
+   {
+    "code": "3219",
+    "name": "倚強科",
+    "img": "pictures/2024-11-12/13.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-10-29",
+  "count": 16,
+  "stocks": [
+   {
+    "code": "2308",
+    "name": "台達電",
+    "img": "pictures/2024-10-29/0.png"
+   },
+   {
+    "code": "2377",
+    "name": "微星",
+    "img": "pictures/2024-10-29/1.png"
+   },
+   {
+    "code": "3217",
+    "name": "優群",
+    "img": "pictures/2024-10-29/2.png"
+   },
+   {
+    "code": "6214",
+    "name": "精誠",
+    "img": "pictures/2024-10-29/3.png"
+   },
+   {
+    "code": "6285",
+    "name": "啟碁",
+    "img": "pictures/2024-10-29/4.png"
+   },
+   {
+    "code": "3687",
+    "name": "歐買尬",
+    "img": "pictures/2024-10-29/5.png"
+   },
+   {
+    "code": "2762",
+    "name": "世界健身-KY",
+    "img": "pictures/2024-10-29/6.png"
+   },
+   {
+    "code": "3211",
+    "name": "順達",
+    "img": "pictures/2024-10-29/7.png"
+   },
+   {
+    "code": "4919",
+    "name": "新唐",
+    "img": "pictures/2024-10-29/8.png"
+   },
+   {
+    "code": "3552",
+    "name": "同致",
+    "img": "pictures/2024-10-29/9.png"
+   },
+   {
+    "code": "8937",
+    "name": "合騏",
+    "img": "pictures/2024-10-29/10.png"
+   },
+   {
+    "code": "2393",
+    "name": "億光",
+    "img": "pictures/2024-10-29/11.png"
+   },
+   {
+    "code": "6150",
+    "name": "撼訊",
+    "img": "pictures/2024-10-29/12.png"
+   },
+   {
+    "code": "2354",
+    "name": "鴻準",
+    "img": "pictures/2024-10-29/13.png"
+   },
+   {
+    "code": "3581",
+    "name": "博磊",
+    "img": "pictures/2024-10-29/14.png"
+   },
+   {
+    "code": "6821",
+    "name": "聯寶",
+    "img": "pictures/2024-10-29/15.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-09-04",
+  "count": 6,
+  "stocks": [
+   {
+    "code": "6739",
+    "name": "竹陞科技",
+    "img": "pictures/2024-09-04/0.png"
+   },
+   {
+    "code": "8374",
+    "name": "羅昇",
+    "img": "pictures/2024-09-04/1.png"
+   },
+   {
+    "code": "4974",
+    "name": "亞泰",
+    "img": "pictures/2024-09-04/2.png"
+   },
+   {
+    "code": "4563",
+    "name": "百德",
+    "img": "pictures/2024-09-04/3.png"
+   },
+   {
+    "code": "2497",
+    "name": "怡利電",
+    "img": "pictures/2024-09-04/4.png"
+   },
+   {
+    "code": "4971",
+    "name": "IET-KY",
+    "img": "pictures/2024-09-04/5.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-08-08",
+  "count": 8,
+  "stocks": [
+   {
+    "code": "4583",
+    "name": "台灣精銳",
+    "img": "pictures/2024-08-08/0.png"
+   },
+   {
+    "code": "9914",
+    "name": "美利達",
+    "img": "pictures/2024-08-08/1.png"
+   },
+   {
+    "code": "1597",
+    "name": "直得",
+    "img": "pictures/2024-08-08/2.png"
+   },
+   {
+    "code": "3663",
+    "name": "鑫科",
+    "img": "pictures/2024-08-08/3.png"
+   },
+   {
+    "code": "2006",
+    "name": "東和鋼鐵",
+    "img": "pictures/2024-08-08/4.png"
+   },
+   {
+    "code": "6877",
+    "name": "鏵友益",
+    "img": "pictures/2024-08-08/5.png"
+   },
+   {
+    "code": "4174",
+    "name": "浩鼎",
+    "img": "pictures/2024-08-08/6.png"
+   },
+   {
+    "code": "8431",
+    "name": "匯鑽科",
+    "img": "pictures/2024-08-08/7.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-08-05",
+  "count": 1,
+  "stocks": [
+   {
+    "code": "6877",
+    "name": "鏵友益",
+    "img": "pictures/2024-08-05/0.png"
+   }
+  ],
+  "close": 19830.88,
+  "prev": 21638.09,
+  "dropPts": 1807.21,
+  "dropPct": 8.35
+ },
+ {
+  "date": "2024-08-02",
+  "count": 7,
+  "stocks": [
+   {
+    "code": "4583",
+    "name": "台灣精銳",
+    "img": "pictures/2024-08-02/0.png"
+   },
+   {
+    "code": "2412",
+    "name": "中華電",
+    "img": "pictures/2024-08-02/1.png"
+   },
+   {
+    "code": "2524",
+    "name": "京城",
+    "img": "pictures/2024-08-02/2.png"
+   },
+   {
+    "code": "2236",
+    "name": "百達-KY",
+    "img": "pictures/2024-08-02/3.png"
+   },
+   {
+    "code": "4513",
+    "name": "福裕",
+    "img": "pictures/2024-08-02/4.png"
+   },
+   {
+    "code": "2070",
+    "name": "精湛",
+    "img": "pictures/2024-08-02/5.png"
+   },
+   {
+    "code": "6877",
+    "name": "鏵友益",
+    "img": "pictures/2024-08-02/6.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-07-26",
+  "count": 14,
+  "stocks": [
+   {
+    "code": "6640",
+    "name": "均華",
+    "img": "pictures/2024-07-26/0.png"
+   },
+   {
+    "code": "3293",
+    "name": "鈊象",
+    "img": "pictures/2024-07-26/1.png"
+   },
+   {
+    "code": "9914",
+    "name": "美利達",
+    "img": "pictures/2024-07-26/2.png"
+   },
+   {
+    "code": "9921",
+    "name": "巨大",
+    "img": "pictures/2024-07-26/3.png"
+   },
+   {
+    "code": "9906",
+    "name": "欣巴巴",
+    "img": "pictures/2024-07-26/4.png"
+   },
+   {
+    "code": "1808",
+    "name": "潤隆",
+    "img": "pictures/2024-07-26/5.png"
+   },
+   {
+    "code": "6768",
+    "name": "志強-KY",
+    "img": "pictures/2024-07-26/6.png"
+   },
+   {
+    "code": "2524",
+    "name": "京城",
+    "img": "pictures/2024-07-26/7.png"
+   },
+   {
+    "code": "2393",
+    "name": "億光",
+    "img": "pictures/2024-07-26/8.png"
+   },
+   {
+    "code": "1720",
+    "name": "生達",
+    "img": "pictures/2024-07-26/9.png"
+   },
+   {
+    "code": "1438",
+    "name": "三地開發",
+    "img": "pictures/2024-07-26/10.png"
+   },
+   {
+    "code": "4933",
+    "name": "友輝",
+    "img": "pictures/2024-07-26/11.png"
+   },
+   {
+    "code": "3663",
+    "name": "鑫科",
+    "img": "pictures/2024-07-26/12.png"
+   },
+   {
+    "code": "6228",
+    "name": "全譜",
+    "img": "pictures/2024-07-26/13.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-07-22",
+  "count": 13,
+  "stocks": [
+   {
+    "code": "2395",
+    "name": "研華",
+    "img": "pictures/2024-07-22/0.png"
+   },
+   {
+    "code": "3023",
+    "name": "信邦",
+    "img": "pictures/2024-07-22/1.png"
+   },
+   {
+    "code": "6869",
+    "name": "雲豹能源",
+    "img": "pictures/2024-07-22/2.png"
+   },
+   {
+    "code": "6873",
+    "name": "鴻德能源",
+    "img": "pictures/2024-07-22/3.png"
+   },
+   {
+    "code": "5508",
+    "name": "永信建",
+    "img": "pictures/2024-07-22/4.png"
+   },
+   {
+    "code": "9921",
+    "name": "巨大",
+    "img": "pictures/2024-07-22/5.png"
+   },
+   {
+    "code": "4743",
+    "name": "合一",
+    "img": "pictures/2024-07-22/6.png"
+   },
+   {
+    "code": "1736",
+    "name": "喬山",
+    "img": "pictures/2024-07-22/7.png"
+   },
+   {
+    "code": "3073",
+    "name": "天方能源",
+    "img": "pictures/2024-07-22/8.png"
+   },
+   {
+    "code": "3580",
+    "name": "友威科",
+    "img": "pictures/2024-07-22/9.png"
+   },
+   {
+    "code": "1216",
+    "name": "統一",
+    "img": "pictures/2024-07-22/10.png"
+   },
+   {
+    "code": "2006",
+    "name": "東和鋼鐵",
+    "img": "pictures/2024-07-22/11.png"
+   },
+   {
+    "code": "3663",
+    "name": "鑫科",
+    "img": "pictures/2024-07-22/12.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-07-19",
+  "count": 15,
+  "stocks": [
+   {
+    "code": "6446",
+    "name": "藥華藥",
+    "img": "pictures/2024-07-19/0.png"
+   },
+   {
+    "code": "1477",
+    "name": "聚陽",
+    "img": "pictures/2024-07-19/1.png"
+   },
+   {
+    "code": "2348",
+    "name": "海悅",
+    "img": "pictures/2024-07-19/2.png"
+   },
+   {
+    "code": "3023",
+    "name": "信邦",
+    "img": "pictures/2024-07-19/3.png"
+   },
+   {
+    "code": "6869",
+    "name": "雲豹能源",
+    "img": "pictures/2024-07-19/4.png"
+   },
+   {
+    "code": "6873",
+    "name": "鴻德能源",
+    "img": "pictures/2024-07-19/5.png"
+   },
+   {
+    "code": "6605",
+    "name": "帝寶",
+    "img": "pictures/2024-07-19/6.png"
+   },
+   {
+    "code": "5508",
+    "name": "永信建",
+    "img": "pictures/2024-07-19/7.png"
+   },
+   {
+    "code": "2467",
+    "name": "志聖",
+    "img": "pictures/2024-07-19/8.png"
+   },
+   {
+    "code": "9939",
+    "name": "宏全",
+    "img": "pictures/2024-07-19/9.png"
+   },
+   {
+    "code": "3207",
+    "name": "耀勝",
+    "img": "pictures/2024-07-19/10.png"
+   },
+   {
+    "code": "1736",
+    "name": "喬山",
+    "img": "pictures/2024-07-19/11.png"
+   },
+   {
+    "code": "4566",
+    "name": "時碩工業",
+    "img": "pictures/2024-07-19/12.png"
+   },
+   {
+    "code": "3073",
+    "name": "天方能源",
+    "img": "pictures/2024-07-19/13.png"
+   },
+   {
+    "code": "2006",
+    "name": "東和鋼鐵",
+    "img": "pictures/2024-07-19/14.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-07-18",
+  "count": 44,
+  "stocks": [
+   {
+    "code": "6442",
+    "name": "光聖",
+    "img": "pictures/2024-07-18/0.png"
+   },
+   {
+    "code": "2395",
+    "name": "研華",
+    "img": "pictures/2024-07-18/1.png"
+   },
+   {
+    "code": "6890",
+    "name": "來億-KY",
+    "img": "pictures/2024-07-18/2.png"
+   },
+   {
+    "code": "2348",
+    "name": "海悅",
+    "img": "pictures/2024-07-18/3.png"
+   },
+   {
+    "code": "3491",
+    "name": "昇達科",
+    "img": "pictures/2024-07-18/4.png"
+   },
+   {
+    "code": "6873",
+    "name": "鴻德能源",
+    "img": "pictures/2024-07-18/5.png"
+   },
+   {
+    "code": "6869",
+    "name": "雲豹能源",
+    "img": "pictures/2024-07-18/6.png"
+   },
+   {
+    "code": "5508",
+    "name": "永信建",
+    "img": "pictures/2024-07-18/7.png"
+   },
+   {
+    "code": "6605",
+    "name": "帝寶",
+    "img": "pictures/2024-07-18/8.png"
+   },
+   {
+    "code": "8467",
+    "name": "波力-KY",
+    "img": "pictures/2024-07-18/9.png"
+   },
+   {
+    "code": "1799",
+    "name": "易威",
+    "img": "pictures/2024-07-18/10.png"
+   },
+   {
+    "code": "5263",
+    "name": "智崴",
+    "img": "pictures/2024-07-18/11.png"
+   },
+   {
+    "code": "5222",
+    "name": "全訊",
+    "img": "pictures/2024-07-18/12.png"
+   },
+   {
+    "code": "2548",
+    "name": "華固",
+    "img": "pictures/2024-07-18/13.png"
+   },
+   {
+    "code": "2731",
+    "name": "雄獅",
+    "img": "pictures/2024-07-18/14.png"
+   },
+   {
+    "code": "3207",
+    "name": "耀勝",
+    "img": "pictures/2024-07-18/15.png"
+   },
+   {
+    "code": "1784",
+    "name": "訊聯",
+    "img": "pictures/2024-07-18/16.png"
+   },
+   {
+    "code": "3450",
+    "name": "聯鈞",
+    "img": "pictures/2024-07-18/17.png"
+   },
+   {
+    "code": "4760",
+    "name": "勤凱",
+    "img": "pictures/2024-07-18/18.png"
+   },
+   {
+    "code": "4160",
+    "name": "訊聯基因",
+    "img": "pictures/2024-07-18/19.png"
+   },
+   {
+    "code": "5534",
+    "name": "長虹",
+    "img": "pictures/2024-07-18/20.png"
+   },
+   {
+    "code": "1736",
+    "name": "喬山",
+    "img": "pictures/2024-07-18/21.png"
+   },
+   {
+    "code": "6186",
+    "name": "新潤",
+    "img": "pictures/2024-07-18/22.png"
+   },
+   {
+    "code": "1597",
+    "name": "直得",
+    "img": "pictures/2024-07-18/23.png"
+   },
+   {
+    "code": "2546",
+    "name": "根基",
+    "img": "pictures/2024-07-18/24.png"
+   },
+   {
+    "code": "3022",
+    "name": "威強電",
+    "img": "pictures/2024-07-18/25.png"
+   },
+   {
+    "code": "3073",
+    "name": "天方能源",
+    "img": "pictures/2024-07-18/26.png"
+   },
+   {
+    "code": "3689",
+    "name": "湧德",
+    "img": "pictures/2024-07-18/27.png"
+   },
+   {
+    "code": "1216",
+    "name": "統一",
+    "img": "pictures/2024-07-18/28.png"
+   },
+   {
+    "code": "8936",
+    "name": "國統",
+    "img": "pictures/2024-07-18/29.png"
+   },
+   {
+    "code": "6615",
+    "name": "慧智",
+    "img": "pictures/2024-07-18/30.png"
+   },
+   {
+    "code": "2015",
+    "name": "豐興",
+    "img": "pictures/2024-07-18/31.png"
+   },
+   {
+    "code": "2524",
+    "name": "京城",
+    "img": "pictures/2024-07-18/32.png"
+   },
+   {
+    "code": "1720",
+    "name": "生達",
+    "img": "pictures/2024-07-18/33.png"
+   },
+   {
+    "code": "9938",
+    "name": "百和",
+    "img": "pictures/2024-07-18/34.png"
+   },
+   {
+    "code": "6177",
+    "name": "達麗",
+    "img": "pictures/2024-07-18/35.png"
+   },
+   {
+    "code": "1442",
+    "name": "名軒",
+    "img": "pictures/2024-07-18/36.png"
+   },
+   {
+    "code": "2365",
+    "name": "昆盈",
+    "img": "pictures/2024-07-18/37.png"
+   },
+   {
+    "code": "2520",
+    "name": "冠德",
+    "img": "pictures/2024-07-18/38.png"
+   },
+   {
+    "code": "6505",
+    "name": "台塑化",
+    "img": "pictures/2024-07-18/39.png"
+   },
+   {
+    "code": "2542",
+    "name": "興富發",
+    "img": "pictures/2024-07-18/40.png"
+   },
+   {
+    "code": "2441",
+    "name": "超豐",
+    "img": "pictures/2024-07-18/41.png"
+   },
+   {
+    "code": "6492",
+    "name": "生華科",
+    "img": "pictures/2024-07-18/42.png"
+   },
+   {
+    "code": "5607",
+    "name": "遠雄港",
+    "img": "pictures/2024-07-18/43.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-07-17",
+  "count": 67,
+  "stocks": [
+   {
+    "code": "6643",
+    "name": "M31",
+    "img": "pictures/2024-07-17/0.png"
+   },
+   {
+    "code": "6472",
+    "name": "保瑞",
+    "img": "pictures/2024-07-17/1.png"
+   },
+   {
+    "code": "6446",
+    "name": "藥華藥",
+    "img": "pictures/2024-07-17/2.png"
+   },
+   {
+    "code": "6442",
+    "name": "光聖",
+    "img": "pictures/2024-07-17/3.png"
+   },
+   {
+    "code": "3491",
+    "name": "昇達科",
+    "img": "pictures/2024-07-17/4.png"
+   },
+   {
+    "code": "6462",
+    "name": "神盾",
+    "img": "pictures/2024-07-17/5.png"
+   },
+   {
+    "code": "6869",
+    "name": "雲豹能源",
+    "img": "pictures/2024-07-17/6.png"
+   },
+   {
+    "code": "6873",
+    "name": "鴻德能源",
+    "img": "pictures/2024-07-17/7.png"
+   },
+   {
+    "code": "5508",
+    "name": "永信建",
+    "img": "pictures/2024-07-17/8.png"
+   },
+   {
+    "code": "6569",
+    "name": "醫揚",
+    "img": "pictures/2024-07-17/9.png"
+   },
+   {
+    "code": "6146",
+    "name": "耕興",
+    "img": "pictures/2024-07-17/10.png"
+   },
+   {
+    "code": "2540",
+    "name": "愛山林",
+    "img": "pictures/2024-07-17/11.png"
+   },
+   {
+    "code": "8467",
+    "name": "波力-KY",
+    "img": "pictures/2024-07-17/12.png"
+   },
+   {
+    "code": "3037",
+    "name": "欣興",
+    "img": "pictures/2024-07-17/13.png"
+   },
+   {
+    "code": "2597",
+    "name": "潤弘",
+    "img": "pictures/2024-07-17/14.png"
+   },
+   {
+    "code": "8046",
+    "name": "南電",
+    "img": "pictures/2024-07-17/15.png"
+   },
+   {
+    "code": "1799",
+    "name": "易威",
+    "img": "pictures/2024-07-17/16.png"
+   },
+   {
+    "code": "8054",
+    "name": "安國",
+    "img": "pictures/2024-07-17/17.png"
+   },
+   {
+    "code": "6546",
+    "name": "正基",
+    "img": "pictures/2024-07-17/18.png"
+   },
+   {
+    "code": "5263",
+    "name": "智崴",
+    "img": "pictures/2024-07-17/19.png"
+   },
+   {
+    "code": "3105",
+    "name": "穩懋",
+    "img": "pictures/2024-07-17/20.png"
+   },
+   {
+    "code": "3163",
+    "name": "波若威",
+    "img": "pictures/2024-07-17/21.png"
+   },
+   {
+    "code": "4743",
+    "name": "合一",
+    "img": "pictures/2024-07-17/22.png"
+   },
+   {
+    "code": "5222",
+    "name": "全訊",
+    "img": "pictures/2024-07-17/23.png"
+   },
+   {
+    "code": "2548",
+    "name": "華固",
+    "img": "pictures/2024-07-17/24.png"
+   },
+   {
+    "code": "4958",
+    "name": "臻鼎-KY",
+    "img": "pictures/2024-07-17/25.png"
+   },
+   {
+    "code": "3454",
+    "name": "晶睿",
+    "img": "pictures/2024-07-17/26.png"
+   },
+   {
+    "code": "9906",
+    "name": "欣巴巴",
+    "img": "pictures/2024-07-17/27.png"
+   },
+   {
+    "code": "4760",
+    "name": "勤凱",
+    "img": "pictures/2024-07-17/28.png"
+   },
+   {
+    "code": "3147",
+    "name": "大綜",
+    "img": "pictures/2024-07-17/29.png"
+   },
+   {
+    "code": "5225",
+    "name": "東科-KY",
+    "img": "pictures/2024-07-17/30.png"
+   },
+   {
+    "code": "4909",
+    "name": "新復興",
+    "img": "pictures/2024-07-17/31.png"
+   },
+   {
+    "code": "3013",
+    "name": "晟銘電",
+    "img": "pictures/2024-07-17/32.png"
+   },
+   {
+    "code": "4160",
+    "name": "訊聯基因",
+    "img": "pictures/2024-07-17/33.png"
+   },
+   {
+    "code": "3189",
+    "name": "景碩",
+    "img": "pictures/2024-07-17/34.png"
+   },
+   {
+    "code": "5534",
+    "name": "長虹",
+    "img": "pictures/2024-07-17/35.png"
+   },
+   {
+    "code": "6829",
+    "name": "千附精密",
+    "img": "pictures/2024-07-17/36.png"
+   },
+   {
+    "code": "2492",
+    "name": "華新科",
+    "img": "pictures/2024-07-17/37.png"
+   },
+   {
+    "code": "1808",
+    "name": "潤隆",
+    "img": "pictures/2024-07-17/38.png"
+   },
+   {
+    "code": "4746",
+    "name": "台耀",
+    "img": "pictures/2024-07-17/39.png"
+   },
+   {
+    "code": "6186",
+    "name": "新潤",
+    "img": "pictures/2024-07-17/40.png"
+   },
+   {
+    "code": "4566",
+    "name": "時碩工業",
+    "img": "pictures/2024-07-17/41.png"
+   },
+   {
+    "code": "6684",
+    "name": "安格",
+    "img": "pictures/2024-07-17/42.png"
+   },
+   {
+    "code": "3689",
+    "name": "湧德",
+    "img": "pictures/2024-07-17/43.png"
+   },
+   {
+    "code": "4977",
+    "name": "眾達-KY",
+    "img": "pictures/2024-07-17/44.png"
+   },
+   {
+    "code": "8936",
+    "name": "國統",
+    "img": "pictures/2024-07-17/45.png"
+   },
+   {
+    "code": "3073",
+    "name": "天方能源",
+    "img": "pictures/2024-07-17/46.png"
+   },
+   {
+    "code": "6150",
+    "name": "撼訊",
+    "img": "pictures/2024-07-17/47.png"
+   },
+   {
+    "code": "2915",
+    "name": "潤泰全",
+    "img": "pictures/2024-07-17/48.png"
+   },
+   {
+    "code": "2539",
+    "name": "櫻花建",
+    "img": "pictures/2024-07-17/49.png"
+   },
+   {
+    "code": "3535",
+    "name": "晶彩科",
+    "img": "pictures/2024-07-17/50.png"
+   },
+   {
+    "code": "8927",
+    "name": "北基",
+    "img": "pictures/2024-07-17/51.png"
+   },
+   {
+    "code": "2375",
+    "name": "凱美",
+    "img": "pictures/2024-07-17/52.png"
+   },
+   {
+    "code": "1438",
+    "name": "三地開發",
+    "img": "pictures/2024-07-17/53.png"
+   },
+   {
+    "code": "6570",
+    "name": "維田",
+    "img": "pictures/2024-07-17/54.png"
+   },
+   {
+    "code": "6177",
+    "name": "達麗",
+    "img": "pictures/2024-07-17/55.png"
+   },
+   {
+    "code": "6112",
+    "name": "邁達特",
+    "img": "pictures/2024-07-17/56.png"
+   },
+   {
+    "code": "1442",
+    "name": "名軒",
+    "img": "pictures/2024-07-17/57.png"
+   },
+   {
+    "code": "2365",
+    "name": "昆盈",
+    "img": "pictures/2024-07-17/58.png"
+   },
+   {
+    "code": "2542",
+    "name": "興富發",
+    "img": "pictures/2024-07-17/59.png"
+   },
+   {
+    "code": "6505",
+    "name": "台塑化",
+    "img": "pictures/2024-07-17/60.png"
+   },
+   {
+    "code": "2441",
+    "name": "超豐",
+    "img": "pictures/2024-07-17/61.png"
+   },
+   {
+    "code": "2520",
+    "name": "冠德",
+    "img": "pictures/2024-07-17/62.png"
+   },
+   {
+    "code": "2497",
+    "name": "怡利電",
+    "img": "pictures/2024-07-17/63.png"
+   },
+   {
+    "code": "2543",
+    "name": "皇昌",
+    "img": "pictures/2024-07-17/64.png"
+   },
+   {
+    "code": "5607",
+    "name": "遠雄港",
+    "img": "pictures/2024-07-17/65.png"
+   },
+   {
+    "code": "2362",
+    "name": "藍天",
+    "img": "pictures/2024-07-17/66.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-07-12",
+  "count": 48,
+  "stocks": [
+   {
+    "code": "3293",
+    "name": "鈊象",
+    "img": "pictures/2024-07-12/0.png"
+   },
+   {
+    "code": "6643",
+    "name": "M31",
+    "img": "pictures/2024-07-12/1.png"
+   },
+   {
+    "code": "6446",
+    "name": "藥華藥",
+    "img": "pictures/2024-07-12/2.png"
+   },
+   {
+    "code": "1477",
+    "name": "聚陽",
+    "img": "pictures/2024-07-12/3.png"
+   },
+   {
+    "code": "3023",
+    "name": "信邦",
+    "img": "pictures/2024-07-12/4.png"
+   },
+   {
+    "code": "6937",
+    "name": "天虹",
+    "img": "pictures/2024-07-12/5.png"
+   },
+   {
+    "code": "6462",
+    "name": "神盾",
+    "img": "pictures/2024-07-12/6.png"
+   },
+   {
+    "code": "6605",
+    "name": "帝寶",
+    "img": "pictures/2024-07-12/7.png"
+   },
+   {
+    "code": "6873",
+    "name": "泓德能源",
+    "img": "pictures/2024-07-12/8.png"
+   },
+   {
+    "code": "5483",
+    "name": "中美晶",
+    "img": "pictures/2024-07-12/9.png"
+   },
+   {
+    "code": "1513",
+    "name": "中興電",
+    "img": "pictures/2024-07-12/10.png"
+   },
+   {
+    "code": "8114",
+    "name": "振樺電",
+    "img": "pictures/2024-07-12/11.png"
+   },
+   {
+    "code": "3037",
+    "name": "欣興",
+    "img": "pictures/2024-07-12/12.png"
+   },
+   {
+    "code": "6806",
+    "name": "森崴能源",
+    "img": "pictures/2024-07-12/13.png"
+   },
+   {
+    "code": "5222",
+    "name": "全訊",
+    "img": "pictures/2024-07-12/14.png"
+   },
+   {
+    "code": "5871",
+    "name": "中租-KY",
+    "img": "pictures/2024-07-12/15.png"
+   },
+   {
+    "code": "1799",
+    "name": "易威",
+    "img": "pictures/2024-07-12/16.png"
+   },
+   {
+    "code": "8147",
+    "name": "正淩",
+    "img": "pictures/2024-07-12/17.png"
+   },
+   {
+    "code": "6278",
+    "name": "台表科",
+    "img": "pictures/2024-07-12/18.png"
+   },
+   {
+    "code": "2204",
+    "name": "中華",
+    "img": "pictures/2024-07-12/19.png"
+   },
+   {
+    "code": "6592",
+    "name": "和潤企業",
+    "img": "pictures/2024-07-12/20.png"
+   },
+   {
+    "code": "3189",
+    "name": "景碩",
+    "img": "pictures/2024-07-12/21.png"
+   },
+   {
+    "code": "6689",
+    "name": "伊雲谷",
+    "img": "pictures/2024-07-12/22.png"
+   },
+   {
+    "code": "6411",
+    "name": "晶焱",
+    "img": "pictures/2024-07-12/23.png"
+   },
+   {
+    "code": "6186",
+    "name": "新潤",
+    "img": "pictures/2024-07-12/24.png"
+   },
+   {
+    "code": "1597",
+    "name": "直得",
+    "img": "pictures/2024-07-12/25.png"
+   },
+   {
+    "code": "3702",
+    "name": "大聯大",
+    "img": "pictures/2024-07-12/26.png"
+   },
+   {
+    "code": "3022",
+    "name": "威強電",
+    "img": "pictures/2024-07-12/27.png"
+   },
+   {
+    "code": "3019",
+    "name": "亞光",
+    "img": "pictures/2024-07-12/28.png"
+   },
+   {
+    "code": "8390",
+    "name": "金益鼎",
+    "img": "pictures/2024-07-12/29.png"
+   },
+   {
+    "code": "1216",
+    "name": "統一",
+    "img": "pictures/2024-07-12/30.png"
+   },
+   {
+    "code": "4995",
+    "name": "晶達",
+    "img": "pictures/2024-07-12/31.png"
+   },
+   {
+    "code": "2438",
+    "name": "翔耀",
+    "img": "pictures/2024-07-12/32.png"
+   },
+   {
+    "code": "4576",
+    "name": "大銀微系統",
+    "img": "pictures/2024-07-12/33.png"
+   },
+   {
+    "code": "2915",
+    "name": "潤泰全",
+    "img": "pictures/2024-07-12/34.png"
+   },
+   {
+    "code": "8103",
+    "name": "瀚荃",
+    "img": "pictures/2024-07-12/35.png"
+   },
+   {
+    "code": "3535",
+    "name": "晶彩科",
+    "img": "pictures/2024-07-12/36.png"
+   },
+   {
+    "code": "1536",
+    "name": "和大",
+    "img": "pictures/2024-07-12/37.png"
+   },
+   {
+    "code": "3073",
+    "name": "天方能源",
+    "img": "pictures/2024-07-12/38.png"
+   },
+   {
+    "code": "6456",
+    "name": "GIS-KY",
+    "img": "pictures/2024-07-12/39.png"
+   },
+   {
+    "code": "6570",
+    "name": "維田",
+    "img": "pictures/2024-07-12/40.png"
+   },
+   {
+    "code": "3712",
+    "name": "永崴投控",
+    "img": "pictures/2024-07-12/41.png"
+   },
+   {
+    "code": "2481",
+    "name": "強茂",
+    "img": "pictures/2024-07-12/42.png"
+   },
+   {
+    "code": "2882",
+    "name": "國泰金",
+    "img": "pictures/2024-07-12/43.png"
+   },
+   {
+    "code": "2524",
+    "name": "京城",
+    "img": "pictures/2024-07-12/44.png"
+   },
+   {
+    "code": "8064",
+    "name": "東捷",
+    "img": "pictures/2024-07-12/45.png"
+   },
+   {
+    "code": "2542",
+    "name": "興富發",
+    "img": "pictures/2024-07-12/46.png"
+   },
+   {
+    "code": "2471",
+    "name": "資通",
+    "img": "pictures/2024-07-12/47.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-06-24",
+  "count": 41,
+  "stocks": [
+   {
+    "code": "3406",
+    "name": "玉晶光",
+    "img": "pictures/2024-06-24/0.png"
+   },
+   {
+    "code": "6446",
+    "name": "藥華藥",
+    "img": "pictures/2024-06-24/1.png"
+   },
+   {
+    "code": "6533",
+    "name": "晶心科",
+    "img": "pictures/2024-06-24/2.png"
+   },
+   {
+    "code": "6683",
+    "name": "雍智科技",
+    "img": "pictures/2024-06-24/3.png"
+   },
+   {
+    "code": "8478",
+    "name": "東哥遊艇",
+    "img": "pictures/2024-06-24/4.png"
+   },
+   {
+    "code": "6442",
+    "name": "光聖",
+    "img": "pictures/2024-06-24/5.png"
+   },
+   {
+    "code": "6890",
+    "name": "來億-KY",
+    "img": "pictures/2024-06-24/6.png"
+   },
+   {
+    "code": "6863",
+    "name": "永道-KY",
+    "img": "pictures/2024-06-24/7.png"
+   },
+   {
+    "code": "6895",
+    "name": "宏碩系統",
+    "img": "pictures/2024-06-24/8.png"
+   },
+   {
+    "code": "6873",
+    "name": "泓德能源",
+    "img": "pictures/2024-06-24/9.png"
+   },
+   {
+    "code": "6869",
+    "name": "雲豹能源",
+    "img": "pictures/2024-06-24/10.png"
+   },
+   {
+    "code": "6788",
+    "name": "華景電",
+    "img": "pictures/2024-06-24/11.png"
+   },
+   {
+    "code": "2455",
+    "name": "全新",
+    "img": "pictures/2024-06-24/12.png"
+   },
+   {
+    "code": "9910",
+    "name": "豐泰",
+    "img": "pictures/2024-06-24/13.png"
+   },
+   {
+    "code": "1436",
+    "name": "華友聯",
+    "img": "pictures/2024-06-24/14.png"
+   },
+   {
+    "code": "6806",
+    "name": "森崴能源",
+    "img": "pictures/2024-06-24/15.png"
+   },
+   {
+    "code": "3357",
+    "name": "臺慶科",
+    "img": "pictures/2024-06-24/16.png"
+   },
+   {
+    "code": "9917",
+    "name": "中保科",
+    "img": "pictures/2024-06-24/17.png"
+   },
+   {
+    "code": "2439",
+    "name": "美律",
+    "img": "pictures/2024-06-24/18.png"
+   },
+   {
+    "code": "2449",
+    "name": "京元電子",
+    "img": "pictures/2024-06-24/19.png"
+   },
+   {
+    "code": "4909",
+    "name": "新復興",
+    "img": "pictures/2024-06-24/20.png"
+   },
+   {
+    "code": "2850",
+    "name": "新產",
+    "img": "pictures/2024-06-24/21.png"
+   },
+   {
+    "code": "8099",
+    "name": "大世科",
+    "img": "pictures/2024-06-24/22.png"
+   },
+   {
+    "code": "3026",
+    "name": "禾伸堂",
+    "img": "pictures/2024-06-24/23.png"
+   },
+   {
+    "code": "3029",
+    "name": "零壹",
+    "img": "pictures/2024-06-24/24.png"
+   },
+   {
+    "code": "2472",
+    "name": "立隆電",
+    "img": "pictures/2024-06-24/25.png"
+   },
+   {
+    "code": "3580",
+    "name": "友威科",
+    "img": "pictures/2024-06-24/26.png"
+   },
+   {
+    "code": "1216",
+    "name": "統一",
+    "img": "pictures/2024-06-24/27.png"
+   },
+   {
+    "code": "3025",
+    "name": "星通",
+    "img": "pictures/2024-06-24/28.png"
+   },
+   {
+    "code": "2015",
+    "name": "豐興",
+    "img": "pictures/2024-06-24/29.png"
+   },
+   {
+    "code": "6111",
+    "name": "大宇資",
+    "img": "pictures/2024-06-24/30.png"
+   },
+   {
+    "code": "8942",
+    "name": "森鉅",
+    "img": "pictures/2024-06-24/31.png"
+   },
+   {
+    "code": "1720",
+    "name": "生達",
+    "img": "pictures/2024-06-24/32.png"
+   },
+   {
+    "code": "3219",
+    "name": "倚強科",
+    "img": "pictures/2024-06-24/33.png"
+   },
+   {
+    "code": "1785",
+    "name": "光洋科",
+    "img": "pictures/2024-06-24/34.png"
+   },
+   {
+    "code": "1722",
+    "name": "台肥",
+    "img": "pictures/2024-06-24/35.png"
+   },
+   {
+    "code": "4503",
+    "name": "金雨",
+    "img": "pictures/2024-06-24/36.png"
+   },
+   {
+    "code": "4726",
+    "name": "永昕",
+    "img": "pictures/2024-06-24/37.png"
+   },
+   {
+    "code": "6743",
+    "name": "安普新",
+    "img": "pictures/2024-06-24/38.png"
+   },
+   {
+    "code": "6457",
+    "name": "紘康",
+    "img": "pictures/2024-06-24/39.png"
+   },
+   {
+    "code": "2882",
+    "name": "國泰金",
+    "img": "pictures/2024-06-24/40.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-06-04",
+  "count": 46,
+  "stocks": [
+   {
+    "code": "4966",
+    "name": "譜瑞-KY",
+    "img": "pictures/2024-06-04/0.png"
+   },
+   {
+    "code": "2345",
+    "name": "智邦",
+    "img": "pictures/2024-06-04/1.png"
+   },
+   {
+    "code": "5904",
+    "name": "寶雅",
+    "img": "pictures/2024-06-04/2.png"
+   },
+   {
+    "code": "8454",
+    "name": "富邦媒",
+    "img": "pictures/2024-06-04/3.png"
+   },
+   {
+    "code": "6533",
+    "name": "晶心科",
+    "img": "pictures/2024-06-04/4.png"
+   },
+   {
+    "code": "6691",
+    "name": "洋基工程",
+    "img": "pictures/2024-06-04/5.png"
+   },
+   {
+    "code": "3675",
+    "name": "德微",
+    "img": "pictures/2024-06-04/6.png"
+   },
+   {
+    "code": "6789",
+    "name": "采鈺",
+    "img": "pictures/2024-06-04/7.png"
+   },
+   {
+    "code": "3665",
+    "name": "貿聯-KY",
+    "img": "pictures/2024-06-04/8.png"
+   },
+   {
+    "code": "2348",
+    "name": "海悅",
+    "img": "pictures/2024-06-04/9.png"
+   },
+   {
+    "code": "9921",
+    "name": "巨大",
+    "img": "pictures/2024-06-04/10.png"
+   },
+   {
+    "code": "3376",
+    "name": "新日興",
+    "img": "pictures/2024-06-04/11.png"
+   },
+   {
+    "code": "6176",
+    "name": "瑞儀",
+    "img": "pictures/2024-06-04/12.png"
+   },
+   {
+    "code": "6569",
+    "name": "醫揚",
+    "img": "pictures/2024-06-04/13.png"
+   },
+   {
+    "code": "6579",
+    "name": "研揚",
+    "img": "pictures/2024-06-04/14.png"
+   },
+   {
+    "code": "6442",
+    "name": "光聖",
+    "img": "pictures/2024-06-04/15.png"
+   },
+   {
+    "code": "2540",
+    "name": "愛山林",
+    "img": "pictures/2024-06-04/16.png"
+   },
+   {
+    "code": "6279",
+    "name": "胡連",
+    "img": "pictures/2024-06-04/17.png"
+   },
+   {
+    "code": "6546",
+    "name": "正基",
+    "img": "pictures/2024-06-04/18.png"
+   },
+   {
+    "code": "2351",
+    "name": "順德",
+    "img": "pictures/2024-06-04/19.png"
+   },
+   {
+    "code": "6143",
+    "name": "振曜",
+    "img": "pictures/2024-06-04/20.png"
+   },
+   {
+    "code": "6895",
+    "name": "宏碩系統",
+    "img": "pictures/2024-06-04/21.png"
+   },
+   {
+    "code": "3374",
+    "name": "精材",
+    "img": "pictures/2024-06-04/22.png"
+   },
+   {
+    "code": "3564",
+    "name": "其陽",
+    "img": "pictures/2024-06-04/23.png"
+   },
+   {
+    "code": "2228",
+    "name": "劍麟",
+    "img": "pictures/2024-06-04/24.png"
+   },
+   {
+    "code": "3088",
+    "name": "艾訊",
+    "img": "pictures/2024-06-04/25.png"
+   },
+   {
+    "code": "1786",
+    "name": "科妍",
+    "img": "pictures/2024-06-04/26.png"
+   },
+   {
+    "code": "1582",
+    "name": "信錦",
+    "img": "pictures/2024-06-04/27.png"
+   },
+   {
+    "code": "4915",
+    "name": "致伸",
+    "img": "pictures/2024-06-04/28.png"
+   },
+   {
+    "code": "8084",
+    "name": "巨虹",
+    "img": "pictures/2024-06-04/29.png"
+   },
+   {
+    "code": "5522",
+    "name": "遠雄",
+    "img": "pictures/2024-06-04/30.png"
+   },
+   {
+    "code": "4951",
+    "name": "精拓科",
+    "img": "pictures/2024-06-04/31.png"
+   },
+   {
+    "code": "6841",
+    "name": "長佳智能",
+    "img": "pictures/2024-06-04/32.png"
+   },
+   {
+    "code": "3022",
+    "name": "威強電",
+    "img": "pictures/2024-06-04/33.png"
+   },
+   {
+    "code": "2397",
+    "name": "友通",
+    "img": "pictures/2024-06-04/34.png"
+   },
+   {
+    "code": "3557",
+    "name": "嘉威",
+    "img": "pictures/2024-06-04/35.png"
+   },
+   {
+    "code": "3305",
+    "name": "昇貿",
+    "img": "pictures/2024-06-04/36.png"
+   },
+   {
+    "code": "3356",
+    "name": "奇偶",
+    "img": "pictures/2024-06-04/37.png"
+   },
+   {
+    "code": "3025",
+    "name": "星通",
+    "img": "pictures/2024-06-04/38.png"
+   },
+   {
+    "code": "6161",
+    "name": "捷波",
+    "img": "pictures/2024-06-04/39.png"
+   },
+   {
+    "code": "6112",
+    "name": "邁達特",
+    "img": "pictures/2024-06-04/40.png"
+   },
+   {
+    "code": "3015",
+    "name": "全漢",
+    "img": "pictures/2024-06-04/41.png"
+   },
+   {
+    "code": "2101",
+    "name": "南港",
+    "img": "pictures/2024-06-04/42.png"
+   },
+   {
+    "code": "3430",
+    "name": "奇鈦科",
+    "img": "pictures/2024-06-04/43.png"
+   },
+   {
+    "code": "4113",
+    "name": "聯上",
+    "img": "pictures/2024-06-04/44.png"
+   },
+   {
+    "code": "8234",
+    "name": "新漢",
+    "img": "pictures/2024-06-04/45.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-04-25",
+  "count": 35,
+  "stocks": [
+   {
+    "code": "6491",
+    "name": "晶碩",
+    "img": "pictures/2024-04-25/0.png"
+   },
+   {
+    "code": "8454",
+    "name": "富邦媒",
+    "img": "pictures/2024-04-25/1.png"
+   },
+   {
+    "code": "6230",
+    "name": "尼得科超眾",
+    "img": "pictures/2024-04-25/2.png"
+   },
+   {
+    "code": "6670",
+    "name": "復盛應用",
+    "img": "pictures/2024-04-25/3.png"
+   },
+   {
+    "code": "9914",
+    "name": "美利達",
+    "img": "pictures/2024-04-25/4.png"
+   },
+   {
+    "code": "3491",
+    "name": "昇達科",
+    "img": "pictures/2024-04-25/5.png"
+   },
+   {
+    "code": "8422",
+    "name": "可寧衛",
+    "img": "pictures/2024-04-25/6.png"
+   },
+   {
+    "code": "6176",
+    "name": "瑞儀",
+    "img": "pictures/2024-04-25/7.png"
+   },
+   {
+    "code": "2743",
+    "name": "山富",
+    "img": "pictures/2024-04-25/8.png"
+   },
+   {
+    "code": "2731",
+    "name": "雄獅",
+    "img": "pictures/2024-04-25/9.png"
+   },
+   {
+    "code": "2211",
+    "name": "長榮鋼",
+    "img": "pictures/2024-04-25/10.png"
+   },
+   {
+    "code": "1436",
+    "name": "華友聯",
+    "img": "pictures/2024-04-25/11.png"
+   },
+   {
+    "code": "2066",
+    "name": "世德",
+    "img": "pictures/2024-04-25/12.png"
+   },
+   {
+    "code": "2745",
+    "name": "五福",
+    "img": "pictures/2024-04-25/13.png"
+   },
+   {
+    "code": "6449",
+    "name": "鈺邦",
+    "img": "pictures/2024-04-25/14.png"
+   },
+   {
+    "code": "5493",
+    "name": "三聯",
+    "img": "pictures/2024-04-25/15.png"
+   },
+   {
+    "code": "2359",
+    "name": "所羅門",
+    "img": "pictures/2024-04-25/16.png"
+   },
+   {
+    "code": "2546",
+    "name": "根基",
+    "img": "pictures/2024-04-25/17.png"
+   },
+   {
+    "code": "6425",
+    "name": "易發",
+    "img": "pictures/2024-04-25/18.png"
+   },
+   {
+    "code": "4760",
+    "name": "勤凱",
+    "img": "pictures/2024-04-25/19.png"
+   },
+   {
+    "code": "6486",
+    "name": "互動",
+    "img": "pictures/2024-04-25/20.png"
+   },
+   {
+    "code": "6125",
+    "name": "廣運",
+    "img": "pictures/2024-04-25/21.png"
+   },
+   {
+    "code": "6768",
+    "name": "志強-KY",
+    "img": "pictures/2024-04-25/22.png"
+   },
+   {
+    "code": "6596",
+    "name": "寬宏藝術",
+    "img": "pictures/2024-04-25/23.png"
+   },
+   {
+    "code": "2206",
+    "name": "三陽工業",
+    "img": "pictures/2024-04-25/24.png"
+   },
+   {
+    "code": "1736",
+    "name": "喬山",
+    "img": "pictures/2024-04-25/25.png"
+   },
+   {
+    "code": "5706",
+    "name": "鳳凰",
+    "img": "pictures/2024-04-25/26.png"
+   },
+   {
+    "code": "1339",
+    "name": "昭輝",
+    "img": "pictures/2024-04-25/27.png"
+   },
+   {
+    "code": "2363",
+    "name": "矽統",
+    "img": "pictures/2024-04-25/28.png"
+   },
+   {
+    "code": "3557",
+    "name": "嘉威",
+    "img": "pictures/2024-04-25/29.png"
+   },
+   {
+    "code": "1784",
+    "name": "訊聯",
+    "img": "pictures/2024-04-25/30.png"
+   },
+   {
+    "code": "5522",
+    "name": "遠雄",
+    "img": "pictures/2024-04-25/31.png"
+   },
+   {
+    "code": "6207",
+    "name": "雷科",
+    "img": "pictures/2024-04-25/32.png"
+   },
+   {
+    "code": "9938",
+    "name": "百和",
+    "img": "pictures/2024-04-25/33.png"
+   },
+   {
+    "code": "2722",
+    "name": "夏都",
+    "img": "pictures/2024-04-25/34.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-04-19",
+  "count": 20,
+  "stocks": [
+   {
+    "code": "8210",
+    "name": "勤誠",
+    "img": "pictures/2024-04-19/0.png"
+   },
+   {
+    "code": "6230",
+    "name": "尼得科超眾",
+    "img": "pictures/2024-04-19/1.png"
+   },
+   {
+    "code": "3491",
+    "name": "昇達科",
+    "img": "pictures/2024-04-19/2.png"
+   },
+   {
+    "code": "5508",
+    "name": "永信建",
+    "img": "pictures/2024-04-19/3.png"
+   },
+   {
+    "code": "6869",
+    "name": "雲豹能源-創",
+    "img": "pictures/2024-04-19/4.png"
+   },
+   {
+    "code": "2548",
+    "name": "華固",
+    "img": "pictures/2024-04-19/5.png"
+   },
+   {
+    "code": "3444",
+    "name": "利機",
+    "img": "pictures/2024-04-19/6.png"
+   },
+   {
+    "code": "5534",
+    "name": "長虹",
+    "img": "pictures/2024-04-19/7.png"
+   },
+   {
+    "code": "2546",
+    "name": "根基",
+    "img": "pictures/2024-04-19/8.png"
+   },
+   {
+    "code": "5609",
+    "name": "中菲行",
+    "img": "pictures/2024-04-19/9.png"
+   },
+   {
+    "code": "6125",
+    "name": "廣運",
+    "img": "pictures/2024-04-19/10.png"
+   },
+   {
+    "code": "6186",
+    "name": "新潤",
+    "img": "pictures/2024-04-19/11.png"
+   },
+   {
+    "code": "2539",
+    "name": "櫻花建",
+    "img": "pictures/2024-04-19/12.png"
+   },
+   {
+    "code": "8349",
+    "name": "恒耀",
+    "img": "pictures/2024-04-19/13.png"
+   },
+   {
+    "code": "2371",
+    "name": "大同",
+    "img": "pictures/2024-04-19/14.png"
+   },
+   {
+    "code": "3015",
+    "name": "全漢",
+    "img": "pictures/2024-04-19/15.png"
+   },
+   {
+    "code": "9930",
+    "name": "中聯資源",
+    "img": "pictures/2024-04-19/16.png"
+   },
+   {
+    "code": "1618",
+    "name": "合機",
+    "img": "pictures/2024-04-19/17.png"
+   },
+   {
+    "code": "5522",
+    "name": "遠雄",
+    "img": "pictures/2024-04-19/18.png"
+   },
+   {
+    "code": "4935",
+    "name": "茂林-KY",
+    "img": "pictures/2024-04-19/19.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-04-16",
+  "count": 8,
+  "stocks": [
+   {
+    "code": "3675",
+    "name": "德微",
+    "img": "pictures/2024-04-16/0.png"
+   },
+   {
+    "code": "6873",
+    "name": "泓德能源-創",
+    "img": "pictures/2024-04-16/1.png"
+   },
+   {
+    "code": "2348",
+    "name": "海悅",
+    "img": "pictures/2024-04-16/2.png"
+   },
+   {
+    "code": "4588",
+    "name": "玖鼎電力",
+    "img": "pictures/2024-04-16/3.png"
+   },
+   {
+    "code": "2745",
+    "name": "五福",
+    "img": "pictures/2024-04-16/4.png"
+   },
+   {
+    "code": "4760",
+    "name": "勤凱",
+    "img": "pictures/2024-04-16/5.png"
+   },
+   {
+    "code": "8097",
+    "name": "常珵",
+    "img": "pictures/2024-04-16/6.png"
+   },
+   {
+    "code": "2363",
+    "name": "矽統",
+    "img": "pictures/2024-04-16/7.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-04-15",
+  "count": 31,
+  "stocks": [
+   {
+    "code": "6640",
+    "name": "均華",
+    "img": "pictures/2024-04-15/0.png"
+   },
+   {
+    "code": "4770",
+    "name": "上品",
+    "img": "pictures/2024-04-15/1.png"
+   },
+   {
+    "code": "4766",
+    "name": "南寶",
+    "img": "pictures/2024-04-15/2.png"
+   },
+   {
+    "code": "6683",
+    "name": "雍智科技",
+    "img": "pictures/2024-04-15/3.png"
+   },
+   {
+    "code": "4768",
+    "name": "晶呈科技",
+    "img": "pictures/2024-04-15/4.png"
+   },
+   {
+    "code": "8467",
+    "name": "波力-KY",
+    "img": "pictures/2024-04-15/5.png"
+   },
+   {
+    "code": "6873",
+    "name": "泓德能源-創",
+    "img": "pictures/2024-04-15/6.png"
+   },
+   {
+    "code": "1514",
+    "name": "亞力",
+    "img": "pictures/2024-04-15/7.png"
+   },
+   {
+    "code": "2348",
+    "name": "海悅",
+    "img": "pictures/2024-04-15/8.png"
+   },
+   {
+    "code": "2597",
+    "name": "潤弘",
+    "img": "pictures/2024-04-15/9.png"
+   },
+   {
+    "code": "3691",
+    "name": "碩禾",
+    "img": "pictures/2024-04-15/10.png"
+   },
+   {
+    "code": "2211",
+    "name": "長榮鋼",
+    "img": "pictures/2024-04-15/11.png"
+   },
+   {
+    "code": "6438",
+    "name": "迅得",
+    "img": "pictures/2024-04-15/12.png"
+   },
+   {
+    "code": "3178",
+    "name": "公準",
+    "img": "pictures/2024-04-15/13.png"
+   },
+   {
+    "code": "3402",
+    "name": "漢科",
+    "img": "pictures/2024-04-15/14.png"
+   },
+   {
+    "code": "4588",
+    "name": "玖鼎電力",
+    "img": "pictures/2024-04-15/15.png"
+   },
+   {
+    "code": "3260",
+    "name": "威剛",
+    "img": "pictures/2024-04-15/16.png"
+   },
+   {
+    "code": "5371",
+    "name": "中光電",
+    "img": "pictures/2024-04-15/17.png"
+   },
+   {
+    "code": "5534",
+    "name": "長虹",
+    "img": "pictures/2024-04-15/18.png"
+   },
+   {
+    "code": "3030",
+    "name": "德律",
+    "img": "pictures/2024-04-15/19.png"
+   },
+   {
+    "code": "4909",
+    "name": "新復興",
+    "img": "pictures/2024-04-15/20.png"
+   },
+   {
+    "code": "6269",
+    "name": "台郡",
+    "img": "pictures/2024-04-15/21.png"
+   },
+   {
+    "code": "2745",
+    "name": "五福",
+    "img": "pictures/2024-04-15/22.png"
+   },
+   {
+    "code": "2850",
+    "name": "新產",
+    "img": "pictures/2024-04-15/23.png"
+   },
+   {
+    "code": "3455",
+    "name": "由田",
+    "img": "pictures/2024-04-15/24.png"
+   },
+   {
+    "code": "8033",
+    "name": "雷虎",
+    "img": "pictures/2024-04-15/25.png"
+   },
+   {
+    "code": "2704",
+    "name": "國賓",
+    "img": "pictures/2024-04-15/26.png"
+   },
+   {
+    "code": "6198",
+    "name": "瑞築",
+    "img": "pictures/2024-04-15/27.png"
+   },
+   {
+    "code": "2363",
+    "name": "矽統",
+    "img": "pictures/2024-04-15/28.png"
+   },
+   {
+    "code": "2371",
+    "name": "大同",
+    "img": "pictures/2024-04-15/29.png"
+   },
+   {
+    "code": "9938",
+    "name": "百和",
+    "img": "pictures/2024-04-15/30.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-03-26",
+  "count": 25,
+  "stocks": [
+   {
+    "code": "1519",
+    "name": "華城",
+    "img": "pictures/2024-03-26/0.png"
+   },
+   {
+    "code": "3228",
+    "name": "金麗科",
+    "img": "pictures/2024-03-26/1.png"
+   },
+   {
+    "code": "3406",
+    "name": "玉晶光",
+    "img": "pictures/2024-03-26/2.png"
+   },
+   {
+    "code": "5314",
+    "name": "世紀",
+    "img": "pictures/2024-03-26/3.png"
+   },
+   {
+    "code": "1503",
+    "name": "士電",
+    "img": "pictures/2024-03-26/4.png"
+   },
+   {
+    "code": "3413",
+    "name": "京鼎",
+    "img": "pictures/2024-03-26/5.png"
+   },
+   {
+    "code": "3617",
+    "name": "碩天",
+    "img": "pictures/2024-03-26/6.png"
+   },
+   {
+    "code": "6139",
+    "name": "亞翔",
+    "img": "pictures/2024-03-26/7.png"
+   },
+   {
+    "code": "1513",
+    "name": "中興電",
+    "img": "pictures/2024-03-26/8.png"
+   },
+   {
+    "code": "1773",
+    "name": "勝一",
+    "img": "pictures/2024-03-26/9.png"
+   },
+   {
+    "code": "3708",
+    "name": "上緯投控",
+    "img": "pictures/2024-03-26/10.png"
+   },
+   {
+    "code": "2412",
+    "name": "中華電",
+    "img": "pictures/2024-03-26/11.png"
+   },
+   {
+    "code": "2548",
+    "name": "華固",
+    "img": "pictures/2024-03-26/12.png"
+   },
+   {
+    "code": "3691",
+    "name": "碩禾",
+    "img": "pictures/2024-03-26/13.png"
+   },
+   {
+    "code": "1215",
+    "name": "卜蜂",
+    "img": "pictures/2024-03-26/14.png"
+   },
+   {
+    "code": "3045",
+    "name": "台灣大",
+    "img": "pictures/2024-03-26/15.png"
+   },
+   {
+    "code": "5386",
+    "name": "青雲",
+    "img": "pictures/2024-03-26/16.png"
+   },
+   {
+    "code": "4576",
+    "name": "大銀微系統",
+    "img": "pictures/2024-03-26/17.png"
+   },
+   {
+    "code": "5534",
+    "name": "長虹",
+    "img": "pictures/2024-03-26/18.png"
+   },
+   {
+    "code": "2850",
+    "name": "新產",
+    "img": "pictures/2024-03-26/19.png"
+   },
+   {
+    "code": "8099",
+    "name": "大世科",
+    "img": "pictures/2024-03-26/20.png"
+   },
+   {
+    "code": "5371",
+    "name": "中光電",
+    "img": "pictures/2024-03-26/21.png"
+   },
+   {
+    "code": "2359",
+    "name": "所羅門",
+    "img": "pictures/2024-03-26/22.png"
+   },
+   {
+    "code": "4523",
+    "name": "永彰",
+    "img": "pictures/2024-03-26/23.png"
+   },
+   {
+    "code": "2704",
+    "name": "國賓",
+    "img": "pictures/2024-03-26/24.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-03-15",
+  "count": 32,
+  "stocks": [
+   {
+    "code": "6805",
+    "name": "富世達",
+    "img": "pictures/2024-03-15/0.png"
+   },
+   {
+    "code": "1519",
+    "name": "華城",
+    "img": "pictures/2024-03-15/1.png"
+   },
+   {
+    "code": "1477",
+    "name": "聚陽",
+    "img": "pictures/2024-03-15/2.png"
+   },
+   {
+    "code": "6933",
+    "name": "AMAX-KY",
+    "img": "pictures/2024-03-15/3.png"
+   },
+   {
+    "code": "4766",
+    "name": "南寶",
+    "img": "pictures/2024-03-15/4.png"
+   },
+   {
+    "code": "3413",
+    "name": "京鼎",
+    "img": "pictures/2024-03-15/5.png"
+   },
+   {
+    "code": "8081",
+    "name": "致新",
+    "img": "pictures/2024-03-15/6.png"
+   },
+   {
+    "code": "3617",
+    "name": "碩天",
+    "img": "pictures/2024-03-15/7.png"
+   },
+   {
+    "code": "2474",
+    "name": "可成",
+    "img": "pictures/2024-03-15/8.png"
+   },
+   {
+    "code": "6230",
+    "name": "尼得科超眾",
+    "img": "pictures/2024-03-15/9.png"
+   },
+   {
+    "code": "6239",
+    "name": "力成",
+    "img": "pictures/2024-03-15/10.png"
+   },
+   {
+    "code": "5222",
+    "name": "全訊",
+    "img": "pictures/2024-03-15/11.png"
+   },
+   {
+    "code": "5292",
+    "name": "華懋",
+    "img": "pictures/2024-03-15/12.png"
+   },
+   {
+    "code": "2731",
+    "name": "雄獅",
+    "img": "pictures/2024-03-15/13.png"
+   },
+   {
+    "code": "2317",
+    "name": "鴻海",
+    "img": "pictures/2024-03-15/14.png"
+   },
+   {
+    "code": "4138",
+    "name": "曜亞",
+    "img": "pictures/2024-03-15/15.png"
+   },
+   {
+    "code": "5225",
+    "name": "東科-KY",
+    "img": "pictures/2024-03-15/16.png"
+   },
+   {
+    "code": "1723",
+    "name": "中碳",
+    "img": "pictures/2024-03-15/17.png"
+   },
+   {
+    "code": "1319",
+    "name": "東陽",
+    "img": "pictures/2024-03-15/18.png"
+   },
+   {
+    "code": "3207",
+    "name": "耀勝",
+    "img": "pictures/2024-03-15/19.png"
+   },
+   {
+    "code": "2228",
+    "name": "劍麟",
+    "img": "pictures/2024-03-15/20.png"
+   },
+   {
+    "code": "1231",
+    "name": "聯華食",
+    "img": "pictures/2024-03-15/21.png"
+   },
+   {
+    "code": "4104",
+    "name": "佳醫",
+    "img": "pictures/2024-03-15/22.png"
+   },
+   {
+    "code": "3211",
+    "name": "順達",
+    "img": "pictures/2024-03-15/23.png"
+   },
+   {
+    "code": "5347",
+    "name": "世界",
+    "img": "pictures/2024-03-15/24.png"
+   },
+   {
+    "code": "2347",
+    "name": "聯強",
+    "img": "pictures/2024-03-15/25.png"
+   },
+   {
+    "code": "6206",
+    "name": "飛捷",
+    "img": "pictures/2024-03-15/26.png"
+   },
+   {
+    "code": "9927",
+    "name": "泰銘",
+    "img": "pictures/2024-03-15/27.png"
+   },
+   {
+    "code": "4420",
+    "name": "光明",
+    "img": "pictures/2024-03-15/28.png"
+   },
+   {
+    "code": "6261",
+    "name": "久元",
+    "img": "pictures/2024-03-15/29.png"
+   },
+   {
+    "code": "2471",
+    "name": "資通",
+    "img": "pictures/2024-03-15/30.png"
+   },
+   {
+    "code": "6419",
+    "name": "京晨科",
+    "img": "pictures/2024-03-15/31.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-02-27",
+  "count": 72,
+  "stocks": [
+   {
+    "code": "3008",
+    "name": "大立光",
+    "img": "pictures/2024-02-27/0.png"
+   },
+   {
+    "code": "1590",
+    "name": "亞德客-KY",
+    "img": "pictures/2024-02-27/1.png"
+   },
+   {
+    "code": "3293",
+    "name": "鈊象",
+    "img": "pictures/2024-02-27/2.png"
+   },
+   {
+    "code": "8299",
+    "name": "群聯",
+    "img": "pictures/2024-02-27/3.png"
+   },
+   {
+    "code": "3034",
+    "name": "聯詠",
+    "img": "pictures/2024-02-27/4.png"
+   },
+   {
+    "code": "2379",
+    "name": "瑞昱",
+    "img": "pictures/2024-02-27/5.png"
+   },
+   {
+    "code": "3324",
+    "name": "雙鴻",
+    "img": "pictures/2024-02-27/6.png"
+   },
+   {
+    "code": "6491",
+    "name": "晶碩",
+    "img": "pictures/2024-02-27/7.png"
+   },
+   {
+    "code": "6691",
+    "name": "洋基工程",
+    "img": "pictures/2024-02-27/8.png"
+   },
+   {
+    "code": "2404",
+    "name": "漢唐",
+    "img": "pictures/2024-02-27/9.png"
+   },
+   {
+    "code": "6414",
+    "name": "樺漢",
+    "img": "pictures/2024-02-27/10.png"
+   },
+   {
+    "code": "6146",
+    "name": "耕興",
+    "img": "pictures/2024-02-27/11.png"
+   },
+   {
+    "code": "6712",
+    "name": "長聖",
+    "img": "pictures/2024-02-27/12.png"
+   },
+   {
+    "code": "9914",
+    "name": "美利達",
+    "img": "pictures/2024-02-27/13.png"
+   },
+   {
+    "code": "4768",
+    "name": "晶呈科技",
+    "img": "pictures/2024-02-27/14.png"
+   },
+   {
+    "code": "6715",
+    "name": "嘉基",
+    "img": "pictures/2024-02-27/15.png"
+   },
+   {
+    "code": "2428",
+    "name": "興勤",
+    "img": "pictures/2024-02-27/16.png"
+   },
+   {
+    "code": "6613",
+    "name": "朋億*",
+    "img": "pictures/2024-02-27/17.png"
+   },
+   {
+    "code": "6412",
+    "name": "群電",
+    "img": "pictures/2024-02-27/18.png"
+   },
+   {
+    "code": "6664",
+    "name": "群翊",
+    "img": "pictures/2024-02-27/19.png"
+   },
+   {
+    "code": "6605",
+    "name": "帝寶",
+    "img": "pictures/2024-02-27/20.png"
+   },
+   {
+    "code": "1773",
+    "name": "勝一",
+    "img": "pictures/2024-02-27/21.png"
+   },
+   {
+    "code": "1513",
+    "name": "中興電",
+    "img": "pictures/2024-02-27/22.png"
+   },
+   {
+    "code": "4755",
+    "name": "三福化",
+    "img": "pictures/2024-02-27/23.png"
+   },
+   {
+    "code": "9939",
+    "name": "宏全",
+    "img": "pictures/2024-02-27/24.png"
+   },
+   {
+    "code": "6806",
+    "name": "森崴能源",
+    "img": "pictures/2024-02-27/25.png"
+   },
+   {
+    "code": "5258",
+    "name": "虹堡",
+    "img": "pictures/2024-02-27/26.png"
+   },
+   {
+    "code": "8147",
+    "name": "正淩",
+    "img": "pictures/2024-02-27/27.png"
+   },
+   {
+    "code": "2465",
+    "name": "麗臺",
+    "img": "pictures/2024-02-27/28.png"
+   },
+   {
+    "code": "8114",
+    "name": "振樺電",
+    "img": "pictures/2024-02-27/29.png"
+   },
+   {
+    "code": "1342",
+    "name": "八貫",
+    "img": "pictures/2024-02-27/30.png"
+   },
+   {
+    "code": "8442",
+    "name": "威宏-KY",
+    "img": "pictures/2024-02-27/31.png"
+   },
+   {
+    "code": "3005",
+    "name": "神基",
+    "img": "pictures/2024-02-27/32.png"
+   },
+   {
+    "code": "3363",
+    "name": "上詮",
+    "img": "pictures/2024-02-27/33.png"
+   },
+   {
+    "code": "3147",
+    "name": "大綜",
+    "img": "pictures/2024-02-27/34.png"
+   },
+   {
+    "code": "6416",
+    "name": "瑞祺電通",
+    "img": "pictures/2024-02-27/35.png"
+   },
+   {
+    "code": "6438",
+    "name": "迅得",
+    "img": "pictures/2024-02-27/36.png"
+   },
+   {
+    "code": "6435",
+    "name": "大中",
+    "img": "pictures/2024-02-27/37.png"
+   },
+   {
+    "code": "2439",
+    "name": "美律",
+    "img": "pictures/2024-02-27/38.png"
+   },
+   {
+    "code": "4147",
+    "name": "中裕",
+    "img": "pictures/2024-02-27/39.png"
+   },
+   {
+    "code": "3588",
+    "name": "通嘉",
+    "img": "pictures/2024-02-27/40.png"
+   },
+   {
+    "code": "3691",
+    "name": "碩禾",
+    "img": "pictures/2024-02-27/41.png"
+   },
+   {
+    "code": "3444",
+    "name": "利機",
+    "img": "pictures/2024-02-27/42.png"
+   },
+   {
+    "code": "4129",
+    "name": "聯合",
+    "img": "pictures/2024-02-27/43.png"
+   },
+   {
+    "code": "5508",
+    "name": "永信建",
+    "img": "pictures/2024-02-27/44.png"
+   },
+   {
+    "code": "1319",
+    "name": "東陽",
+    "img": "pictures/2024-02-27/45.png"
+   },
+   {
+    "code": "5225",
+    "name": "東科-KY",
+    "img": "pictures/2024-02-27/46.png"
+   },
+   {
+    "code": "7402",
+    "name": "邑錡",
+    "img": "pictures/2024-02-27/47.png"
+   },
+   {
+    "code": "3207",
+    "name": "耀勝",
+    "img": "pictures/2024-02-27/48.png"
+   },
+   {
+    "code": "6290",
+    "name": "良維",
+    "img": "pictures/2024-02-27/49.png"
+   },
+   {
+    "code": "3213",
+    "name": "茂訊",
+    "img": "pictures/2024-02-27/50.png"
+   },
+   {
+    "code": "6284",
+    "name": "佳邦",
+    "img": "pictures/2024-02-27/51.png"
+   },
+   {
+    "code": "3022",
+    "name": "威強電",
+    "img": "pictures/2024-02-27/52.png"
+   },
+   {
+    "code": "4977",
+    "name": "眾達-KY",
+    "img": "pictures/2024-02-27/53.png"
+   },
+   {
+    "code": "6426",
+    "name": "統新",
+    "img": "pictures/2024-02-27/54.png"
+   },
+   {
+    "code": "3689",
+    "name": "湧德",
+    "img": "pictures/2024-02-27/55.png"
+   },
+   {
+    "code": "2006",
+    "name": "東和鋼鐵",
+    "img": "pictures/2024-02-27/56.png"
+   },
+   {
+    "code": "5511",
+    "name": "德昌",
+    "img": "pictures/2024-02-27/57.png"
+   },
+   {
+    "code": "9927",
+    "name": "泰銘",
+    "img": "pictures/2024-02-27/58.png"
+   },
+   {
+    "code": "8271",
+    "name": "宇瞻",
+    "img": "pictures/2024-02-27/59.png"
+   },
+   {
+    "code": "4542",
+    "name": "科嶠",
+    "img": "pictures/2024-02-27/60.png"
+   },
+   {
+    "code": "3030",
+    "name": "德律",
+    "img": "pictures/2024-02-27/61.png"
+   },
+   {
+    "code": "1339",
+    "name": "昭輝",
+    "img": "pictures/2024-02-27/62.png"
+   },
+   {
+    "code": "9906",
+    "name": "欣巴巴",
+    "img": "pictures/2024-02-27/63.png"
+   },
+   {
+    "code": "8085",
+    "name": "福華",
+    "img": "pictures/2024-02-27/64.png"
+   },
+   {
+    "code": "6122",
+    "name": "擎邦",
+    "img": "pictures/2024-02-27/65.png"
+   },
+   {
+    "code": "5457",
+    "name": "宣德",
+    "img": "pictures/2024-02-27/66.png"
+   },
+   {
+    "code": "4503",
+    "name": "金雨",
+    "img": "pictures/2024-02-27/67.png"
+   },
+   {
+    "code": "6776",
+    "name": "展碁國際",
+    "img": "pictures/2024-02-27/68.png"
+   },
+   {
+    "code": "8432",
+    "name": "東生華",
+    "img": "pictures/2024-02-27/69.png"
+   },
+   {
+    "code": "6208",
+    "name": "日揚",
+    "img": "pictures/2024-02-27/70.png"
+   },
+   {
+    "code": "3090",
+    "name": "日電貿",
+    "img": "pictures/2024-02-27/71.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-01-17",
+  "count": 17,
+  "stocks": [
+   {
+    "code": "6643",
+    "name": "M31",
+    "img": "pictures/2024-01-17/0.png"
+   },
+   {
+    "code": "3131",
+    "name": "弘塑",
+    "img": "pictures/2024-01-17/1.png"
+   },
+   {
+    "code": "6805",
+    "name": "富世達",
+    "img": "pictures/2024-01-17/2.png"
+   },
+   {
+    "code": "8210",
+    "name": "勤誠",
+    "img": "pictures/2024-01-17/3.png"
+   },
+   {
+    "code": "9958",
+    "name": "世紀鋼",
+    "img": "pictures/2024-01-17/4.png"
+   },
+   {
+    "code": "6462",
+    "name": "神盾",
+    "img": "pictures/2024-01-17/5.png"
+   },
+   {
+    "code": "6187",
+    "name": "萬潤",
+    "img": "pictures/2024-01-17/6.png"
+   },
+   {
+    "code": "6196",
+    "name": "帆宣",
+    "img": "pictures/2024-01-17/7.png"
+   },
+   {
+    "code": "3036",
+    "name": "文曄",
+    "img": "pictures/2024-01-17/8.png"
+   },
+   {
+    "code": "8054",
+    "name": "安國",
+    "img": "pictures/2024-01-17/9.png"
+   },
+   {
+    "code": "6869",
+    "name": "",
+    "img": "pictures/2024-01-17/10.png"
+   },
+   {
+    "code": "4746",
+    "name": "台耀",
+    "img": "pictures/2024-01-17/11.png"
+   },
+   {
+    "code": "6684",
+    "name": "安格",
+    "img": "pictures/2024-01-17/12.png"
+   },
+   {
+    "code": "6535",
+    "name": "順藥",
+    "img": "pictures/2024-01-17/13.png"
+   },
+   {
+    "code": "4747",
+    "name": "強生",
+    "img": "pictures/2024-01-17/14.png"
+   },
+   {
+    "code": "3702",
+    "name": "大聯大",
+    "img": "pictures/2024-01-17/15.png"
+   },
+   {
+    "code": "3029",
+    "name": "零壹",
+    "img": "pictures/2024-01-17/16.png"
+   }
+  ]
+ },
+ {
+  "date": "2024-01-16",
+  "count": 25,
+  "stocks": [
+   {
+    "code": "6643",
+    "name": "M31",
+    "img": "pictures/2024-01-16/0.png"
+   },
+   {
+    "code": "3131",
+    "name": "弘塑",
+    "img": "pictures/2024-01-16/1.png"
+   },
+   {
+    "code": "6531",
+    "name": "愛普*",
+    "img": "pictures/2024-01-16/2.png"
+   },
+   {
+    "code": "6805",
+    "name": "富世達",
+    "img": "pictures/2024-01-16/3.png"
+   },
+   {
+    "code": "6533",
+    "name": "晶心科",
+    "img": "pictures/2024-01-16/4.png"
+   },
+   {
+    "code": "3035",
+    "name": "智原",
+    "img": "pictures/2024-01-16/5.png"
+   },
+   {
+    "code": "3228",
+    "name": "金麗科",
+    "img": "pictures/2024-01-16/6.png"
+   },
+   {
+    "code": "1795",
+    "name": "美時",
+    "img": "pictures/2024-01-16/7.png"
+   },
+   {
+    "code": "8210",
+    "name": "勤誠",
+    "img": "pictures/2024-01-16/8.png"
+   },
+   {
+    "code": "3587",
+    "name": "閎康",
+    "img": "pictures/2024-01-16/9.png"
+   },
+   {
+    "code": "6138",
+    "name": "茂達",
+    "img": "pictures/2024-01-16/10.png"
+   },
+   {
+    "code": "9958",
+    "name": "世紀鋼",
+    "img": "pictures/2024-01-16/11.png"
+   },
+   {
+    "code": "2474",
+    "name": "可成",
+    "img": "pictures/2024-01-16/12.png"
+   },
+   {
+    "code": "6462",
+    "name": "神盾",
+    "img": "pictures/2024-01-16/13.png"
+   },
+   {
+    "code": "6187",
+    "name": "萬潤",
+    "img": "pictures/2024-01-16/14.png"
+   },
+   {
+    "code": "3036",
+    "name": "文曄",
+    "img": "pictures/2024-01-16/15.png"
+   },
+   {
+    "code": "9939",
+    "name": "宏全",
+    "img": "pictures/2024-01-16/16.png"
+   },
+   {
+    "code": "5314",
+    "name": "世紀",
+    "img": "pictures/2024-01-16/17.png"
+   },
+   {
+    "code": "5474",
+    "name": "聰泰",
+    "img": "pictures/2024-01-16/18.png"
+   },
+   {
+    "code": "6684",
+    "name": "安格",
+    "img": "pictures/2024-01-16/19.png"
+   },
+   {
+    "code": "6535",
+    "name": "順藥",
+    "img": "pictures/2024-01-16/20.png"
+   },
+   {
+    "code": "6243",
+    "name": "迅杰",
+    "img": "pictures/2024-01-16/21.png"
+   },
+   {
+    "code": "3207",
+    "name": "耀勝",
+    "img": "pictures/2024-01-16/22.png"
+   },
+   {
+    "code": "8027",
+    "name": "鈦昇",
+    "img": "pictures/2024-01-16/23.png"
+   },
+   {
+    "code": "3025",
+    "name": "星通",
+    "img": "pictures/2024-01-16/24.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-10-31",
+  "count": 10,
+  "stocks": [
+   {
+    "code": "6679",
+    "name": "鈺太",
+    "img": "pictures/2023-10-31/0.png"
+   },
+   {
+    "code": "6569",
+    "name": "醫揚",
+    "img": "pictures/2023-10-31/1.png"
+   },
+   {
+    "code": "1760",
+    "name": "寶齡富錦",
+    "img": "pictures/2023-10-31/2.png"
+   },
+   {
+    "code": "6589",
+    "name": "台康生技",
+    "img": "pictures/2023-10-31/3.png"
+   },
+   {
+    "code": "4105",
+    "name": "東洋",
+    "img": "pictures/2023-10-31/4.png"
+   },
+   {
+    "code": "4904",
+    "name": "遠傳",
+    "img": "pictures/2023-10-31/5.png"
+   },
+   {
+    "code": "6856",
+    "name": "鑫傳",
+    "img": "pictures/2023-10-31/6.png"
+   },
+   {
+    "code": "3702",
+    "name": "大聯大",
+    "img": "pictures/2023-10-31/7.png"
+   },
+   {
+    "code": "2347",
+    "name": "聯強",
+    "img": "pictures/2023-10-31/8.png"
+   },
+   {
+    "code": "2006",
+    "name": "東和鋼鐵",
+    "img": "pictures/2023-10-31/9.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-10-26",
+  "count": 11,
+  "stocks": [
+   {
+    "code": "4743",
+    "name": "合一",
+    "img": "pictures/2023-10-26/0.png"
+   },
+   {
+    "code": "5258",
+    "name": "虹堡",
+    "img": "pictures/2023-10-26/1.png"
+   },
+   {
+    "code": "3228",
+    "name": "金麗科",
+    "img": "pictures/2023-10-26/2.png"
+   },
+   {
+    "code": "2743",
+    "name": "山富",
+    "img": "pictures/2023-10-26/3.png"
+   },
+   {
+    "code": "6593",
+    "name": "台灣銘板",
+    "img": "pictures/2023-10-26/4.png"
+   },
+   {
+    "code": "4908",
+    "name": "前鼎",
+    "img": "pictures/2023-10-26/5.png"
+   },
+   {
+    "code": "6150",
+    "name": "撼訊",
+    "img": "pictures/2023-10-26/6.png"
+   },
+   {
+    "code": "6442",
+    "name": "光聖",
+    "img": "pictures/2023-10-26/7.png"
+   },
+   {
+    "code": "6143",
+    "name": "振曜",
+    "img": "pictures/2023-10-26/8.png"
+   },
+   {
+    "code": "4105",
+    "name": "東洋",
+    "img": "pictures/2023-10-26/9.png"
+   },
+   {
+    "code": "6541",
+    "name": "泰福-KY",
+    "img": "pictures/2023-10-26/10.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-10-23",
+  "count": 13,
+  "stocks": [
+   {
+    "code": "6271",
+    "name": "同欣電",
+    "img": "pictures/2023-10-23/0.png"
+   },
+   {
+    "code": "2385",
+    "name": "群光",
+    "img": "pictures/2023-10-23/1.png"
+   },
+   {
+    "code": "2230",
+    "name": "泰茂",
+    "img": "pictures/2023-10-23/2.png"
+   },
+   {
+    "code": "3260",
+    "name": "威剛",
+    "img": "pictures/2023-10-23/3.png"
+   },
+   {
+    "code": "6589",
+    "name": "台康生技",
+    "img": "pictures/2023-10-23/4.png"
+   },
+   {
+    "code": "4162",
+    "name": "智擎",
+    "img": "pictures/2023-10-23/5.png"
+   },
+   {
+    "code": "3444",
+    "name": "利機",
+    "img": "pictures/2023-10-23/6.png"
+   },
+   {
+    "code": "3376",
+    "name": "新日興",
+    "img": "pictures/2023-10-23/7.png"
+   },
+   {
+    "code": "6593",
+    "name": "台灣銘板",
+    "img": "pictures/2023-10-23/8.png"
+   },
+   {
+    "code": "6197",
+    "name": "佳必琪",
+    "img": "pictures/2023-10-23/9.png"
+   },
+   {
+    "code": "5215",
+    "name": "科嘉-KY",
+    "img": "pictures/2023-10-23/10.png"
+   },
+   {
+    "code": "6494",
+    "name": "九齊",
+    "img": "pictures/2023-10-23/11.png"
+   },
+   {
+    "code": "3701",
+    "name": "大眾控",
+    "img": "pictures/2023-10-23/12.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-10-18",
+  "count": 17,
+  "stocks": [
+   {
+    "code": "1590",
+    "name": "亞德客-KY",
+    "img": "pictures/2023-10-18/output_8_0.png"
+   },
+   {
+    "code": "2327",
+    "name": "國巨",
+    "img": "pictures/2023-10-18/output_8_1.png"
+   },
+   {
+    "code": "1476",
+    "name": "儒鴻",
+    "img": "pictures/2023-10-18/output_8_2.png"
+   },
+   {
+    "code": "6732",
+    "name": "昇佳電子",
+    "img": "pictures/2023-10-18/output_8_3.png"
+   },
+   {
+    "code": "3592",
+    "name": "瑞鼎",
+    "img": "pictures/2023-10-18/output_8_4.png"
+   },
+   {
+    "code": "1477",
+    "name": "聚陽",
+    "img": "pictures/2023-10-18/output_8_5.png"
+   },
+   {
+    "code": "3491",
+    "name": "昇達科",
+    "img": "pictures/2023-10-18/output_8_6.png"
+   },
+   {
+    "code": "3227",
+    "name": "原相",
+    "img": "pictures/2023-10-18/output_8_7.png"
+   },
+   {
+    "code": "2351",
+    "name": "順德",
+    "img": "pictures/2023-10-18/output_8_8.png"
+   },
+   {
+    "code": "6239",
+    "name": "力成",
+    "img": "pictures/2023-10-18/output_8_9.png"
+   },
+   {
+    "code": "3260",
+    "name": "威剛",
+    "img": "pictures/2023-10-18/output_8_10.png"
+   },
+   {
+    "code": "3444",
+    "name": "利機",
+    "img": "pictures/2023-10-18/output_8_11.png"
+   },
+   {
+    "code": "4908",
+    "name": "前鼎",
+    "img": "pictures/2023-10-18/output_8_12.png"
+   },
+   {
+    "code": "2451",
+    "name": "創見",
+    "img": "pictures/2023-10-18/output_8_13.png"
+   },
+   {
+    "code": "4967",
+    "name": "十銓",
+    "img": "pictures/2023-10-18/output_8_14.png"
+   },
+   {
+    "code": "5522",
+    "name": "遠雄",
+    "img": "pictures/2023-10-18/output_8_15.png"
+   },
+   {
+    "code": "6419",
+    "name": "京晨科",
+    "img": "pictures/2023-10-18/output_8_16.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-10-04",
+  "count": 16,
+  "stocks": [
+   {
+    "code": "1590",
+    "name": "亞德客-KY",
+    "img": "pictures/2023-10-04/output_8_0.png"
+   },
+   {
+    "code": "2327",
+    "name": "國巨",
+    "img": "pictures/2023-10-04/output_8_1.png"
+   },
+   {
+    "code": "1476",
+    "name": "儒鴻",
+    "img": "pictures/2023-10-04/output_8_2.png"
+   },
+   {
+    "code": "6732",
+    "name": "昇佳電子",
+    "img": "pictures/2023-10-04/output_8_3.png"
+   },
+   {
+    "code": "3592",
+    "name": "瑞鼎",
+    "img": "pictures/2023-10-04/output_8_4.png"
+   },
+   {
+    "code": "1477",
+    "name": "聚陽",
+    "img": "pictures/2023-10-04/output_8_5.png"
+   },
+   {
+    "code": "3491",
+    "name": "昇達科",
+    "img": "pictures/2023-10-04/output_8_6.png"
+   },
+   {
+    "code": "3227",
+    "name": "原相",
+    "img": "pictures/2023-10-04/output_8_7.png"
+   },
+   {
+    "code": "2351",
+    "name": "順德",
+    "img": "pictures/2023-10-04/output_8_8.png"
+   },
+   {
+    "code": "6239",
+    "name": "力成",
+    "img": "pictures/2023-10-04/output_8_9.png"
+   },
+   {
+    "code": "3260",
+    "name": "威剛",
+    "img": "pictures/2023-10-04/output_8_10.png"
+   },
+   {
+    "code": "3444",
+    "name": "利機",
+    "img": "pictures/2023-10-04/output_8_11.png"
+   },
+   {
+    "code": "4908",
+    "name": "前鼎",
+    "img": "pictures/2023-10-04/output_8_12.png"
+   },
+   {
+    "code": "2451",
+    "name": "創見",
+    "img": "pictures/2023-10-04/output_8_13.png"
+   },
+   {
+    "code": "4967",
+    "name": "十銓",
+    "img": "pictures/2023-10-04/output_8_14.png"
+   },
+   {
+    "code": "5522",
+    "name": "遠雄",
+    "img": "pictures/2023-10-04/output_8_15.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-09-21",
+  "count": 7,
+  "stocks": [
+   {
+    "code": "2059",
+    "name": "川湖",
+    "img": "pictures/2023-09-21/output_8_0.png"
+   },
+   {
+    "code": "6515",
+    "name": "穎崴",
+    "img": "pictures/2023-09-21/output_8_1.png"
+   },
+   {
+    "code": "6491",
+    "name": "晶碩",
+    "img": "pictures/2023-09-21/output_8_2.png"
+   },
+   {
+    "code": "3023",
+    "name": "信邦",
+    "img": "pictures/2023-09-21/output_8_3.png"
+   },
+   {
+    "code": "2368",
+    "name": "金像電",
+    "img": "pictures/2023-09-21/output_8_4.png"
+   },
+   {
+    "code": "6782",
+    "name": "視陽",
+    "img": "pictures/2023-09-21/output_8_5.png"
+   },
+   {
+    "code": "3526",
+    "name": "凡甲",
+    "img": "pictures/2023-09-21/output_8_6.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-09-18",
+  "count": 45,
+  "stocks": [
+   {
+    "code": "5269",
+    "name": "祥碩",
+    "img": "pictures/2023-09-18/output_8_0.png"
+   },
+   {
+    "code": "2454",
+    "name": "聯發科",
+    "img": "pictures/2023-09-18/output_8_1.png"
+   },
+   {
+    "code": "2327",
+    "name": "國巨",
+    "img": "pictures/2023-09-18/output_8_2.png"
+   },
+   {
+    "code": "6531",
+    "name": "愛普*",
+    "img": "pictures/2023-09-18/output_8_3.png"
+   },
+   {
+    "code": "6415",
+    "name": "矽力*-KY",
+    "img": "pictures/2023-09-18/output_8_4.png"
+   },
+   {
+    "code": "5289",
+    "name": "宜鼎",
+    "img": "pictures/2023-09-18/output_8_5.png"
+   },
+   {
+    "code": "8081",
+    "name": "致新",
+    "img": "pictures/2023-09-18/output_8_6.png"
+   },
+   {
+    "code": "3617",
+    "name": "碩天",
+    "img": "pictures/2023-09-18/output_8_7.png"
+   },
+   {
+    "code": "8046",
+    "name": "南電",
+    "img": "pictures/2023-09-18/output_8_8.png"
+   },
+   {
+    "code": "9910",
+    "name": "豐泰",
+    "img": "pictures/2023-09-18/output_8_9.png"
+   },
+   {
+    "code": "4768",
+    "name": "晶呈科技",
+    "img": "pictures/2023-09-18/output_8_10.png"
+   },
+   {
+    "code": "9958",
+    "name": "世紀鋼",
+    "img": "pictures/2023-09-18/output_8_11.png"
+   },
+   {
+    "code": "8155",
+    "name": "博智",
+    "img": "pictures/2023-09-18/output_8_12.png"
+   },
+   {
+    "code": "2455",
+    "name": "全新",
+    "img": "pictures/2023-09-18/output_8_13.png"
+   },
+   {
+    "code": "6523",
+    "name": "達爾膚",
+    "img": "pictures/2023-09-18/output_8_14.png"
+   },
+   {
+    "code": "6451",
+    "name": "訊芯-KY",
+    "img": "pictures/2023-09-18/output_8_15.png"
+   },
+   {
+    "code": "4919",
+    "name": "新唐",
+    "img": "pictures/2023-09-18/output_8_16.png"
+   },
+   {
+    "code": "5474",
+    "name": "聰泰",
+    "img": "pictures/2023-09-18/output_8_17.png"
+   },
+   {
+    "code": "2388",
+    "name": "威盛",
+    "img": "pictures/2023-09-18/output_8_18.png"
+   },
+   {
+    "code": "2233",
+    "name": "宇隆",
+    "img": "pictures/2023-09-18/output_8_19.png"
+   },
+   {
+    "code": "6104",
+    "name": "創惟",
+    "img": "pictures/2023-09-18/output_8_20.png"
+   },
+   {
+    "code": "5321",
+    "name": "美而快",
+    "img": "pictures/2023-09-18/output_8_21.png"
+   },
+   {
+    "code": "2364",
+    "name": "倫飛",
+    "img": "pictures/2023-09-18/output_8_22.png"
+   },
+   {
+    "code": "6485",
+    "name": "點序",
+    "img": "pictures/2023-09-18/output_8_23.png"
+   },
+   {
+    "code": "2351",
+    "name": "順德",
+    "img": "pictures/2023-09-18/output_8_24.png"
+   },
+   {
+    "code": "1760",
+    "name": "寶齡富錦",
+    "img": "pictures/2023-09-18/output_8_25.png"
+   },
+   {
+    "code": "8467",
+    "name": "波力-KY",
+    "img": "pictures/2023-09-18/output_8_26.png"
+   },
+   {
+    "code": "3265",
+    "name": "台星科",
+    "img": "pictures/2023-09-18/output_8_27.png"
+   },
+   {
+    "code": "3036",
+    "name": "文曄",
+    "img": "pictures/2023-09-18/output_8_28.png"
+   },
+   {
+    "code": "6150",
+    "name": "撼訊",
+    "img": "pictures/2023-09-18/output_8_29.png"
+   },
+   {
+    "code": "3545",
+    "name": "敦泰",
+    "img": "pictures/2023-09-18/output_8_30.png"
+   },
+   {
+    "code": "2540",
+    "name": "愛山林",
+    "img": "pictures/2023-09-18/output_8_31.png"
+   },
+   {
+    "code": "2636",
+    "name": "台驊投控",
+    "img": "pictures/2023-09-18/output_8_32.png"
+   },
+   {
+    "code": "1319",
+    "name": "東陽",
+    "img": "pictures/2023-09-18/output_8_33.png"
+   },
+   {
+    "code": "2493",
+    "name": "揚博",
+    "img": "pictures/2023-09-18/output_8_34.png"
+   },
+   {
+    "code": "4908",
+    "name": "前鼎",
+    "img": "pictures/2023-09-18/output_8_35.png"
+   },
+   {
+    "code": "4915",
+    "name": "致伸",
+    "img": "pictures/2023-09-18/output_8_36.png"
+   },
+   {
+    "code": "2375",
+    "name": "凱美",
+    "img": "pictures/2023-09-18/output_8_37.png"
+   },
+   {
+    "code": "6442",
+    "name": "光聖",
+    "img": "pictures/2023-09-18/output_8_38.png"
+   },
+   {
+    "code": "6205",
+    "name": "詮欣",
+    "img": "pictures/2023-09-18/output_8_39.png"
+   },
+   {
+    "code": "2006",
+    "name": "東和鋼鐵",
+    "img": "pictures/2023-09-18/output_8_40.png"
+   },
+   {
+    "code": "6191",
+    "name": "精成科",
+    "img": "pictures/2023-09-18/output_8_41.png"
+   },
+   {
+    "code": "4164",
+    "name": "承業醫",
+    "img": "pictures/2023-09-18/output_8_42.png"
+   },
+   {
+    "code": "3090",
+    "name": "日電貿",
+    "img": "pictures/2023-09-18/output_8_43.png"
+   },
+   {
+    "code": "5469",
+    "name": "瀚宇博",
+    "img": "pictures/2023-09-18/output_8_44.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-08-25",
+  "count": 8,
+  "stocks": [
+   {
+    "code": "1477",
+    "name": "聚陽",
+    "img": "pictures/2023-08-25/output_8_0.png"
+   },
+   {
+    "code": "1519",
+    "name": "華城",
+    "img": "pictures/2023-08-25/output_8_1.png"
+   },
+   {
+    "code": "6146",
+    "name": "耕興",
+    "img": "pictures/2023-08-25/output_8_2.png"
+   },
+   {
+    "code": "6285",
+    "name": "啟碁",
+    "img": "pictures/2023-08-25/output_8_3.png"
+   },
+   {
+    "code": "3548",
+    "name": "兆利",
+    "img": "pictures/2023-08-25/output_8_4.png"
+   },
+   {
+    "code": "2449",
+    "name": "京元電子",
+    "img": "pictures/2023-08-25/output_8_5.png"
+   },
+   {
+    "code": "1319",
+    "name": "東陽",
+    "img": "pictures/2023-08-25/output_8_6.png"
+   },
+   {
+    "code": "3043",
+    "name": "科風",
+    "img": "pictures/2023-08-25/output_8_7.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-08-14",
+  "count": 7,
+  "stocks": [
+   {
+    "code": "8016",
+    "name": "矽創",
+    "img": "pictures/2023-08-14/output_8_0.png"
+   },
+   {
+    "code": "6664",
+    "name": "群翊",
+    "img": "pictures/2023-08-14/output_8_1.png"
+   },
+   {
+    "code": "6613",
+    "name": "朋億*",
+    "img": "pictures/2023-08-14/output_8_2.png"
+   },
+   {
+    "code": "5403",
+    "name": "中菲",
+    "img": "pictures/2023-08-14/output_8_3.png"
+   },
+   {
+    "code": "2540",
+    "name": "愛山林",
+    "img": "pictures/2023-08-14/output_8_4.png"
+   },
+   {
+    "code": "6204",
+    "name": "艾華",
+    "img": "pictures/2023-08-14/output_8_5.png"
+   },
+   {
+    "code": "6547",
+    "name": "高端疫苗",
+    "img": "pictures/2023-08-14/output_8_6.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-08-10",
+  "count": 6,
+  "stocks": [
+   {
+    "code": "6469",
+    "name": "大樹",
+    "img": "pictures/2023-08-10/output_8_0.png"
+   },
+   {
+    "code": "8081",
+    "name": "致新",
+    "img": "pictures/2023-08-10/output_8_1.png"
+   },
+   {
+    "code": "2412",
+    "name": "中華電",
+    "img": "pictures/2023-08-10/output_8_2.png"
+   },
+   {
+    "code": "3010",
+    "name": "華立",
+    "img": "pictures/2023-08-10/output_8_3.png"
+   },
+   {
+    "code": "3548",
+    "name": "兆利",
+    "img": "pictures/2023-08-10/output_8_4.png"
+   },
+   {
+    "code": "8942",
+    "name": "森鉅",
+    "img": "pictures/2023-08-10/output_8_5.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-08-02",
+  "count": 5,
+  "stocks": [
+   {
+    "code": "2379",
+    "name": "瑞昱",
+    "img": "pictures/2023-08-02/output_8_0.png"
+   },
+   {
+    "code": "6538",
+    "name": "倉和",
+    "img": "pictures/2023-08-02/output_8_1.png"
+   },
+   {
+    "code": "8932",
+    "name": "智通",
+    "img": "pictures/2023-08-02/output_8_2.png"
+   },
+   {
+    "code": "9927",
+    "name": "泰銘",
+    "img": "pictures/2023-08-02/output_8_3.png"
+   },
+   {
+    "code": "2211",
+    "name": "長榮鋼",
+    "img": "pictures/2023-08-02/output_8_4.png"
+   }
+  ],
+  "close": 16893.73,
+  "prev": 17212.87,
+  "dropPts": 319.14,
+  "dropPct": 1.85
+ },
+ {
+  "date": "2023-07-31",
+  "count": 31,
+  "stocks": [
+   {
+    "code": "3131",
+    "name": "弘塑",
+    "img": "pictures/2023-07-31/output_8_0.png"
+   },
+   {
+    "code": "2379",
+    "name": "瑞昱",
+    "img": "pictures/2023-07-31/output_8_1.png"
+   },
+   {
+    "code": "3034",
+    "name": "聯詠",
+    "img": "pictures/2023-07-31/output_8_2.png"
+   },
+   {
+    "code": "3693",
+    "name": "營邦",
+    "img": "pictures/2023-07-31/output_8_3.png"
+   },
+   {
+    "code": "6531",
+    "name": "愛普*",
+    "img": "pictures/2023-07-31/output_8_4.png"
+   },
+   {
+    "code": "3558",
+    "name": "神準",
+    "img": "pictures/2023-07-31/output_8_5.png"
+   },
+   {
+    "code": "3587",
+    "name": "閎康",
+    "img": "pictures/2023-07-31/output_8_6.png"
+   },
+   {
+    "code": "3583",
+    "name": "辛耘",
+    "img": "pictures/2023-07-31/output_8_7.png"
+   },
+   {
+    "code": "1519",
+    "name": "華城",
+    "img": "pictures/2023-07-31/output_8_8.png"
+   },
+   {
+    "code": "8069",
+    "name": "元太",
+    "img": "pictures/2023-07-31/output_8_9.png"
+   },
+   {
+    "code": "2404",
+    "name": "漢唐",
+    "img": "pictures/2023-07-31/output_8_10.png"
+   },
+   {
+    "code": "4572",
+    "name": "駐龍",
+    "img": "pictures/2023-07-31/output_8_11.png"
+   },
+   {
+    "code": "6830",
+    "name": "汎銓",
+    "img": "pictures/2023-07-31/output_8_12.png"
+   },
+   {
+    "code": "6231",
+    "name": "系微",
+    "img": "pictures/2023-07-31/output_8_13.png"
+   },
+   {
+    "code": "3044",
+    "name": "健鼎",
+    "img": "pictures/2023-07-31/output_8_14.png"
+   },
+   {
+    "code": "6788",
+    "name": "華景電",
+    "img": "pictures/2023-07-31/output_8_15.png"
+   },
+   {
+    "code": "3596",
+    "name": "智易",
+    "img": "pictures/2023-07-31/output_8_16.png"
+   },
+   {
+    "code": "6187",
+    "name": "萬潤",
+    "img": "pictures/2023-07-31/output_8_17.png"
+   },
+   {
+    "code": "4919",
+    "name": "新唐",
+    "img": "pictures/2023-07-31/output_8_18.png"
+   },
+   {
+    "code": "2455",
+    "name": "全新",
+    "img": "pictures/2023-07-31/output_8_19.png"
+   },
+   {
+    "code": "5388",
+    "name": "中磊",
+    "img": "pictures/2023-07-31/output_8_20.png"
+   },
+   {
+    "code": "6176",
+    "name": "瑞儀",
+    "img": "pictures/2023-07-31/output_8_21.png"
+   },
+   {
+    "code": "6753",
+    "name": "龍德造船",
+    "img": "pictures/2023-07-31/output_8_22.png"
+   },
+   {
+    "code": "3088",
+    "name": "艾訊",
+    "img": "pictures/2023-07-31/output_8_23.png"
+   },
+   {
+    "code": "9939",
+    "name": "宏全",
+    "img": "pictures/2023-07-31/output_8_24.png"
+   },
+   {
+    "code": "3163",
+    "name": "波若威",
+    "img": "pictures/2023-07-31/output_8_25.png"
+   },
+   {
+    "code": "3257",
+    "name": "虹冠電",
+    "img": "pictures/2023-07-31/output_8_26.png"
+   },
+   {
+    "code": "5511",
+    "name": "德昌",
+    "img": "pictures/2023-07-31/output_8_27.png"
+   },
+   {
+    "code": "8027",
+    "name": "鈦昇",
+    "img": "pictures/2023-07-31/output_8_28.png"
+   },
+   {
+    "code": "3029",
+    "name": "零壹",
+    "img": "pictures/2023-07-31/output_8_29.png"
+   },
+   {
+    "code": "3689",
+    "name": "湧德",
+    "img": "pictures/2023-07-31/output_8_30.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-07-18",
+  "count": 46,
+  "stocks": [
+   {
+    "code": "2059",
+    "name": "川湖",
+    "img": "pictures/2023-07-18/output_8_0.png"
+   },
+   {
+    "code": "4763",
+    "name": "材料-KY",
+    "img": "pictures/2023-07-18/output_8_1.png"
+   },
+   {
+    "code": "3293",
+    "name": "鈊象",
+    "img": "pictures/2023-07-18/output_8_2.png"
+   },
+   {
+    "code": "6488",
+    "name": "環球晶",
+    "img": "pictures/2023-07-18/output_8_3.png"
+   },
+   {
+    "code": "2379",
+    "name": "瑞昱",
+    "img": "pictures/2023-07-18/output_8_4.png"
+   },
+   {
+    "code": "2383",
+    "name": "台光電",
+    "img": "pictures/2023-07-18/output_8_5.png"
+   },
+   {
+    "code": "2376",
+    "name": "技嘉",
+    "img": "pictures/2023-07-18/output_8_6.png"
+   },
+   {
+    "code": "3515",
+    "name": "華擎",
+    "img": "pictures/2023-07-18/output_8_7.png"
+   },
+   {
+    "code": "4768",
+    "name": "晶呈科技",
+    "img": "pictures/2023-07-18/output_8_8.png"
+   },
+   {
+    "code": "6569",
+    "name": "醫揚",
+    "img": "pictures/2023-07-18/output_8_9.png"
+   },
+   {
+    "code": "8210",
+    "name": "勤誠",
+    "img": "pictures/2023-07-18/output_8_10.png"
+   },
+   {
+    "code": "2382",
+    "name": "廣達",
+    "img": "pictures/2023-07-18/output_8_11.png"
+   },
+   {
+    "code": "3037",
+    "name": "欣興",
+    "img": "pictures/2023-07-18/output_8_12.png"
+   },
+   {
+    "code": "2377",
+    "name": "微星",
+    "img": "pictures/2023-07-18/output_8_13.png"
+   },
+   {
+    "code": "6579",
+    "name": "研揚",
+    "img": "pictures/2023-07-18/output_8_14.png"
+   },
+   {
+    "code": "1560",
+    "name": "中砂",
+    "img": "pictures/2023-07-18/output_8_15.png"
+   },
+   {
+    "code": "5474",
+    "name": "聰泰",
+    "img": "pictures/2023-07-18/output_8_16.png"
+   },
+   {
+    "code": "4919",
+    "name": "新唐",
+    "img": "pictures/2023-07-18/output_8_17.png"
+   },
+   {
+    "code": "3483",
+    "name": "力致",
+    "img": "pictures/2023-07-18/output_8_18.png"
+   },
+   {
+    "code": "6187",
+    "name": "萬潤",
+    "img": "pictures/2023-07-18/output_8_19.png"
+   },
+   {
+    "code": "3189",
+    "name": "景碩",
+    "img": "pictures/2023-07-18/output_8_20.png"
+   },
+   {
+    "code": "2458",
+    "name": "義隆",
+    "img": "pictures/2023-07-18/output_8_21.png"
+   },
+   {
+    "code": "2421",
+    "name": "建準",
+    "img": "pictures/2023-07-18/output_8_22.png"
+   },
+   {
+    "code": "2317",
+    "name": "鴻海",
+    "img": "pictures/2023-07-18/output_8_23.png"
+   },
+   {
+    "code": "6239",
+    "name": "力成",
+    "img": "pictures/2023-07-18/output_8_24.png"
+   },
+   {
+    "code": "6274",
+    "name": "台燿",
+    "img": "pictures/2023-07-18/output_8_25.png"
+   },
+   {
+    "code": "8050",
+    "name": "廣積",
+    "img": "pictures/2023-07-18/output_8_26.png"
+   },
+   {
+    "code": "6527",
+    "name": "明達醫",
+    "img": "pictures/2023-07-18/output_8_27.png"
+   },
+   {
+    "code": "5203",
+    "name": "訊連",
+    "img": "pictures/2023-07-18/output_8_28.png"
+   },
+   {
+    "code": "6546",
+    "name": "正基",
+    "img": "pictures/2023-07-18/output_8_29.png"
+   },
+   {
+    "code": "4938",
+    "name": "和碩",
+    "img": "pictures/2023-07-18/output_8_30.png"
+   },
+   {
+    "code": "6584",
+    "name": "南俊國際",
+    "img": "pictures/2023-07-18/output_8_31.png"
+   },
+   {
+    "code": "3265",
+    "name": "台星科",
+    "img": "pictures/2023-07-18/output_8_32.png"
+   },
+   {
+    "code": "6197",
+    "name": "佳必琪",
+    "img": "pictures/2023-07-18/output_8_33.png"
+   },
+   {
+    "code": "6213",
+    "name": "聯茂",
+    "img": "pictures/2023-07-18/output_8_34.png"
+   },
+   {
+    "code": "6442",
+    "name": "光聖",
+    "img": "pictures/2023-07-18/output_8_35.png"
+   },
+   {
+    "code": "5371",
+    "name": "中光電",
+    "img": "pictures/2023-07-18/output_8_36.png"
+   },
+   {
+    "code": "1229",
+    "name": "聯華",
+    "img": "pictures/2023-07-18/output_8_37.png"
+   },
+   {
+    "code": "3363",
+    "name": "上詮",
+    "img": "pictures/2023-07-18/output_8_38.png"
+   },
+   {
+    "code": "6147",
+    "name": "頎邦",
+    "img": "pictures/2023-07-18/output_8_39.png"
+   },
+   {
+    "code": "2881",
+    "name": "富邦金",
+    "img": "pictures/2023-07-18/output_8_40.png"
+   },
+   {
+    "code": "2356",
+    "name": "英業達",
+    "img": "pictures/2023-07-18/output_8_41.png"
+   },
+   {
+    "code": "4915",
+    "name": "致伸",
+    "img": "pictures/2023-07-18/output_8_42.png"
+   },
+   {
+    "code": "3264",
+    "name": "欣銓",
+    "img": "pictures/2023-07-18/output_8_43.png"
+   },
+   {
+    "code": "8234",
+    "name": "新漢",
+    "img": "pictures/2023-07-18/output_8_44.png"
+   },
+   {
+    "code": "3213",
+    "name": "茂訊",
+    "img": "pictures/2023-07-18/output_8_45.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-07-06",
+  "count": 40,
+  "stocks": [
+   {
+    "code": "3008",
+    "name": "大立光",
+    "img": "pictures/2023-07-06/output_8_0.png"
+   },
+   {
+    "code": "4763",
+    "name": "材料-KY",
+    "img": "pictures/2023-07-06/output_8_1.png"
+   },
+   {
+    "code": "6469",
+    "name": "大樹",
+    "img": "pictures/2023-07-06/output_8_2.png"
+   },
+   {
+    "code": "6491",
+    "name": "晶碩",
+    "img": "pictures/2023-07-06/output_8_3.png"
+   },
+   {
+    "code": "6691",
+    "name": "洋基工程",
+    "img": "pictures/2023-07-06/output_8_4.png"
+   },
+   {
+    "code": "6446",
+    "name": "藥華藥",
+    "img": "pictures/2023-07-06/output_8_5.png"
+   },
+   {
+    "code": "8016",
+    "name": "矽創",
+    "img": "pictures/2023-07-06/output_8_6.png"
+   },
+   {
+    "code": "6146",
+    "name": "耕興",
+    "img": "pictures/2023-07-06/output_8_7.png"
+   },
+   {
+    "code": "6683",
+    "name": "雍智科技",
+    "img": "pictures/2023-07-06/output_8_8.png"
+   },
+   {
+    "code": "3587",
+    "name": "閎康",
+    "img": "pictures/2023-07-06/output_8_9.png"
+   },
+   {
+    "code": "5536",
+    "name": "聖暉*",
+    "img": "pictures/2023-07-06/output_8_10.png"
+   },
+   {
+    "code": "6538",
+    "name": "倉和",
+    "img": "pictures/2023-07-06/output_8_11.png"
+   },
+   {
+    "code": "5234",
+    "name": "達興材料",
+    "img": "pictures/2023-07-06/output_8_12.png"
+   },
+   {
+    "code": "3596",
+    "name": "智易",
+    "img": "pictures/2023-07-06/output_8_13.png"
+   },
+   {
+    "code": "4979",
+    "name": "華星光",
+    "img": "pictures/2023-07-06/output_8_14.png"
+   },
+   {
+    "code": "6451",
+    "name": "訊芯-KY",
+    "img": "pictures/2023-07-06/output_8_15.png"
+   },
+   {
+    "code": "3357",
+    "name": "臺慶科",
+    "img": "pictures/2023-07-06/output_8_16.png"
+   },
+   {
+    "code": "5388",
+    "name": "中磊",
+    "img": "pictures/2023-07-06/output_8_17.png"
+   },
+   {
+    "code": "3289",
+    "name": "宜特",
+    "img": "pictures/2023-07-06/output_8_18.png"
+   },
+   {
+    "code": "6187",
+    "name": "萬潤",
+    "img": "pictures/2023-07-06/output_8_19.png"
+   },
+   {
+    "code": "6462",
+    "name": "神盾",
+    "img": "pictures/2023-07-06/output_8_20.png"
+   },
+   {
+    "code": "2458",
+    "name": "義隆",
+    "img": "pictures/2023-07-06/output_8_21.png"
+   },
+   {
+    "code": "6285",
+    "name": "啟碁",
+    "img": "pictures/2023-07-06/output_8_22.png"
+   },
+   {
+    "code": "3231",
+    "name": "緯創",
+    "img": "pictures/2023-07-06/output_8_23.png"
+   },
+   {
+    "code": "8050",
+    "name": "廣積",
+    "img": "pictures/2023-07-06/output_8_24.png"
+   },
+   {
+    "code": "8086",
+    "name": "宏捷科",
+    "img": "pictures/2023-07-06/output_8_25.png"
+   },
+   {
+    "code": "6672",
+    "name": "騰輝電子-KY",
+    "img": "pictures/2023-07-06/output_8_26.png"
+   },
+   {
+    "code": "6546",
+    "name": "正基",
+    "img": "pictures/2023-07-06/output_8_27.png"
+   },
+   {
+    "code": "6125",
+    "name": "廣運",
+    "img": "pictures/2023-07-06/output_8_28.png"
+   },
+   {
+    "code": "8048",
+    "name": "德勝",
+    "img": "pictures/2023-07-06/output_8_29.png"
+   },
+   {
+    "code": "1808",
+    "name": "潤隆",
+    "img": "pictures/2023-07-06/output_8_30.png"
+   },
+   {
+    "code": "1736",
+    "name": "喬山",
+    "img": "pictures/2023-07-06/output_8_31.png"
+   },
+   {
+    "code": "3265",
+    "name": "台星科",
+    "img": "pictures/2023-07-06/output_8_32.png"
+   },
+   {
+    "code": "3701",
+    "name": "大眾控",
+    "img": "pictures/2023-07-06/output_8_33.png"
+   },
+   {
+    "code": "5607",
+    "name": "遠雄港",
+    "img": "pictures/2023-07-06/output_8_34.png"
+   },
+   {
+    "code": "2236",
+    "name": "百達-KY",
+    "img": "pictures/2023-07-06/output_8_35.png"
+   },
+   {
+    "code": "3019",
+    "name": "亞光",
+    "img": "pictures/2023-07-06/output_8_36.png"
+   },
+   {
+    "code": "3564",
+    "name": "其陽",
+    "img": "pictures/2023-07-06/output_8_37.png"
+   },
+   {
+    "code": "6290",
+    "name": "良維",
+    "img": "pictures/2023-07-06/output_8_38.png"
+   },
+   {
+    "code": "4563",
+    "name": "百德",
+    "img": "pictures/2023-07-06/output_8_39.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-06-27",
+  "count": 16,
+  "stocks": [
+   {
+    "code": "1476",
+    "name": "儒鴻",
+    "img": "pictures/2023-06-27/output_8_0.png"
+   },
+   {
+    "code": "6469",
+    "name": "大樹",
+    "img": "pictures/2023-06-27/output_8_1.png"
+   },
+   {
+    "code": "2247",
+    "name": "汎德永業",
+    "img": "pictures/2023-06-27/output_8_2.png"
+   },
+   {
+    "code": "4743",
+    "name": "合一",
+    "img": "pictures/2023-06-27/output_8_3.png"
+   },
+   {
+    "code": "4551",
+    "name": "智伸科",
+    "img": "pictures/2023-06-27/output_8_4.png"
+   },
+   {
+    "code": "4138",
+    "name": "曜亞",
+    "img": "pictures/2023-06-27/output_8_5.png"
+   },
+   {
+    "code": "3596",
+    "name": "智易",
+    "img": "pictures/2023-06-27/output_8_6.png"
+   },
+   {
+    "code": "6111",
+    "name": "大宇資",
+    "img": "pictures/2023-06-27/output_8_7.png"
+   },
+   {
+    "code": "4746",
+    "name": "台耀",
+    "img": "pictures/2023-06-27/output_8_8.png"
+   },
+   {
+    "code": "1786",
+    "name": "科妍",
+    "img": "pictures/2023-06-27/output_8_9.png"
+   },
+   {
+    "code": "2734",
+    "name": "易飛網",
+    "img": "pictures/2023-06-27/output_8_10.png"
+   },
+   {
+    "code": "6470",
+    "name": "宇智",
+    "img": "pictures/2023-06-27/output_8_11.png"
+   },
+   {
+    "code": "6657",
+    "name": "華安",
+    "img": "pictures/2023-06-27/output_8_12.png"
+   },
+   {
+    "code": "8942",
+    "name": "森鉅",
+    "img": "pictures/2023-06-27/output_8_13.png"
+   },
+   {
+    "code": "1229",
+    "name": "聯華",
+    "img": "pictures/2023-06-27/output_8_14.png"
+   },
+   {
+    "code": "1783",
+    "name": "和康生",
+    "img": "pictures/2023-06-27/output_8_15.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-06-26",
+  "count": 33,
+  "stocks": [
+   {
+    "code": "6669",
+    "name": "緯穎",
+    "img": "pictures/2023-06-26/output_8_0.png"
+   },
+   {
+    "code": "2059",
+    "name": "川湖",
+    "img": "pictures/2023-06-26/output_8_1.png"
+   },
+   {
+    "code": "1476",
+    "name": "儒鴻",
+    "img": "pictures/2023-06-26/output_8_2.png"
+   },
+   {
+    "code": "8996",
+    "name": "高力",
+    "img": "pictures/2023-06-26/output_8_3.png"
+   },
+   {
+    "code": "6414",
+    "name": "樺漢",
+    "img": "pictures/2023-06-26/output_8_4.png"
+   },
+   {
+    "code": "9921",
+    "name": "巨大",
+    "img": "pictures/2023-06-26/output_8_5.png"
+   },
+   {
+    "code": "9914",
+    "name": "美利達",
+    "img": "pictures/2023-06-26/output_8_6.png"
+   },
+   {
+    "code": "3454",
+    "name": "晶睿",
+    "img": "pictures/2023-06-26/output_8_7.png"
+   },
+   {
+    "code": "3035",
+    "name": "智原",
+    "img": "pictures/2023-06-26/output_8_8.png"
+   },
+   {
+    "code": "4551",
+    "name": "智伸科",
+    "img": "pictures/2023-06-26/output_8_9.png"
+   },
+   {
+    "code": "6788",
+    "name": "華景電",
+    "img": "pictures/2023-06-26/output_8_10.png"
+   },
+   {
+    "code": "9802",
+    "name": "鈺齊-KY",
+    "img": "pictures/2023-06-26/output_8_11.png"
+   },
+   {
+    "code": "6577",
+    "name": "勁豐",
+    "img": "pictures/2023-06-26/output_8_12.png"
+   },
+   {
+    "code": "1513",
+    "name": "中興電",
+    "img": "pictures/2023-06-26/output_8_13.png"
+   },
+   {
+    "code": "1723",
+    "name": "中碳",
+    "img": "pictures/2023-06-26/output_8_14.png"
+   },
+   {
+    "code": "3687",
+    "name": "歐買尬",
+    "img": "pictures/2023-06-26/output_8_15.png"
+   },
+   {
+    "code": "2317",
+    "name": "鴻海",
+    "img": "pictures/2023-06-26/output_8_16.png"
+   },
+   {
+    "code": "4747",
+    "name": "強生",
+    "img": "pictures/2023-06-26/output_8_17.png"
+   },
+   {
+    "code": "6239",
+    "name": "力成",
+    "img": "pictures/2023-06-26/output_8_18.png"
+   },
+   {
+    "code": "6111",
+    "name": "大宇資",
+    "img": "pictures/2023-06-26/output_8_19.png"
+   },
+   {
+    "code": "2228",
+    "name": "劍麟",
+    "img": "pictures/2023-06-26/output_8_20.png"
+   },
+   {
+    "code": "3042",
+    "name": "晶技",
+    "img": "pictures/2023-06-26/output_8_21.png"
+   },
+   {
+    "code": "7402",
+    "name": "邑錡",
+    "img": "pictures/2023-06-26/output_8_22.png"
+   },
+   {
+    "code": "6188",
+    "name": "廣明",
+    "img": "pictures/2023-06-26/output_8_23.png"
+   },
+   {
+    "code": "4503",
+    "name": "金雨",
+    "img": "pictures/2023-06-26/output_8_24.png"
+   },
+   {
+    "code": "2734",
+    "name": "易飛網",
+    "img": "pictures/2023-06-26/output_8_25.png"
+   },
+   {
+    "code": "1533",
+    "name": "車王電",
+    "img": "pictures/2023-06-26/output_8_26.png"
+   },
+   {
+    "code": "6125",
+    "name": "廣運",
+    "img": "pictures/2023-06-26/output_8_27.png"
+   },
+   {
+    "code": "1229",
+    "name": "聯華",
+    "img": "pictures/2023-06-26/output_8_28.png"
+   },
+   {
+    "code": "6197",
+    "name": "佳必琪",
+    "img": "pictures/2023-06-26/output_8_29.png"
+   },
+   {
+    "code": "4566",
+    "name": "時碩工業",
+    "img": "pictures/2023-06-26/output_8_30.png"
+   },
+   {
+    "code": "8048",
+    "name": "德勝",
+    "img": "pictures/2023-06-26/output_8_31.png"
+   },
+   {
+    "code": "5522",
+    "name": "遠雄",
+    "img": "pictures/2023-06-26/output_8_32.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-06-08",
+  "count": 51,
+  "stocks": [
+   {
+    "code": "3529",
+    "name": "力旺",
+    "img": "pictures/2023-06-08/output_8_0.png"
+   },
+   {
+    "code": "3293",
+    "name": "鈊象",
+    "img": "pictures/2023-06-08/output_8_1.png"
+   },
+   {
+    "code": "2059",
+    "name": "川湖",
+    "img": "pictures/2023-06-08/output_8_2.png"
+   },
+   {
+    "code": "6732",
+    "name": "昇佳電子",
+    "img": "pictures/2023-06-08/output_8_3.png"
+   },
+   {
+    "code": "6679",
+    "name": "鈺太",
+    "img": "pictures/2023-06-08/output_8_4.png"
+   },
+   {
+    "code": "6121",
+    "name": "新普",
+    "img": "pictures/2023-06-08/output_8_5.png"
+   },
+   {
+    "code": "2729",
+    "name": "瓦城",
+    "img": "pictures/2023-06-08/output_8_6.png"
+   },
+   {
+    "code": "4770",
+    "name": "上品",
+    "img": "pictures/2023-06-08/output_8_7.png"
+   },
+   {
+    "code": "6789",
+    "name": "采鈺",
+    "img": "pictures/2023-06-08/output_8_8.png"
+   },
+   {
+    "code": "2383",
+    "name": "台光電",
+    "img": "pictures/2023-06-08/output_8_9.png"
+   },
+   {
+    "code": "3617",
+    "name": "碩天",
+    "img": "pictures/2023-06-08/output_8_10.png"
+   },
+   {
+    "code": "8081",
+    "name": "致新",
+    "img": "pictures/2023-06-08/output_8_11.png"
+   },
+   {
+    "code": "2754",
+    "name": "亞洲藏壽司",
+    "img": "pictures/2023-06-08/output_8_12.png"
+   },
+   {
+    "code": "3515",
+    "name": "華擎",
+    "img": "pictures/2023-06-08/output_8_13.png"
+   },
+   {
+    "code": "2377",
+    "name": "微星",
+    "img": "pictures/2023-06-08/output_8_14.png"
+   },
+   {
+    "code": "2743",
+    "name": "山富",
+    "img": "pictures/2023-06-08/output_8_15.png"
+   },
+   {
+    "code": "6625",
+    "name": "必應",
+    "img": "pictures/2023-06-08/output_8_16.png"
+   },
+   {
+    "code": "3583",
+    "name": "辛耘",
+    "img": "pictures/2023-06-08/output_8_17.png"
+   },
+   {
+    "code": "6664",
+    "name": "群翊",
+    "img": "pictures/2023-06-08/output_8_18.png"
+   },
+   {
+    "code": "8446",
+    "name": "華研",
+    "img": "pictures/2023-06-08/output_8_19.png"
+   },
+   {
+    "code": "6176",
+    "name": "瑞儀",
+    "img": "pictures/2023-06-08/output_8_20.png"
+   },
+   {
+    "code": "5474",
+    "name": "聰泰",
+    "img": "pictures/2023-06-08/output_8_21.png"
+   },
+   {
+    "code": "3014",
+    "name": "聯陽",
+    "img": "pictures/2023-06-08/output_8_22.png"
+   },
+   {
+    "code": "3596",
+    "name": "智易",
+    "img": "pictures/2023-06-08/output_8_23.png"
+   },
+   {
+    "code": "8210",
+    "name": "勤誠",
+    "img": "pictures/2023-06-08/output_8_24.png"
+   },
+   {
+    "code": "3374",
+    "name": "精材",
+    "img": "pictures/2023-06-08/output_8_25.png"
+   },
+   {
+    "code": "2745",
+    "name": "五福",
+    "img": "pictures/2023-06-08/output_8_26.png"
+   },
+   {
+    "code": "6577",
+    "name": "勁豐",
+    "img": "pictures/2023-06-08/output_8_27.png"
+   },
+   {
+    "code": "4739",
+    "name": "康普",
+    "img": "pictures/2023-06-08/output_8_28.png"
+   },
+   {
+    "code": "3046",
+    "name": "建碁",
+    "img": "pictures/2023-06-08/output_8_29.png"
+   },
+   {
+    "code": "6187",
+    "name": "萬潤",
+    "img": "pictures/2023-06-08/output_8_30.png"
+   },
+   {
+    "code": "5609",
+    "name": "中菲行",
+    "img": "pictures/2023-06-08/output_8_31.png"
+   },
+   {
+    "code": "4747",
+    "name": "強生",
+    "img": "pictures/2023-06-08/output_8_32.png"
+   },
+   {
+    "code": "2722",
+    "name": "夏都",
+    "img": "pictures/2023-06-08/output_8_33.png"
+   },
+   {
+    "code": "4129",
+    "name": "聯合",
+    "img": "pictures/2023-06-08/output_8_34.png"
+   },
+   {
+    "code": "2482",
+    "name": "連宇",
+    "img": "pictures/2023-06-08/output_8_35.png"
+   },
+   {
+    "code": "7402",
+    "name": "邑錡",
+    "img": "pictures/2023-06-08/output_8_36.png"
+   },
+   {
+    "code": "6202",
+    "name": "盛群",
+    "img": "pictures/2023-06-08/output_8_37.png"
+   },
+   {
+    "code": "6441",
+    "name": "廣錠",
+    "img": "pictures/2023-06-08/output_8_38.png"
+   },
+   {
+    "code": "6743",
+    "name": "安普新",
+    "img": "pictures/2023-06-08/output_8_39.png"
+   },
+   {
+    "code": "6147",
+    "name": "頎邦",
+    "img": "pictures/2023-06-08/output_8_40.png"
+   },
+   {
+    "code": "6596",
+    "name": "寬宏藝術",
+    "img": "pictures/2023-06-08/output_8_41.png"
+   },
+   {
+    "code": "6776",
+    "name": "展碁國際",
+    "img": "pictures/2023-06-08/output_8_42.png"
+   },
+   {
+    "code": "2734",
+    "name": "易飛網",
+    "img": "pictures/2023-06-08/output_8_43.png"
+   },
+   {
+    "code": "6532",
+    "name": "瑞耘",
+    "img": "pictures/2023-06-08/output_8_44.png"
+   },
+   {
+    "code": "2211",
+    "name": "長榮鋼",
+    "img": "pictures/2023-06-08/output_8_45.png"
+   },
+   {
+    "code": "1229",
+    "name": "聯華",
+    "img": "pictures/2023-06-08/output_8_46.png"
+   },
+   {
+    "code": "1533",
+    "name": "車王電",
+    "img": "pictures/2023-06-08/output_8_47.png"
+   },
+   {
+    "code": "1722",
+    "name": "台肥",
+    "img": "pictures/2023-06-08/output_8_48.png"
+   },
+   {
+    "code": "5340",
+    "name": "建榮",
+    "img": "pictures/2023-06-08/output_8_49.png"
+   },
+   {
+    "code": "8027",
+    "name": "鈦昇",
+    "img": "pictures/2023-06-08/output_8_50.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-04-25",
+  "count": 9,
+  "stocks": [
+   {
+    "code": "3131",
+    "name": "弘塑",
+    "img": "pictures/2023-04-25/output_8_0.png"
+   },
+   {
+    "code": "6874",
+    "name": "倍力",
+    "img": "pictures/2023-04-25/output_8_1.png"
+   },
+   {
+    "code": "6829",
+    "name": "千附精密",
+    "img": "pictures/2023-04-25/output_8_2.png"
+   },
+   {
+    "code": "6751",
+    "name": "智聯服務",
+    "img": "pictures/2023-04-25/output_8_3.png"
+   },
+   {
+    "code": "1796",
+    "name": "金穎生技",
+    "img": "pictures/2023-04-25/output_8_4.png"
+   },
+   {
+    "code": "3583",
+    "name": "辛耘",
+    "img": "pictures/2023-04-25/output_8_5.png"
+   },
+   {
+    "code": "3629",
+    "name": "地心引力",
+    "img": "pictures/2023-04-25/output_8_6.png"
+   },
+   {
+    "code": "4566",
+    "name": "時碩工業",
+    "img": "pictures/2023-04-25/output_8_7.png"
+   },
+   {
+    "code": "1784",
+    "name": "訊聯",
+    "img": "pictures/2023-04-25/output_8_8.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-03-10",
+  "count": 12,
+  "stocks": [
+   {
+    "code": "5269",
+    "name": "祥碩",
+    "img": "pictures/2023-03-10/output_8_0.png"
+   },
+   {
+    "code": "6679",
+    "name": "鈺太",
+    "img": "pictures/2023-03-10/output_8_1.png"
+   },
+   {
+    "code": "2357",
+    "name": "華碩",
+    "img": "pictures/2023-03-10/output_8_2.png"
+   },
+   {
+    "code": "8227",
+    "name": "巨有科技",
+    "img": "pictures/2023-03-10/output_8_3.png"
+   },
+   {
+    "code": "6576",
+    "name": "逸達",
+    "img": "pictures/2023-03-10/output_8_4.png"
+   },
+   {
+    "code": "6605",
+    "name": "帝寶",
+    "img": "pictures/2023-03-10/output_8_5.png"
+   },
+   {
+    "code": "5403",
+    "name": "中菲",
+    "img": "pictures/2023-03-10/output_8_6.png"
+   },
+   {
+    "code": "6412",
+    "name": "群電",
+    "img": "pictures/2023-03-10/output_8_7.png"
+   },
+   {
+    "code": "3046",
+    "name": "建碁",
+    "img": "pictures/2023-03-10/output_8_8.png"
+   },
+   {
+    "code": "2609",
+    "name": "陽明",
+    "img": "pictures/2023-03-10/output_8_9.png"
+   },
+   {
+    "code": "7402",
+    "name": "邑錡",
+    "img": "pictures/2023-03-10/output_8_10.png"
+   },
+   {
+    "code": "2006",
+    "name": "東和鋼鐵",
+    "img": "pictures/2023-03-10/output_8_11.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-02-15",
+  "count": 30,
+  "stocks": [
+   {
+    "code": "3443",
+    "name": "創意",
+    "img": "pictures/2023-02-15/output_7_0.png"
+   },
+   {
+    "code": "2327",
+    "name": "國巨",
+    "img": "pictures/2023-02-15/output_7_1.png"
+   },
+   {
+    "code": "3406",
+    "name": "玉晶光",
+    "img": "pictures/2023-02-15/output_7_2.png"
+   },
+   {
+    "code": "4763",
+    "name": "材料-KY",
+    "img": "pictures/2023-02-15/output_7_3.png"
+   },
+   {
+    "code": "3675",
+    "name": "德微",
+    "img": "pictures/2023-02-15/output_7_4.png"
+   },
+   {
+    "code": "2727",
+    "name": "王品",
+    "img": "pictures/2023-02-15/output_7_5.png"
+   },
+   {
+    "code": "8436",
+    "name": "大江",
+    "img": "pictures/2023-02-15/output_7_6.png"
+   },
+   {
+    "code": "4536",
+    "name": "拓凱",
+    "img": "pictures/2023-02-15/output_7_7.png"
+   },
+   {
+    "code": "2754",
+    "name": "亞洲藏壽司",
+    "img": "pictures/2023-02-15/output_7_8.png"
+   },
+   {
+    "code": "8081",
+    "name": "致新",
+    "img": "pictures/2023-02-15/output_7_9.png"
+   },
+   {
+    "code": "2731",
+    "name": "雄獅",
+    "img": "pictures/2023-02-15/output_7_10.png"
+   },
+   {
+    "code": "3617",
+    "name": "碩天",
+    "img": "pictures/2023-02-15/output_7_11.png"
+   },
+   {
+    "code": "2364",
+    "name": "倫飛",
+    "img": "pictures/2023-02-15/output_7_12.png"
+   },
+   {
+    "code": "2317",
+    "name": "鴻海",
+    "img": "pictures/2023-02-15/output_7_13.png"
+   },
+   {
+    "code": "5284",
+    "name": "jpp-KY",
+    "img": "pictures/2023-02-15/output_7_14.png"
+   },
+   {
+    "code": "2385",
+    "name": "群光",
+    "img": "pictures/2023-02-15/output_7_15.png"
+   },
+   {
+    "code": "1513",
+    "name": "中興電",
+    "img": "pictures/2023-02-15/output_7_16.png"
+   },
+   {
+    "code": "6605",
+    "name": "帝寶",
+    "img": "pictures/2023-02-15/output_7_17.png"
+   },
+   {
+    "code": "2748",
+    "name": "雲品",
+    "img": "pictures/2023-02-15/output_7_18.png"
+   },
+   {
+    "code": "3022",
+    "name": "威強電",
+    "img": "pictures/2023-02-15/output_7_19.png"
+   },
+   {
+    "code": "4104",
+    "name": "佳醫",
+    "img": "pictures/2023-02-15/output_7_20.png"
+   },
+   {
+    "code": "1503",
+    "name": "士電",
+    "img": "pictures/2023-02-15/output_7_21.png"
+   },
+   {
+    "code": "6874",
+    "name": "倍力",
+    "img": "pictures/2023-02-15/output_7_22.png"
+   },
+   {
+    "code": "5706",
+    "name": "鳳凰",
+    "img": "pictures/2023-02-15/output_7_23.png"
+   },
+   {
+    "code": "6290",
+    "name": "良維",
+    "img": "pictures/2023-02-15/output_7_24.png"
+   },
+   {
+    "code": "4938",
+    "name": "和碩",
+    "img": "pictures/2023-02-15/output_7_25.png"
+   },
+   {
+    "code": "3207",
+    "name": "耀勝",
+    "img": "pictures/2023-02-15/output_7_26.png"
+   },
+   {
+    "code": "2743",
+    "name": "山富",
+    "img": "pictures/2023-02-15/output_7_27.png"
+   },
+   {
+    "code": "8171",
+    "name": "天宇",
+    "img": "pictures/2023-02-15/output_7_28.png"
+   },
+   {
+    "code": "2472",
+    "name": "立隆電",
+    "img": "pictures/2023-02-15/output_7_29.png"
+   }
+  ]
+ },
+ {
+  "date": "2023-02-06",
+  "count": 36,
+  "stocks": [
+   {
+    "code": "3529",
+    "name": "力旺",
+    "img": "pictures/2023-02-06/output_7_1.png"
+   },
+   {
+    "code": "1590",
+    "name": "亞德客-KY",
+    "img": "pictures/2023-02-06/output_7_2.png"
+   },
+   {
+    "code": "3653",
+    "name": "健策",
+    "img": "pictures/2023-02-06/output_7_3.png"
+   },
+   {
+    "code": "3023",
+    "name": "信邦",
+    "img": "pictures/2023-02-06/output_7_4.png"
+   },
+   {
+    "code": "3680",
+    "name": "家登",
+    "img": "pictures/2023-02-06/output_7_5.png"
+   },
+   {
+    "code": "1795",
+    "name": "美時",
+    "img": "pictures/2023-02-06/output_7_6.png"
+   },
+   {
+    "code": "6789",
+    "name": "采鈺",
+    "img": "pictures/2023-02-06/output_7_7.png"
+   },
+   {
+    "code": "3558",
+    "name": "神準",
+    "img": "pictures/2023-02-06/output_7_8.png"
+   },
+   {
+    "code": "6414",
+    "name": "樺漢",
+    "img": "pictures/2023-02-06/output_7_9.png"
+   },
+   {
+    "code": "6712",
+    "name": "長聖",
+    "img": "pictures/2023-02-06/output_7_10.png"
+   },
+   {
+    "code": "8996",
+    "name": "高力",
+    "img": "pictures/2023-02-06/output_7_11.png"
+   },
+   {
+    "code": "2404",
+    "name": "漢唐",
+    "img": "pictures/2023-02-06/output_7_12.png"
+   },
+   {
+    "code": "8069",
+    "name": "元太",
+    "img": "pictures/2023-02-06/output_7_13.png"
+   },
+   {
+    "code": "9914",
+    "name": "美利達",
+    "img": "pictures/2023-02-06/output_7_14.png"
+   },
+   {
+    "code": "2474",
+    "name": "可成",
+    "img": "pictures/2023-02-06/output_7_15.png"
+   },
+   {
+    "code": "6104",
+    "name": "創惟",
+    "img": "pictures/2023-02-06/output_7_16.png"
+   },
+   {
+    "code": "6592",
+    "name": "和潤企業",
+    "img": "pictures/2023-02-06/output_7_17.png"
+   },
+   {
+    "code": "6550",
+    "name": "北極星藥業-KY",
+    "img": "pictures/2023-02-06/output_7_18.png"
+   },
+   {
+    "code": "6231",
+    "name": "系微",
+    "img": "pictures/2023-02-06/output_7_19.png"
+   },
+   {
+    "code": "6796",
+    "name": "晉弘",
+    "img": "pictures/2023-02-06/output_7_20.png"
+   },
+   {
+    "code": "6546",
+    "name": "正基",
+    "img": "pictures/2023-02-06/output_7_21.png"
+   },
+   {
+    "code": "2439",
+    "name": "美律",
+    "img": "pictures/2023-02-06/output_7_22.png"
+   },
+   {
+    "code": "5285",
+    "name": "界霖",
+    "img": "pictures/2023-02-06/output_7_23.png"
+   },
+   {
+    "code": "2748",
+    "name": "雲品",
+    "img": "pictures/2023-02-06/output_7_24.png"
+   },
+   {
+    "code": "1808",
+    "name": "潤隆",
+    "img": "pictures/2023-02-06/output_7_25.png"
+   },
+   {
+    "code": "8044",
+    "name": "網家",
+    "img": "pictures/2023-02-06/output_7_26.png"
+   },
+   {
+    "code": "3588",
+    "name": "通嘉",
+    "img": "pictures/2023-02-06/output_7_27.png"
+   },
+   {
+    "code": "2498",
+    "name": "宏達電",
+    "img": "pictures/2023-02-06/output_7_28.png"
+   },
+   {
+    "code": "2301",
+    "name": "光寶科",
+    "img": "pictures/2023-02-06/output_7_29.png"
+   },
+   {
+    "code": "3548",
+    "name": "兆利",
+    "img": "pictures/2023-02-06/output_7_30.png"
+   },
+   {
+    "code": "4938",
+    "name": "和碩",
+    "img": "pictures/2023-02-06/output_7_31.png"
+   },
+   {
+    "code": "6441",
+    "name": "廣錠",
+    "img": "pictures/2023-02-06/output_7_32.png"
+   },
+   {
+    "code": "4148",
+    "name": "全宇生技-KY",
+    "img": "pictures/2023-02-06/output_7_33.png"
+   },
+   {
+    "code": "6147",
+    "name": "頎邦",
+    "img": "pictures/2023-02-06/output_7_34.png"
+   },
+   {
+    "code": "2743",
+    "name": "山富",
+    "img": "pictures/2023-02-06/output_7_35.png"
+   },
+   {
+    "code": "5243",
+    "name": "乙盛-KY",
+    "img": "pictures/2023-02-06/output_7_36.png"
+   }
+  ]
+ }
+]
