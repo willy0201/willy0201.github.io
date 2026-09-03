@@ -1,0 +1,48 @@
+name: 大盤重挫日自動疊圖
+
+on:
+  schedule:
+    # 06:30 UTC = 台北時間 14:30，台股平日收盤(13:30)後留 1 小時緩衝
+    # 讓證交所官方收盤資料確定已經出來
+    - cron: "30 6 * * 1-5"
+  workflow_dispatch: {}   # 允許在 GitHub Actions 頁面手動觸發，方便測試
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crash-day-pipeline
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90   # 保險用：正常應該幾分鐘內跑完，避免萬一卡住(例如 FinMind 額度問題)
+                            # 占用太久，拖到隔天排程或一直吃 Actions 用量
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run crash-day pipeline
+        run: python scripts/crash_day_pipeline.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "crash-day-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data.json pictures
+          if git diff --cached --quiet; then
+            echo "沒有新資料，不需要 commit。"
+          else
+            TODAY=$(TZ=Asia/Taipei date +%F)
+            git commit -m "大盤重挫日：新增 ${TODAY}"
+            git push
+          fi

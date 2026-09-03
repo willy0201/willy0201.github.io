@@ -1,0 +1,14 @@
+# Python 執行時自動產生的暫存快取，沒有意義，不需要進版控
+scripts/__pycache__/
+**/__pycache__/
+*.pyc
+
+# 本機執行 backfill_screen.py / refresh_charts.py 時累積的中間結果快取
+# （純粹是加速重跑用，內容可以隨時從頭重新產生，不需要也不建議上傳）
+scripts/backfill_screened.json
+scripts/backfill_otc_cache.json
+scripts/backfill_price_cache.json
+
+# 常見的編輯器/系統雜項檔案
+.vscode/
+.DS_Store

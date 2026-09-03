@@ -41,7 +41,7 @@ import common
 TAIPEI_TZ = ZoneInfo("Asia/Taipei")
 
 DROP_THRESHOLD_PCT = 1.5          # 大盤重挫門檻（收盤 vs 前一交易日收盤）
-PRICE_MIN = 100                   # 逆勢股股價門檻（沿用原本 notebook 的設定）
+PRICE_MIN = 100                   # 逆勢股股價門檻（2026-09 起改成 100，跟補歷史資料的門檻一致）
 LOOKBACK_DAYS = 1000               # 疊圖回溯天數（沿用原本 notebook 的設定）
 
 MONEYDJ_URL = "https://concords.moneydj.com/z/zk/zk1/zkparse_580_30.djhtm"
