@@ -1,5 +1,105 @@
 [
  {
+  "date": "2026-09-11",
+  "count": 18,
+  "stocks": [
+   {
+    "code": "1560",
+    "name": "中砂",
+    "img": "pictures/2026-09-11/0.png"
+   },
+   {
+    "code": "7717",
+    "name": "萊德光電-KY",
+    "img": "pictures/2026-09-11/1.png"
+   },
+   {
+    "code": "6538",
+    "name": "倉和",
+    "img": "pictures/2026-09-11/2.png"
+   },
+   {
+    "code": "5386",
+    "name": "青雲",
+    "img": "pictures/2026-09-11/3.png"
+   },
+   {
+    "code": "8227",
+    "name": "巨有科技",
+    "img": "pictures/2026-09-11/4.png"
+   },
+   {
+    "code": "6214",
+    "name": "精誠",
+    "img": "pictures/2026-09-11/5.png"
+   },
+   {
+    "code": "3441",
+    "name": "聯一光",
+    "img": "pictures/2026-09-11/6.png"
+   },
+   {
+    "code": "2412",
+    "name": "中華電",
+    "img": "pictures/2026-09-11/7.png"
+   },
+   {
+    "code": "6706",
+    "name": "惠特",
+    "img": "pictures/2026-09-11/8.png"
+   },
+   {
+    "code": "7772",
+    "name": "耀穎",
+    "img": "pictures/2026-09-11/9.png"
+   },
+   {
+    "code": "6227",
+    "name": "茂綸",
+    "img": "pictures/2026-09-11/10.png"
+   },
+   {
+    "code": "3624",
+    "name": "光頡",
+    "img": "pictures/2026-09-11/11.png"
+   },
+   {
+    "code": "3045",
+    "name": "台灣大",
+    "img": "pictures/2026-09-11/12.png"
+   },
+   {
+    "code": "3029",
+    "name": "零壹",
+    "img": "pictures/2026-09-11/13.png"
+   },
+   {
+    "code": "6416",
+    "name": "瑞祺電通",
+    "img": "pictures/2026-09-11/14.png"
+   },
+   {
+    "code": "6834",
+    "name": "天二科技",
+    "img": "pictures/2026-09-11/15.png"
+   },
+   {
+    "code": "2466",
+    "name": "冠西電",
+    "img": "pictures/2026-09-11/16.png"
+   },
+   {
+    "code": "4904",
+    "name": "遠傳",
+    "img": "pictures/2026-09-11/17.png"
+   }
+  ],
+  "close": 46184.85,
+  "prev": 46940.49,
+  "dropPts": 755.64,
+  "dropPct": 1.61
+ },
+ {
   "date": "2026-09-02",
   "count": 25,
   "stocks": [
