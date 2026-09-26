@@ -13,7 +13,7 @@
 邏輯（延續原本 notebook「爬蟲選股大師創新高與大盤疊圖.ipynb」的做法）：
   - 用台灣證交所官方資料判斷「今天」大盤是否較前一交易日收盤重挫 >= 1.5%。
     沒有重挫就直接結束，不做任何事（no-op）。
-  - 有重挫才去爬 MoneyDJ「選股大師」頁面，篩出股價 > 60 的個股代號。
+  - 有重挫才去爬 MoneyDJ「選股大師」頁面，篩出股價 > 100 的個股代號。
   - 用證交所 ISIN 上市/上櫃清單把代號轉成「代號+中文名稱」。
   - 用 FinMind 抓每檔個股 + 大盤近 1000 天日收盤價，畫成雙軸疊圖（紅：個股，
     水藍：大盤），存進 pictures/<日期>/<序號>.png。
@@ -79,8 +79,9 @@ def main() -> int:
     common.log(f"執行日期（台北時間）：{iso_date}")
 
     entries = common.load_data_json()
-    if any(e["date"] == iso_date for e in entries):
-        common.log("今天已經處理過了（data.json 裡已經有這個日期），結束。")
+    existing = next((e for e in entries if e["date"] == iso_date), None)
+    if existing and existing.get("status", "complete") == "complete":
+        common.log("今天已完整處理，結束。")
         return 0
 
     trigger = common.get_taiex_trigger(run_date)
@@ -109,8 +110,12 @@ def main() -> int:
     taiex_close = common.fetch_daily_close(api, "TAIEX", start_date, end_date)
     time.sleep(0.3)
 
-    stocks_out = []
+    stocks_out = list(existing.get("stocks", [])) if existing else []
+    completed_codes = {stock["code"] for stock in stocks_out}
+    failed_codes = []
     for i, code in enumerate(stock_ids):
+        if code in completed_codes:
+            continue
         name = code_to_name.get(code, "")
         label = f"{code}{name}" if name else code
         common.log(f"  [{i+1}/{len(stock_ids)}] 抓 {label} 近 1000 天收盤價並畫圖……")
@@ -128,6 +133,7 @@ def main() -> int:
             })
         except Exception as exc:  # noqa: BLE001 — 單檔失敗不要讓整批當掉
             common.log(f"    {label} 處理失敗，略過：{exc}")
+            failed_codes.append(code)
         time.sleep(0.3)
 
     new_entry = {
@@ -138,10 +144,14 @@ def main() -> int:
         "prev": trigger["prev"],
         "dropPts": trigger["dropPts"],
         "dropPct": trigger["dropPct"],
+        "status": "partial" if failed_codes else "complete",
+        "failedStocks": failed_codes,
     }
+    entries = [e for e in entries if e["date"] != iso_date]
     entries.append(new_entry)
     common.save_data_json(entries)
-    common.log(f"完成，寫入 data.json：{iso_date}，{len(stocks_out)} 檔逆勢股。")
+    common.log(f"完成，寫入 data.json：{iso_date}，{len(stocks_out)} 檔逆勢股；"
+               f"{len(failed_codes)} 檔待重試。")
     return 0
 
 

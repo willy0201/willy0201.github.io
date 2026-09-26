@@ -8,6 +8,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import time
 from pathlib import Path
@@ -149,11 +150,16 @@ def date_key(d) -> str:
 
 def get_finmind_loader():
     from FinMind.data import DataLoader
-    return DataLoader()
+    api = DataLoader()
+    token = os.getenv("FINMIND_TOKEN", "").strip()
+    if token:
+        api.login_by_token(api_token=token)
+        log("已使用 FINMIND_TOKEN，降低 API 限流機率。")
+    return api
 
 
-FINMIND_RATE_LIMIT_WAIT_SECONDS = 3900  # 匿名額度用完後，休息多久再自動重試(65分鐘，保守多留5分鐘緩衝)
-FINMIND_MAX_RETRIES = 8                 # 最多自動重試幾次才放棄(8次 x 65分鐘 涵蓋約8小時)
+FINMIND_RATE_LIMIT_WAIT_SECONDS = 90
+FINMIND_MAX_RETRIES = 3
 
 
 def _is_rate_limit_error(exc: Exception) -> bool:
@@ -178,10 +184,9 @@ def fetch_daily_close(api, stock_id: str, start_date: str, end_date: str) -> pd.
         except Exception as exc:  # noqa: BLE001
             if not _is_rate_limit_error(exc) or attempt == FINMIND_MAX_RETRIES:
                 raise
-            wait_min = FINMIND_RATE_LIMIT_WAIT_SECONDS // 60
-            log(f"    FinMind 匿名額度用完(第 {attempt} 次)，休息 {wait_min} 分鐘後自動重試，"
-                f"這段時間可以放著不用管……")
-            time.sleep(FINMIND_RATE_LIMIT_WAIT_SECONDS)
+            wait_seconds = FINMIND_RATE_LIMIT_WAIT_SECONDS * attempt
+            log(f"    FinMind 額度暫時受限（第 {attempt} 次），{wait_seconds} 秒後重試……")
+            time.sleep(wait_seconds)
     raise RuntimeError("FinMind 多次重試後仍然被限速，請稍後手動重新執行一次。")
 
 
