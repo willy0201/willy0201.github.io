@@ -2,9 +2,8 @@ name: 大盤重挫日自動疊圖
 
 on:
   schedule:
-    # 06:30 UTC = 台北時間 14:30，台股平日收盤(13:30)後留 1 小時緩衝
-    # 讓證交所官方收盤資料確定已經出來
-    - cron: "30 6 * * 1-5"
+    # 10:00 UTC = 台北時間 18:00，避開收盤資料尚未完整更新的時段
+    - cron: "0 10 * * 1-5"
   workflow_dispatch: {}   # 允許在 GitHub Actions 頁面手動觸發，方便測試
 
 permissions:
@@ -17,8 +16,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 90   # 保險用：正常應該幾分鐘內跑完，避免萬一卡住(例如 FinMind 額度問題)
-                            # 占用太久，拖到隔天排程或一直吃 Actions 用量
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,6 +30,8 @@ jobs:
         run: pip install -r scripts/requirements.txt
 
       - name: Run crash-day pipeline
+        env:
+          FINMIND_TOKEN: ${{ secrets.FINMIND_TOKEN }}
         run: python scripts/crash_day_pipeline.py
 
       - name: Commit and push if changed
