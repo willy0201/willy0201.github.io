@@ -4,10 +4,13 @@ on:
   schedule:
     # 10:00 UTC = 台北時間 18:00，避開收盤資料尚未完整更新的時段
     - cron: "0 10 * * 1-5"
+    # 11:00 UTC = 台北時間 19:00；18:00 已完整完成時會直接結束，否則補跑
+    - cron: "0 11 * * 1-5"
   workflow_dispatch: {}   # 允許在 GitHub Actions 頁面手動觸發，方便測試
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: crash-day-pipeline
@@ -46,3 +49,39 @@ jobs:
             git commit -m "大盤重挫日：新增 ${TODAY}"
             git push
           fi
+
+      - name: Create or update failure issue
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = "每日股價更新失敗";
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const body = [
+              `執行時間：${new Date().toISOString()}`,
+              `觸發方式：${context.eventName}`,
+              `失敗紀錄：${runUrl}`,
+              "請開啟失敗紀錄查看原因；修正後可在 Actions 頁面手動重新執行。"
+            ].join("\n\n");
+            const { data } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              per_page: 100
+            });
+            const existing = data.find(issue => !issue.pull_request && issue.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body
+              });
+            }
