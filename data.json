@@ -1,5 +1,97 @@
 [
  {
+  "date": "2026-10-15",
+  "count": 16,
+  "stocks": [
+   {
+    "code": "3034",
+    "name": "聯詠",
+    "img": "pictures/2026-10-15/0.png"
+   },
+   {
+    "code": "1476",
+    "name": "儒鴻",
+    "img": "pictures/2026-10-15/1.png"
+   },
+   {
+    "code": "6278",
+    "name": "台表科",
+    "img": "pictures/2026-10-15/2.png"
+   },
+   {
+    "code": "6782",
+    "name": "視陽",
+    "img": "pictures/2026-10-15/3.png"
+   },
+   {
+    "code": "3592",
+    "name": "瑞鼎",
+    "img": "pictures/2026-10-15/4.png"
+   },
+   {
+    "code": "2727",
+    "name": "王品",
+    "img": "pictures/2026-10-15/5.png"
+   },
+   {
+    "code": "2912",
+    "name": "統一超",
+    "img": "pictures/2026-10-15/6.png"
+   },
+   {
+    "code": "1477",
+    "name": "聚陽",
+    "img": "pictures/2026-10-15/7.png"
+   },
+   {
+    "code": "6146",
+    "name": "耕興",
+    "img": "pictures/2026-10-15/8.png"
+   },
+   {
+    "code": "6214",
+    "name": "精誠",
+    "img": "pictures/2026-10-15/9.png"
+   },
+   {
+    "code": "4961",
+    "name": "天鈺",
+    "img": "pictures/2026-10-15/10.png"
+   },
+   {
+    "code": "2412",
+    "name": "中華電",
+    "img": "pictures/2026-10-15/11.png"
+   },
+   {
+    "code": "2478",
+    "name": "大毅",
+    "img": "pictures/2026-10-15/12.png"
+   },
+   {
+    "code": "3045",
+    "name": "台灣大",
+    "img": "pictures/2026-10-15/13.png"
+   },
+   {
+    "code": "3005",
+    "name": "神基",
+    "img": "pictures/2026-10-15/14.png"
+   },
+   {
+    "code": "4904",
+    "name": "遠傳",
+    "img": "pictures/2026-10-15/15.png"
+   }
+  ],
+  "close": 46969.87,
+  "prev": 48625.83,
+  "dropPts": 1655.96,
+  "dropPct": 3.41,
+  "status": "complete",
+  "failedStocks": []
+ },
+ {
   "date": "2026-09-11",
   "count": 18,
   "stocks": [
