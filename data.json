@@ -1,5 +1,77 @@
 [
  {
+  "date": "2026-10-22",
+  "count": 12,
+  "stocks": [
+   {
+    "code": "6782",
+    "name": "視陽",
+    "img": "pictures/2026-10-22/0.png"
+   },
+   {
+    "code": "2466",
+    "name": "冠西電",
+    "img": "pictures/2026-10-22/1.png"
+   },
+   {
+    "code": "6467",
+    "name": "泰合",
+    "img": "pictures/2026-10-22/2.png"
+   },
+   {
+    "code": "6214",
+    "name": "精誠",
+    "img": "pictures/2026-10-22/3.png"
+   },
+   {
+    "code": "2412",
+    "name": "中華電",
+    "img": "pictures/2026-10-22/4.png"
+   },
+   {
+    "code": "6199",
+    "name": "天品",
+    "img": "pictures/2026-10-22/5.png"
+   },
+   {
+    "code": "3045",
+    "name": "台灣大",
+    "img": "pictures/2026-10-22/6.png"
+   },
+   {
+    "code": "4577",
+    "name": "達航科技",
+    "img": "pictures/2026-10-22/7.png"
+   },
+   {
+    "code": "3005",
+    "name": "神基",
+    "img": "pictures/2026-10-22/8.png"
+   },
+   {
+    "code": "4953",
+    "name": "緯致",
+    "img": "pictures/2026-10-22/9.png"
+   },
+   {
+    "code": "4904",
+    "name": "遠傳",
+    "img": "pictures/2026-10-22/10.png"
+   },
+   {
+    "code": "6277",
+    "name": "宏正",
+    "img": "pictures/2026-10-22/11.png"
+   }
+  ],
+  "close": 46041.43,
+  "prev": 46887.77,
+  "dropPts": 846.34,
+  "dropPct": 1.81,
+  "status": "complete",
+  "failedStocks": []
+ },
+ {
   "date": "2026-10-15",
   "count": 16,
   "stocks": [
