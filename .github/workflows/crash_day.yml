@@ -37,21 +37,34 @@ jobs:
           FINMIND_TOKEN: ${{ secrets.FINMIND_TOKEN }}
         run: python scripts/crash_day_pipeline.py
 
+      # 每個交易日都更新「近一年股價」圖用的收盤價(不只重挫日)；失敗時仍會
+      # commit 上一步的重挫日資料，並在最後開失敗 issue
+      - name: Update one-year price data
+        id: trend
+        continue-on-error: true
+        env:
+          FINMIND_TOKEN: ${{ secrets.FINMIND_TOKEN }}
+        run: python scripts/trend_prices.py
+
       - name: Commit and push if changed
         run: |
           git config user.name "crash-day-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data.json pictures
+          git add data.json pictures prices
           if git diff --cached --quiet; then
             echo "沒有新資料，不需要 commit。"
           else
             TODAY=$(TZ=Asia/Taipei date +%F)
-            git commit -m "大盤重挫日：新增 ${TODAY}"
+            if git diff --cached --quiet -- data.json; then
+              git commit -m "近一年股價：更新 ${TODAY}"
+            else
+              git commit -m "大盤重挫日：新增 ${TODAY}"
+            fi
             git push
           fi
 
       - name: Create or update failure issue
-        if: failure()
+        if: failure() || steps.trend.outcome == 'failure'
         uses: actions/github-script@v7
         with:
           script: |
