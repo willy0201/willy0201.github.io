@@ -2,10 +2,13 @@ name: 大盤重挫日自動疊圖
 
 on:
   schedule:
-    # 10:00 UTC = 台北時間 18:00，避開收盤資料尚未完整更新的時段
-    - cron: "0 10 * * 1-5"
-    # 11:00 UTC = 台北時間 19:00；18:00 已完整完成時會直接結束，否則補跑
-    - cron: "0 11 * * 1-5"
+    # GitHub 排程在整點最壅塞，常延遲好幾個小時(曾經延到隔天凌晨)，所以避開
+    # 整點、一晚排多次。流程本身會檢查最近幾個交易日還沒處理的重挫日，
+    # 晚跑或重複跑都不會漏、也不會重複處理。
+    - cron: "17 10 * * 1-5"   # 台北 18:17
+    - cron: "47 11 * * 1-5"   # 台北 19:47
+    - cron: "17 14 * * 1-5"   # 台北 22:17
+    - cron: "37 0 * * 2-6"    # 台北隔天 08:37（開盤前最後補跑）
   workflow_dispatch: {}   # 允許在 GitHub Actions 頁面手動觸發，方便測試
 
 permissions:
@@ -54,11 +57,13 @@ jobs:
           if git diff --cached --quiet; then
             echo "沒有新資料，不需要 commit。"
           else
-            TODAY=$(TZ=Asia/Taipei date +%F)
+            # 用資料本身的日期，而不是排程實際執行的日期(延遲時會差一天)
             if git diff --cached --quiet -- data.json; then
-              git commit -m "近一年股價：更新 ${TODAY}"
+              LATEST=$(python -c "import glob,json; print(max(json.load(open(f))['dates'][-1] for f in glob.glob('prices/*.json')))")
+              git commit -m "近一年股價：更新 ${LATEST}"
             else
-              git commit -m "大盤重挫日：新增 ${TODAY}"
+              ADDED=$(git diff --cached --name-only -- pictures | cut -d/ -f2 | sort -u | paste -sd'、')
+              git commit -m "大盤重挫日：新增 ${ADDED:-資料更新}"
             fi
             git push
           fi

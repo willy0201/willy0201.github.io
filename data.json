@@ -1,5 +1,229 @@
 [
  {
+  "date": "2026-11-12",
+  "count": 6,
+  "stocks": [
+   {
+    "code": "2466",
+    "name": "冠西電",
+    "img": "pictures/2026-11-12/0.png"
+   },
+   {
+    "code": "1476",
+    "name": "儒鴻",
+    "img": "pictures/2026-11-12/1.png"
+   },
+   {
+    "code": "5209",
+    "name": "新鼎",
+    "img": "pictures/2026-11-12/2.png"
+   },
+   {
+    "code": "8099",
+    "name": "大世科",
+    "img": "pictures/2026-11-12/3.png"
+   },
+   {
+    "code": "2465",
+    "name": "麗臺",
+    "img": "pictures/2026-11-12/4.png"
+   },
+   {
+    "code": "3715",
+    "name": "定穎投控",
+    "img": "pictures/2026-11-12/5.png"
+   }
+  ],
+  "close": 43091.87,
+  "prev": 44257.15,
+  "dropPts": 1165.28,
+  "dropPct": 2.63,
+  "status": "complete",
+  "failedStocks": []
+ },
+ {
+  "date": "2026-11-06",
+  "count": 5,
+  "stocks": [
+   {
+    "code": "1476",
+    "name": "儒鴻",
+    "img": "pictures/2026-11-06/0.png"
+   },
+   {
+    "code": "2254",
+    "name": "巨鎧精密-創",
+    "img": "pictures/2026-11-06/1.png"
+   },
+   {
+    "code": "2412",
+    "name": "中華電",
+    "img": "pictures/2026-11-06/2.png"
+   },
+   {
+    "code": "6446",
+    "name": "藥華藥",
+    "img": "pictures/2026-11-06/3.png"
+   },
+   {
+    "code": "6782",
+    "name": "視陽",
+    "img": "pictures/2026-11-06/4.png"
+   }
+  ],
+  "close": 39701.64,
+  "prev": 41574.72,
+  "dropPts": 1873.08,
+  "dropPct": 4.51,
+  "status": "complete",
+  "failedStocks": [],
+  "source": "reconstructed"
+ },
+ {
+  "date": "2026-11-05",
+  "count": 6,
+  "stocks": [
+   {
+    "code": "1476",
+    "name": "儒鴻",
+    "img": "pictures/2026-11-05/0.png"
+   },
+   {
+    "code": "1477",
+    "name": "聚陽",
+    "img": "pictures/2026-11-05/1.png"
+   },
+   {
+    "code": "2254",
+    "name": "巨鎧精密-創",
+    "img": "pictures/2026-11-05/2.png"
+   },
+   {
+    "code": "2412",
+    "name": "中華電",
+    "img": "pictures/2026-11-05/3.png"
+   },
+   {
+    "code": "6199",
+    "name": "天品",
+    "img": "pictures/2026-11-05/4.png"
+   },
+   {
+    "code": "8099",
+    "name": "大世科",
+    "img": "pictures/2026-11-05/5.png"
+   }
+  ],
+  "close": 41574.72,
+  "prev": 42948.91,
+  "dropPts": 1374.19,
+  "dropPct": 3.2,
+  "status": "complete",
+  "failedStocks": [],
+  "source": "reconstructed"
+ },
+ {
+  "date": "2026-11-03",
+  "count": 7,
+  "stocks": [
+   {
+    "code": "1232",
+    "name": "大統益",
+    "img": "pictures/2026-11-03/0.png"
+   },
+   {
+    "code": "2254",
+    "name": "巨鎧精密-創",
+    "img": "pictures/2026-11-03/1.png"
+   },
+   {
+    "code": "2465",
+    "name": "麗臺",
+    "img": "pictures/2026-11-03/2.png"
+   },
+   {
+    "code": "5209",
+    "name": "新鼎",
+    "img": "pictures/2026-11-03/3.png"
+   },
+   {
+    "code": "6199",
+    "name": "天品",
+    "img": "pictures/2026-11-03/4.png"
+   },
+   {
+    "code": "6467",
+    "name": "泰合",
+    "img": "pictures/2026-11-03/5.png"
+   },
+   {
+    "code": "8099",
+    "name": "大世科",
+    "img": "pictures/2026-11-03/6.png"
+   }
+  ],
+  "close": 43307.54,
+  "prev": 44920.14,
+  "dropPts": 1612.6,
+  "dropPct": 3.59,
+  "status": "complete",
+  "failedStocks": [],
+  "source": "reconstructed"
+ },
+ {
+  "date": "2026-10-30",
+  "count": 8,
+  "stocks": [
+   {
+    "code": "2254",
+    "name": "巨鎧精密-創",
+    "img": "pictures/2026-10-30/0.png"
+   },
+   {
+    "code": "2379",
+    "name": "瑞昱",
+    "img": "pictures/2026-10-30/1.png"
+   },
+   {
+    "code": "2412",
+    "name": "中華電",
+    "img": "pictures/2026-10-30/2.png"
+   },
+   {
+    "code": "2466",
+    "name": "冠西電",
+    "img": "pictures/2026-10-30/3.png"
+   },
+   {
+    "code": "2603",
+    "name": "長榮",
+    "img": "pictures/2026-10-30/4.png"
+   },
+   {
+    "code": "6199",
+    "name": "天品",
+    "img": "pictures/2026-10-30/5.png"
+   },
+   {
+    "code": "6655",
+    "name": "科定",
+    "img": "pictures/2026-10-30/6.png"
+   },
+   {
+    "code": "8099",
+    "name": "大世科",
+    "img": "pictures/2026-10-30/7.png"
+   }
+  ],
+  "close": 45211.83,
+  "prev": 46368.33,
+  "dropPts": 1156.5,
+  "dropPct": 2.49,
+  "status": "complete",
+  "failedStocks": [],
+  "source": "reconstructed"
+ },
+ {
   "date": "2026-10-15",
   "count": 16,
   "stocks": [

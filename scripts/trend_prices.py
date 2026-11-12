@@ -13,16 +13,14 @@
 
 抓價策略（盡量不用 FinMind，避免每天幾百次請求被限速）：
   1. 用證交所大盤月資料取得交易日曆，算出每檔股票缺哪幾個交易日。
-  2. 只缺最近幾天的(日常情況)：
-       - 上市：證交所「全市場收盤行情」，一天一次請求就涵蓋全部上市股票。
-       - 上櫃：櫃買中心 OpenAPI，只會回傳最新一個交易日，日期對得上才採用。
-  3. 還補不齊的（新加入的股票、排程漏跑好幾天、上櫃股票缺舊資料）：
+  2. 只缺最近幾天的(日常情況)：證交所(上市)與櫃買中心(上櫃)的「全市場收盤
+     行情」，每個交易日各一次請求就涵蓋全部股票。
+  3. 還補不齊的（新加入的股票、排程漏跑好幾天）：
      改用 FinMind 逐檔抓。
 
 用法：
     python scripts/trend_prices.py              # 日常更新
-    python scripts/trend_prices.py --bootstrap  # 第一次建立：上市股票整段用證交所
-                                                # 全市場行情補，只有上櫃才逐檔用 FinMind
+    python scripts/trend_prices.py --bootstrap  # 第一次建立：整段都用全市場行情補
 
 已經抓好的資料會保留，可以放心中斷、之後重跑。
 """
@@ -36,8 +34,6 @@ import sys
 import time
 from zoneinfo import ZoneInfo
 
-import requests
-
 import common
 import reconstruct_screener as rs
 
@@ -46,7 +42,6 @@ TAIPEI_TZ = ZoneInfo("Asia/Taipei")
 PRICES_DIR = common.REPO_ROOT / "prices"
 HISTORY_DAYS = 460          # 365 天顯示範圍 + 約 60 個交易日的均線暖機期
 BULK_MAX_GAP = 5            # 缺的交易日 <= 這個數字才用全市場行情補，否則改逐檔抓
-TPEX_LATEST_URL = "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_daily_close_quotes"
 
 
 def load_series(code: str) -> dict:
@@ -80,31 +75,10 @@ def trading_calendar(start: datetime.date, end: datetime.date) -> list[str]:
     return sorted(d for d in days if start.isoformat() <= d <= end.isoformat())
 
 
-def fetch_tpex_latest() -> tuple[str, dict[str, float]]:
-    """上櫃：最新一個交易日的全市場收盤價，回傳 (iso_date, {code: close})。"""
-    try:
-        resp = requests.get(TPEX_LATEST_URL, headers=common.REQUEST_HEADERS, timeout=30)
-        resp.raise_for_status()
-        rows = resp.json()
-    except Exception as exc:  # noqa: BLE001
-        common.log(f"  櫃買中心最新行情抓取失敗，上櫃改用 FinMind：{exc}")
-        return "", {}
-
-    out, iso_date = {}, ""
-    for row in rows:
-        code = str(row.get("SecuritiesCompanyCode", "")).strip()
-        close = rs._to_float(str(row.get("Close", "")))
-        if common.STOCK_CODE_RE.match(code) and close is not None:
-            out[code] = close
-            iso_date = iso_date or common.roc_to_iso(
-                f"{row['Date'][:-4]}/{row['Date'][-4:-2]}/{row['Date'][-2:]}")
-    return iso_date, out
-
-
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--bootstrap", action="store_true",
-                        help="上市股票不管缺多少天都用證交所全市場行情補（第一次建立用）")
+                        help="不管缺多少天都用全市場行情補（第一次建立用）")
     args = parser.parse_args()
 
     today = datetime.datetime.now(TAIPEI_TZ).date()
@@ -128,33 +102,29 @@ def main() -> int:
     if not pending:
         return 0
 
-    # 全市場行情：上市一天一次請求；上櫃只有最新一天
+    # 全市場行情：上市、上櫃各一天一次請求
     bulk_limit = len(calendar) if args.bootstrap else BULK_MAX_GAP
     bulk_days = sorted({d for g in pending.values() if len(g) <= bulk_limit for d in g})
-    listed: dict[str, str] = {}  # 上市股票 -> 全市場行情裡第一次出現的日期
+    listed: dict[str, str] = {}  # 在全市場行情裡找得到的股票 -> 第一次出現的日期
     for i, d in enumerate(bulk_days, start=1):
-        closes = rs.fetch_twse_daily_all(datetime.date.fromisoformat(d))
-        common.log(f"  [{i}/{len(bulk_days)}] 證交所 {d} 全市場行情：{len(closes)} 檔")
+        day = datetime.date.fromisoformat(d)
+        closes = rs.fetch_twse_daily_all(day)
+        time.sleep(rs.REQUEST_DELAY)
+        closes.update(rs.fetch_tpex_daily_all(day))
+        common.log(f"  [{i}/{len(bulk_days)}] {d} 上市＋上櫃全市場行情：{len(closes)} 檔")
         for code in pending:
             if code in closes:
                 all_series[code]["prices"][d] = closes[code]
                 listed.setdefault(code, d)
         time.sleep(rs.REQUEST_DELAY)
 
-    tpex_date, tpex_closes = fetch_tpex_latest()
-    if tpex_date:
-        common.log(f"  櫃買中心最新行情 {tpex_date}：{len(tpex_closes)} 檔")
-        for code in pending:
-            if code in tpex_closes:
-                all_series[code]["prices"][tpex_date] = tpex_closes[code]
-
     # 全市場行情補完後仍有缺口：股票不在上市清單裡（上櫃）、或缺太多天
     api = None
     for code, gap in pending.items():
         series = all_series[code]
         still = [d for d in gap if d not in series["prices"]]
-        # 上市股票若已經用全市場行情補過，剩下沒資料的日子就是停牌，不用再查；
-        # 但缺的是上市之前的日子(剛從上櫃轉上市)，要用 FinMind 補上櫃時期的股價
+        # 已經用全市場行情補過的股票，剩下沒資料的日子就是停牌，不用再查；
+        # 但缺的是第一次出現之前的日子(例如剛轉上市櫃)，要用 FinMind 補
         if still and (len(gap) > bulk_limit or code not in listed or still[0] < listed[code]):
             api = api or common.get_finmind_loader()
             common.log(f"  {code} 缺 {len(still)} 個交易日，改用 FinMind 抓……")
@@ -166,8 +136,8 @@ def main() -> int:
                 save_series(series, start.isoformat())
                 continue
             time.sleep(0.3)
-        # 上市停牌的股票標記已檢查過，避免每天重查；上櫃若最新一天還沒資料，
-        # 不標記，讓下一次排程(19:00 補跑或隔天)再試
+        # 停牌的股票標記已檢查過，避免每天重查；不在全市場行情裡、最新一天又
+        # 還沒資料的，不標記，讓下一次排程再試
         if latest in series["prices"] or code in listed:
             series["checked"] = latest
         save_series(series, start.isoformat())

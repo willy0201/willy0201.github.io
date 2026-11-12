@@ -28,6 +28,7 @@ TWSE_ISIN_URLS = [
     "https://isin.twse.com.tw/isin/class_main.jsp?owncode=&stockname=&isincode=&market=1&issuetype=1&industry_code=&Page=1&chklike=Y",  # 上市
     "https://isin.twse.com.tw/isin/class_main.jsp?owncode=&stockname=&isincode=&market=2&issuetype=4&industry_code=&Page=1&chklike=Y",  # 上櫃
 ]
+TWSE_ISIN_CODE_URL = "https://isin.twse.com.tw/isin/class_main.jsp?owncode={code}&stockname=&isincode=&market=&issuetype=&industry_code=&Page=1&chklike=Y"
 
 REQUEST_HEADERS = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -120,8 +121,20 @@ def enrich_stock_names(stock_ids: list[str]) -> dict[str, str]:
             if code in lookup:
                 code_to_name[code] = lookup[code]
                 remaining.discard(code)
+    # 上市/上櫃清單不含創新板等其他市場別，改用代號單獨查一次
+    for code in list(remaining):
+        try:
+            resp = requests.get(TWSE_ISIN_CODE_URL.format(code=code), headers=REQUEST_HEADERS, timeout=20)
+            table = pd.read_html(resp.text)[0]
+            table.columns = table.iloc[0, :]
+            match = table[table["有價證券代號"] == code]
+            if not match.empty:
+                code_to_name[code] = match["有價證券名稱"].iloc[0]
+                remaining.discard(code)
+        except Exception:  # noqa: BLE001 — 查不到就照舊只顯示代號
+            pass
     for code in remaining:
-        log(f"警告：代號 {code} 在上市/上櫃清單都找不到名稱，網站上會只顯示代號。")
+        log(f"警告：代號 {code} 在證交所 ISIN 清單找不到名稱，網站上會只顯示代號。")
         code_to_name[code] = ""
     return code_to_name
 

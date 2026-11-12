@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 重建「MoneyDJ 選股大師 — 最近一個交易日股價創 30 個交易日新高」的名單，
-只給補歷史資料的 backfill.py 用。
+給補歷史資料的 backfill.py，以及排程漏跑時 crash_day_pipeline.py 補抓用。
 
 MoneyDJ 那個頁面只顯示「今天」的名單、沒有日期參數，過去的日子沒辦法直接
 查詢，所以改成自己從證交所(上市)/櫃買中心(上櫃)每天公布的「全市場收盤行情」
@@ -11,13 +11,8 @@ MoneyDJ 那個頁面只顯示「今天」的名單、沒有日期參數，過去
 
 已知限制（老實講）：
   - 上市(TWSE)的部分有實際驗證過欄位格式，應該穩定。
-  - 上櫃(TPEx)：原本用的 `tpex_mainboard_daily_close_quotes` 這個 OpenAPI
-    端點，2026-09-01 實測發現它不會依照傳入的日期回傳歷史資料，不管查哪一天
-    都是回傳「當下」的即時報價——這會讓幾乎每一檔上櫃股票都被誤判成「創 30
-    日新高」(整個視窗裡的數字其實都是同一個數字，跟自己比一定打平新高)，
-    是錯誤的假陽性，比單純漏抓還嚴重。**目前已經把上櫃抓取整個關閉**
-    (`TPEX_ENABLED = False`)，這次重建只涵蓋上市股票，上櫃的逆勢股會被
-    漏掉，之後如果找到真的支援歷史日期查詢的端點，會再打開。
+  - 上櫃(TPEx)：2026-11-12 起改用櫃買中心新版網站的行情端點，可依日期查詢，
+    並會核對回傳日期(舊的 OpenAPI 端點不支援歷史日期，曾因此關閉上櫃抓取)。
   - 這是「用同一套規則重新算一次」，不是去 MoneyDJ 真正保存的歷史紀錄，所以
     不保證跟當時 MoneyDJ 頁面顯示的一模一樣（例如 MoneyDJ 本身可能還有其他
     沒公開的篩選條件）。
@@ -34,7 +29,7 @@ import requests
 import common
 
 TWSE_DAILY_ALL_URL = "https://www.twse.com.tw/exchangeReport/MI_INDEX"
-TPEX_DAILY_ALL_URL = "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_daily_close_quotes"
+TPEX_DAILY_ALL_URL = "https://www.tpex.org.tw/www/zh-tw/afterTrading/dailyQuotes"
 
 STOCK_CODE_RE = re.compile(r"^[1-9]\d{3}$")  # 排除 00xx(ETF)、5碼以上(權證等)
 
@@ -89,36 +84,16 @@ def fetch_twse_daily_all(date: datetime.date) -> dict[str, float]:
     return out
 
 
-# 2026-09-01 發現：tpex_mainboard_daily_close_quotes 這個 OpenAPI 端點實測
-# 沒有真的依照傳入的 date 參數回傳「那一天」的歷史行情，不管傳哪一天，回來
-# 的都是「當下」的即時報價(等於變相每一天視窗裡的收盤價都是同一個數字)。
-# 這會讓幾乎每一檔上櫃股票都被誤判成「創 30 日新高」(因為視窗裡全部日期的
-# 數字都一樣，跟自己比一定「打平新高」)，等於是錯誤的假陽性，比「漏掉上櫃
-# 股票」還糟——所以先整個關閉上櫃抓取，等真的找到、驗證過支援歷史日期查詢
-# 的端點之後再打開。目前重建出來的名單只會涵蓋上市(TWSE)股票。
-TPEX_ENABLED = False
-
-_tpex_warned = False
-
-
+# 2026-11-12 更新：舊的 OpenAPI 端點(tpex_mainboard_daily_close_quotes)不管
+# 查哪天都回傳當下行情，會造成假陽性，所以曾經整個關閉上櫃抓取。改用櫃買中心
+# 新版網站的「上櫃股票行情」端點，實測可以依日期查歷史資料；保險起見仍會核對
+# 回傳的日期，對不上就當作沒資料，不會再出現整段視窗都是同一個數字的情況。
 def fetch_tpex_daily_all(date: datetime.date) -> dict[str, float]:
-    """
-    上櫃：某一天全市場個股收盤價，{code: close}。目前關閉中(見上面說明)，
-    固定回傳 {}，呼叫端本來就設計成能容忍這個情況(等於只用上市資料)。
-    """
-    global _tpex_warned
-    if not TPEX_ENABLED:
-        if not _tpex_warned:
-            common.log("  （上櫃行情抓取目前停用中，這次重建只涵蓋上市股票，見"
-                       "reconstruct_screener.py 檔案最上面的說明）")
-            _tpex_warned = True
-        return {}
-
-    roc_date = f"{date.year - 1911}/{date.month:02d}/{date.day:02d}"
+    """上櫃：某一天全市場個股收盤價，{code: close}。非交易日或日期對不上回傳 {}。"""
     try:
         resp = requests.get(
             TPEX_DAILY_ALL_URL,
-            params={"date": roc_date},
+            params={"date": date.strftime("%Y/%m/%d"), "response": "json"},
             headers=common.REQUEST_HEADERS,
             timeout=30,
         )
@@ -129,21 +104,15 @@ def fetch_tpex_daily_all(date: datetime.date) -> dict[str, float]:
         common.log(f"    TPEx 上櫃行情抓取失敗({date})：{exc}")
         return {}
 
-    rows = payload if isinstance(payload, list) else payload.get("data", payload.get("aaData", []))
-    if not rows:
+    if payload.get("date") != date.strftime("%Y%m%d"):
         return {}
-
+    tables = payload.get("tables") or [{}]
     out = {}
-    for row in rows:
-        if isinstance(row, dict):
-            code = str(row.get("SecuritiesCompanyCode") or row.get("CompanyCode") or row.get("Code") or "").strip()
-            close_raw = row.get("Close") or row.get("Close_Price") or row.get("收盤價")
-        else:
-            # 陣列格式：抓不到明確 schema 就放棄這一列
-            continue
+    for row in tables[0].get("data", []):
+        code = str(row[0]).strip()
         if not STOCK_CODE_RE.match(code):
             continue
-        close = _to_float(str(close_raw))
+        close = _to_float(str(row[2]))
         if close is None:
             continue
         out[code] = close
