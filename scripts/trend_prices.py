@@ -9,7 +9,8 @@
 存純文字收盤價，每天的變動只有幾行，git 很好壓縮。
 
 資料範圍：data.json 裡出現過的所有個股，每檔保留最近 HISTORY_DAYS 天的
-收盤價（一年顯示範圍 + 60 日均線需要的暖機期間）。
+收盤價（一年顯示範圍 + 60 日均線需要的暖機期間）；另外存 prices/TAIEX.json
+(加權指數收盤)，給網頁的「疊加大盤」使用。
 
 抓價策略（盡量不用 FinMind，避免每天幾百次請求被限速）：
   1. 用證交所大盤月資料取得交易日曆，算出每檔股票缺哪幾個交易日。
@@ -64,15 +65,15 @@ def save_series(series: dict, start: str) -> None:
         f.write("\n")
 
 
-def trading_calendar(start: datetime.date, end: datetime.date) -> list[str]:
-    """證交所大盤月資料裡出現的日期 = 交易日。"""
-    days = []
+def trading_calendar(start: datetime.date, end: datetime.date) -> dict[str, float]:
+    """證交所大盤月資料：{交易日: 加權指數收盤}，出現在裡面的日期就是交易日。"""
+    closes = {}
     month = start.replace(day=1)
     while month <= end:
-        days += [d for d, _ in common.fetch_taiex_month(month.strftime("%Y%m"))]
+        closes.update(common.fetch_taiex_month(month.strftime("%Y%m")))
         month = (month + datetime.timedelta(days=32)).replace(day=1)
         time.sleep(rs.REQUEST_DELAY)
-    return sorted(d for d in days if start.isoformat() <= d <= end.isoformat())
+    return {d: c for d, c in sorted(closes.items()) if start.isoformat() <= d <= end.isoformat()}
 
 
 def main() -> int:
@@ -83,11 +84,14 @@ def main() -> int:
 
     today = datetime.datetime.now(TAIPEI_TZ).date()
     start = today - datetime.timedelta(days=HISTORY_DAYS)
-    calendar = trading_calendar(start, today)
+    taiex = trading_calendar(start, today)
+    calendar = list(taiex)
     if not calendar:
         common.log("抓不到交易日曆，結束。")
         return 1
     latest = calendar[-1]
+    # 大盤也存一份，網頁上「疊加大盤」用
+    save_series({"code": "TAIEX", "checked": latest, "prices": taiex}, start.isoformat())
 
     codes = sorted({s["code"] for e in common.load_data_json() for s in e["stocks"]})
     all_series = {code: load_series(code) for code in codes}
