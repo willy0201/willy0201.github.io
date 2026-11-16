@@ -1,5 +1,47 @@
 [
  {
+  "date": "2026-11-16",
+  "count": 6,
+  "stocks": [
+   {
+    "code": "7765",
+    "name": "中華資安",
+    "img": "pictures/2026-11-16/0.png"
+   },
+   {
+    "code": "6690",
+    "name": "安碁資訊",
+    "img": "pictures/2026-11-16/1.png"
+   },
+   {
+    "code": "8099",
+    "name": "大世科",
+    "img": "pictures/2026-11-16/2.png"
+   },
+   {
+    "code": "6890",
+    "name": "來億-KY",
+    "img": "pictures/2026-11-16/3.png"
+   },
+   {
+    "code": "8272",
+    "name": "全景軟體",
+    "img": "pictures/2026-11-16/4.png"
+   },
+   {
+    "code": "6751",
+    "name": "智聯服務",
+    "img": "pictures/2026-11-16/5.png"
+   }
+  ],
+  "close": 41040.08,
+  "prev": 43675.12,
+  "dropPts": 2635.04,
+  "dropPct": 6.03,
+  "status": "complete",
+  "failedStocks": []
+ },
+ {
   "date": "2026-11-12",
   "count": 6,
   "stocks": [
