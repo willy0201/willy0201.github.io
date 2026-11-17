@@ -1,5 +1,27 @@
 [
  {
+  "date": "2026-11-17",
+  "count": 2,
+  "stocks": [
+   {
+    "code": "1477",
+    "name": "聚陽",
+    "img": "pictures/2026-11-17/0.png"
+   },
+   {
+    "code": "6199",
+    "name": "天品",
+    "img": "pictures/2026-11-17/1.png"
+   }
+  ],
+  "close": 40092.11,
+  "prev": 41040.08,
+  "dropPts": 947.97,
+  "dropPct": 2.31,
+  "status": "complete",
+  "failedStocks": []
+ },
+ {
   "date": "2026-11-16",
   "count": 6,
   "stocks": [
