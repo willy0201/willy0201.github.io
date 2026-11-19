@@ -1,5 +1,37 @@
 [
  {
+  "date": "2026-11-19",
+  "count": 4,
+  "stocks": [
+   {
+    "code": "6782",
+    "name": "視陽",
+    "img": "pictures/2026-11-19/0.png"
+   },
+   {
+    "code": "2597",
+    "name": "潤弘",
+    "img": "pictures/2026-11-19/1.png"
+   },
+   {
+    "code": "6199",
+    "name": "天品",
+    "img": "pictures/2026-11-19/2.png"
+   },
+   {
+    "code": "2412",
+    "name": "中華電",
+    "img": "pictures/2026-11-19/3.png"
+   }
+  ],
+  "close": 38426.89,
+  "prev": 40194.91,
+  "dropPts": 1768.02,
+  "dropPct": 4.4,
+  "status": "complete",
+  "failedStocks": []
+ },
+ {
   "date": "2026-11-17",
   "count": 2,
   "stocks": [
