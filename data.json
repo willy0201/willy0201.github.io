@@ -1,5 +1,27 @@
 [
  {
+  "date": "2026-11-25",
+  "count": 2,
+  "stocks": [
+   {
+    "code": "7765",
+    "name": "中華資安",
+    "img": "pictures/2026-11-25/0.png"
+   },
+   {
+    "code": "2597",
+    "name": "潤弘",
+    "img": "pictures/2026-11-25/1.png"
+   }
+  ],
+  "close": 38195.43,
+  "prev": 40122.35,
+  "dropPts": 1926.92,
+  "dropPct": 4.8,
+  "status": "complete",
+  "failedStocks": []
+ },
+ {
   "date": "2026-11-20",
   "count": 0,
   "stocks": [],
